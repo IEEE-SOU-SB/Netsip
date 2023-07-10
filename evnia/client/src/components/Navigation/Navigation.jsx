@@ -52,7 +52,8 @@ class Navigation extends React.Component {
                     <nav className="navbar navbar-expand-md navbar-light">
                         <div className="container">
                             <Link className="navbar-brand" to="/">
-                                {<img src={logo} alt="logo" />}
+                                <img src={require("../../assets/images/logo3.png")} alt="about" />
+
                             </Link>
 
                             <button 

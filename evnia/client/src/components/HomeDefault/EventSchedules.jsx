@@ -42,7 +42,7 @@ class EventSchedules extends React.Component {
 
                         <LaxDiv text="Events" dataPreset="driftLeft" />
 
-                        <Link to="#" className="btn btn-primary">Buy Tickets Now!</Link>
+                        <Link to="#" className="btn btn-primary">Register Now!</Link>
 
                         <div className="bar"></div>
                     </div>

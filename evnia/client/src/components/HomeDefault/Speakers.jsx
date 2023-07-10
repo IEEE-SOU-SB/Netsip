@@ -25,7 +25,6 @@ class Speakers extends React.Component {
                         <h2>Who's Speaking</h2>
                         <div className="bar"></div>
                         <LaxDiv text="Speakers" dataPreset="driftRight" />
-                        <Link to="#" className="btn btn-primary">View More Speakers</Link>
                     </div>
                 </div>
 

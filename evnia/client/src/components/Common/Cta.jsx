@@ -13,7 +13,7 @@ class Cta extends React.Component {
                         </div>
 
                         <div className="col-lg-4 text-right">
-                            <Link to="#" className="btn btn-secondary">Register Now!</Link>
+                            <Link to="#" className="btn btn-primary">Register Now!</Link>
                         </div>
                     </div>
                 </div>

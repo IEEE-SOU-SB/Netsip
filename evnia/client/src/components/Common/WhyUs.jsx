@@ -17,7 +17,7 @@ class WhyUs extends React.Component {
                                         </div>
                                         <h3>Great Speakers</h3>
                                         <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-            
+                                          
                                         <a href="https://www.silveroakuni.ac.in/about" target='_blank' className="btn btn-primary">Read More</a>
 
                                     </div>
@@ -37,7 +37,7 @@ class WhyUs extends React.Component {
                                         </div>
                                         <h3>Networking</h3>
                                         <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-            
+                                        
                                         <a href="https://ieee.socet.edu.in/about-socet-sb/" target='_blank' className="btn btn-primary">Read More</a>
                                     </div>
                                 </div>
@@ -56,7 +56,7 @@ class WhyUs extends React.Component {
                                         </div>
                                         <h3>New People</h3>
                                         <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-            
+                                        
                                         <a href="https://ieeespsgs.org/" target='_blank' className="btn btn-primary">Read More</a>
 
                                     </div>
@@ -76,6 +76,7 @@ class WhyUs extends React.Component {
                                         </div>
                                         <h3>Have Fun</h3>
                                         <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                        
             
                                         <a href="https://signalprocessingsociety.org/our-story/scope-mission" target='_blank' className="btn btn-primary">Read More</a>
 

@@ -46,10 +46,10 @@ class HomeDefault extends React.Component {
                 <Partner />
                 {/* Blog Area 
                 <LatestNews />*/}
-                {/* Buy Tickets Area */}
-                <BuyTicket />
-                {/* Subscribe Area */}
-                <Subscribe />
+                {/* Buy Tickets Area 
+                <BuyTicket />*/}
+                {/* Subscribe Area 
+                <Subscribe />*/}
 
                 <Footer />
 

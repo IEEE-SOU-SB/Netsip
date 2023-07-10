@@ -59,6 +59,8 @@ class MainBanner extends React.Component {
                         <div className="d-table-cell">
                             <div className="container">
                                 <div className="main-banner-content">
+                                
+                               
                                     <p>Are you <span>ready</span> to attend?</p>
                                     <h1>NeTSiP <span>-International </span> <br />Flagship Event <b>2</b><b>0</b><b>2</b><b>3</b></h1>
 
@@ -68,7 +70,8 @@ class MainBanner extends React.Component {
                                     </ul>
 
                                     <div className="button-box">
-                                        <Link to="#" className="btn btn-primary">Register Now!</Link>
+                                        {/*<Link to="#" className="btn btn-primary">Register Now!</Link>*/}
+                                
                                         <Link 
                                             onClick={e => {e.preventDefault(); this.openModal()}}
                                             to="#" 
@@ -76,21 +79,28 @@ class MainBanner extends React.Component {
                                         >
                                             <i className="icofont-ui-play"></i> Watch Promo Video
                                         </Link>
+
+
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
-    
+                    
                     <div className="event-countdown countdown1">
+                        
+                   
                         <div id="timer">
                             <div id="days">{this.state.days} <span>Days</span></div>
                             <div id="hours">{this.state.hours} <span>Hours</span></div>
                             <div id="minutes">{this.state.minutes} <span>Minutes</span></div>
                             <div id="seconds">{this.state.seconds} <span>Seconds</span></div>
                         </div>
+                        
+                        
                     </div>
-
+                    
                     <div className="shape1">
                         <img src={require("../../assets/images/shapes/1.png")} alt="shape1" />
                     </div>

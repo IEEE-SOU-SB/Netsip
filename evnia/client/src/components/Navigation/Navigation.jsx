@@ -53,6 +53,7 @@ class Navigation extends React.Component {
                         <div className="container">
                             <Link className="navbar-brand" to="/">
                                 <img src={require("../../assets/images/logo3.png")} alt="about" />
+                                
 
                             </Link>
 
@@ -125,7 +126,7 @@ class Navigation extends React.Component {
                                             className="nav-link" 
                                             onClick={this.toggleNavbar}
                                         >
-                                            Sponsor
+                                            Collaboration
                                         </NavLink>
                                     </li>
                                 

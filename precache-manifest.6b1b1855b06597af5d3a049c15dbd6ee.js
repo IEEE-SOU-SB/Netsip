@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6cd488d5cb014078494e9ef264a6d2a9",
+    "revision": "f0444cda93c421035762f301bf6831d4",
     "url": "/Netsip/index.html"
   },
   {
-    "revision": "9e7a596933a356f8917d",
+    "revision": "0ffa0c95dd7b708af1d4",
     "url": "/Netsip/static/css/2.f0c7496f.chunk.css"
   },
   {
-    "revision": "33082e264e4e310c43a7",
-    "url": "/Netsip/static/css/main.b6f502d3.chunk.css"
+    "revision": "ab9f93c33a018f6e5bab",
+    "url": "/Netsip/static/css/main.de564d6d.chunk.css"
   },
   {
-    "revision": "9e7a596933a356f8917d",
-    "url": "/Netsip/static/js/2.cfc57bae.chunk.js"
+    "revision": "0ffa0c95dd7b708af1d4",
+    "url": "/Netsip/static/js/2.0a5fac2e.chunk.js"
   },
   {
     "revision": "fe438f42bfcd7b3c4088f83b074b4b11",
-    "url": "/Netsip/static/js/2.cfc57bae.chunk.js.LICENSE.txt"
+    "url": "/Netsip/static/js/2.0a5fac2e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "33082e264e4e310c43a7",
-    "url": "/Netsip/static/js/main.5472c1f4.chunk.js"
+    "revision": "ab9f93c33a018f6e5bab",
+    "url": "/Netsip/static/js/main.8b4c3bfc.chunk.js"
   },
   {
     "revision": "03fa80aef06bf60c3225",
@@ -114,14 +114,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6f25e7bb61556eb47e41ac006b21db1d",
     "url": "/Netsip/static/media/funfacts-bg.6f25e7bb.jpg"
-  },
-  {
-    "revision": "324fd56cede0b34bc875232dc0d287de",
-    "url": "/Netsip/static/media/gold-partner2.324fd56c.png"
-  },
-  {
-    "revision": "d97e8f8277d1561e707f3659b6971606",
-    "url": "/Netsip/static/media/gold-partner5.d97e8f82.png"
   },
   {
     "revision": "50a4ab76e700a83e649be213f820fbbd",

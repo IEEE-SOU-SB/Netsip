@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Netsip/static/css/main.b6f502d3.chunk.css",
-    "main.js": "/Netsip/static/js/main.5472c1f4.chunk.js",
-    "main.js.map": "/Netsip/static/js/main.5472c1f4.chunk.js.map",
+    "main.css": "/Netsip/static/css/main.de564d6d.chunk.css",
+    "main.js": "/Netsip/static/js/main.8b4c3bfc.chunk.js",
+    "main.js.map": "/Netsip/static/js/main.8b4c3bfc.chunk.js.map",
     "runtime-main.js": "/Netsip/static/js/runtime-main.516e2afe.js",
     "runtime-main.js.map": "/Netsip/static/js/runtime-main.516e2afe.js.map",
     "static/css/2.f0c7496f.chunk.css": "/Netsip/static/css/2.f0c7496f.chunk.css",
-    "static/js/2.cfc57bae.chunk.js": "/Netsip/static/js/2.cfc57bae.chunk.js",
-    "static/js/2.cfc57bae.chunk.js.map": "/Netsip/static/js/2.cfc57bae.chunk.js.map",
+    "static/js/2.0a5fac2e.chunk.js": "/Netsip/static/js/2.0a5fac2e.chunk.js",
+    "static/js/2.0a5fac2e.chunk.js.map": "/Netsip/static/js/2.0a5fac2e.chunk.js.map",
     "index.html": "/Netsip/index.html",
-    "precache-manifest.d273972887d7c280bece2feeebec16d9.js": "/Netsip/precache-manifest.d273972887d7c280bece2feeebec16d9.js",
+    "precache-manifest.6b1b1855b06597af5d3a049c15dbd6ee.js": "/Netsip/precache-manifest.6b1b1855b06597af5d3a049c15dbd6ee.js",
     "service-worker.js": "/Netsip/service-worker.js",
     "static/css/2.f0c7496f.chunk.css.map": "/Netsip/static/css/2.f0c7496f.chunk.css.map",
-    "static/css/main.b6f502d3.chunk.css.map": "/Netsip/static/css/main.b6f502d3.chunk.css.map",
-    "static/js/2.cfc57bae.chunk.js.LICENSE.txt": "/Netsip/static/js/2.cfc57bae.chunk.js.LICENSE.txt",
+    "static/css/main.de564d6d.chunk.css.map": "/Netsip/static/css/main.de564d6d.chunk.css.map",
+    "static/js/2.0a5fac2e.chunk.js.LICENSE.txt": "/Netsip/static/js/2.0a5fac2e.chunk.js.LICENSE.txt",
     "static/media/SPS_logo.png": "/Netsip/static/media/SPS_logo.131bc5f4.png",
     "static/media/about1.jpg": "/Netsip/static/media/about1.d21f485d.jpg",
     "static/media/about2.jpg": "/Netsip/static/media/about2.01166b2e.jpg",
@@ -33,8 +33,6 @@
     "static/media/blog4.jpg": "/Netsip/static/media/blog4.a2a584b2.jpg",
     "static/media/blog5.jpg": "/Netsip/static/media/blog5.5719df0e.jpg",
     "static/media/blog6.jpg": "/Netsip/static/media/blog6.6a2ab56a.jpg",
-    "static/media/gold-partner2.png": "/Netsip/static/media/gold-partner2.324fd56c.png",
-    "static/media/gold-partner5.png": "/Netsip/static/media/gold-partner5.d97e8f82.png",
     "static/media/icofont.min.css": "/Netsip/static/media/icofont.f6ab04ae.woff",
     "static/media/platinum-partner1.png": "/Netsip/static/media/platinum-partner1.1e2e3fab.png",
     "static/media/platinum-partner2.png": "/Netsip/static/media/platinum-partner2.b38b5dfe.png",
@@ -60,8 +58,8 @@
   "entrypoints": [
     "static/js/runtime-main.516e2afe.js",
     "static/css/2.f0c7496f.chunk.css",
-    "static/js/2.cfc57bae.chunk.js",
-    "static/css/main.b6f502d3.chunk.css",
-    "static/js/main.5472c1f4.chunk.js"
+    "static/js/2.0a5fac2e.chunk.js",
+    "static/css/main.de564d6d.chunk.css",
+    "static/js/main.8b4c3bfc.chunk.js"
   ]
 }

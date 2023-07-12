@@ -1,7 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ModalVideo from 'react-modal-video';
- 
+import spsGujaratSection from '../../assets/images/SPS_Logo_GS.png';
+import spsLogo from '../../assets/images/SPS_logo.png';
+import spsSou from '../../assets/images/sps_sou.png';
+import sou from '../../assets/images/sou-sb.png';
+import ieee_gs from '../../assets/images/IEEE-Gujarat-Section.png';
+import '../../assets/css/Header.css'
+
 class MainBanner extends React.Component {
 
     state = {
@@ -53,13 +59,35 @@ class MainBanner extends React.Component {
                     videoId='cRXm1p-CNyk' 
                     onClose={() => this.setState({isOpen: false})} 
                 />
-                
+
+
                 <div className="main-banner item-bg1">
+
                     <div className="d-table">
+
+
+
                         <div className="d-table-cell">
+
+
                             <div className="container">
+
+
+                                <header className="header">
+        <div className="header__logo">
+          <div className="logo-container">
+            <img src={spsGujaratSection} alt="SPS Gujarat Section" />
+                       <img src={ieee_gs} alt="IEEE GS" />
+            {/*<img src={spsLogo} alt="SPS Logo" />*/}
+                            <img src={sou} alt="Sou SB" />
+            <img src={spsSou} alt="SPS Sou" />
+          </div>
+        </div></header>
+
+
                                 <div className="main-banner-content">
-                                
+
+
                                
                                     <p>Are you <span>ready</span> to attend?</p>
                                     <h1>NeTSiP <span>-International </span> <br />Flagship Event <b>2</b><b>0</b><b>2</b><b>3</b></h1>

@@ -771,23 +771,23 @@ Main Banner CSS
   z-index: 1;
 }
 
-.main-banner-content::before {
-  content: '';
-  position: absolute;
-  top: -75px;
-  width: 100%;
-  max-width: 380px;
-  text-align: center;
-  height: 500px;
-  left: 18%;
-  margin-left: -190px;
-  z-index: -1;
-  border: 18px solid rgba(104, 89, 222, 0.24);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-shadow: 0 60px 40px -40px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 60px 40px -40px rgba(0, 0, 0, 0.3);
-}
+/*.main-banner-content::before {*/
+/*  content: '';*/
+/*  position: absolute;*/
+/*  top: -75px;*/
+/*  width: 100%;*/
+/*  max-width: 380px;*/
+/*  text-align: center;*/
+/*  height: 500px;*/
+/*  left: 18%;*/
+/*  margin-left: -190px;*/
+/*  z-index: -1;*/
+/*  border: 18px solid rgba(104, 89, 222, 0.24);*/
+/*  -webkit-box-sizing: border-box;*/
+/*          box-sizing: border-box;*/
+/*  -webkit-box-shadow: 0 60px 40px -40px rgba(0, 0, 0, 0.3);*/
+/*          box-shadow: 0 60px 40px -40px rgba(0, 0, 0, 0.3);*/
+/*}*/
 
 .main-banner-content h1 {
   color: #ffffff;

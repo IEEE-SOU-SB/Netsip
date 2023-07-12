@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, withRouter, NavLink } from 'react-router-dom';
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/images/netsip-01.png';
+import '../../assets/css/logo.css'
+
  
 class Navigation extends React.Component {
 
@@ -52,9 +54,7 @@ class Navigation extends React.Component {
                     <nav className="navbar navbar-expand-md navbar-light">
                         <div className="container">
                             <Link className="navbar-brand" to="/">
-                                <img src={require("../../assets/images/logo3.png")} alt="about" />
-                                
-
+<img src={require("../../assets/images/netsip-01.png")} alt="about" class="about-image" />
                             </Link>
 
                             <button 

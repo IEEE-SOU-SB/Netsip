@@ -9,12 +9,12 @@ class SpeakersOne extends React.Component {
                     <div className="col-lg-3 col-md-6 p-0">
                         <div className="single-speakers">
                             <img 
-                                src={require("../../assets/images/speakers1.jpg")} 
+                                // src={require("../../assets/images/speakers1.jpg")}
                                 alt="speakers" 
                             />
 
                             <div className="speakers-content">
-                                <h3><Link to="#">James Anderson</Link></h3>
+                                <h3><Link to="#">James</Link></h3>
                                 <span>Founder & CEO</span>
                             </div>
                             <ul>

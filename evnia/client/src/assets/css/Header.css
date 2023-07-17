@@ -3,7 +3,19 @@
   justify-content: center;
   align-items: center;
   padding: 30px;
+  position: relative;
+  z-index: 1;
 }
+
+.header__container { /* New container styles */
+  background-color: white;
+  padding: 5px; /* Adjust the padding as needed */
+  border-radius: 10px; /* Adjust the border-radius for rounded corners */
+  width: 100%; /* Span the entire width of the screen */
+  height: 100%; /* Span the entire height of the screen */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
 
 .header__logo {
   display: flex;
@@ -32,6 +44,23 @@
   margin-left: 20px; /* Add the desired margin left value for this specific image */
 }
 
+/* Add this CSS to your existing styles */
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; /* Set a lower z-index to ensure it appears behind the header */
+}
+
+.video-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
@@ -43,6 +72,11 @@
   .logo-container {
     flex-direction: row;
   }
+
+  .header__container {
+    padding: 10px; /* Adjust the padding for mobile devices */
+  }
+
 
   .logo-container img {
     height: auto;

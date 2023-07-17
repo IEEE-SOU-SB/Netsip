@@ -746,7 +746,9 @@ Main Banner CSS
 }
 
 .item-bg1 {
-  background-image: url("../images/main-bg1.jpg");
+  background-image: url("../images/main-bg.mp4");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .item-bg2 {

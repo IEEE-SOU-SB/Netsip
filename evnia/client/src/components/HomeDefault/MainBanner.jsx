@@ -7,6 +7,9 @@ import spsSou from '../../assets/images/sps_sou.png';
 import sou from '../../assets/images/sou-sb.png';
 import ieee_gs from '../../assets/images/IEEE-Gujarat-Section.png';
 import '../../assets/css/Header.css'
+import 'react-modal-video/scss/modal-video.scss'; // If you want to use the default styles for the modal video
+import mainVideo from '../../assets/images/main-bg.mp4'; // Replace 'main-video.mp4' with the actual video file path
+
 
 class MainBanner extends React.Component {
 
@@ -63,26 +66,38 @@ class MainBanner extends React.Component {
 
                 <div className="main-banner item-bg1">
 
+                    <div className="video-container">
+            <video autoPlay muted loop className="video-background">
+              <source src={mainVideo} type="video/mp4" />
+              {/* Add additional source tags for other video formats (e.g., WebM, Ogg) if needed */}
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+
                     <div className="d-table">
 
 
 
                         <div className="d-table-cell">
 
+                                 <header className="header">
+  <div className="header__container"> {/* New container div */}
+    <div className="header__logo">
+      <div className="logo-container">
+        <img src={spsGujaratSection} alt="SPS Gujarat Section" />
+        <img src={ieee_gs} alt="IEEE GS" />
+        {/*<img src={spsLogo} alt="SPS Logo" />*/}
+        <img src={sou} alt="Sou SB" />
+        <img src={spsSou} alt="SPS Sou" />
+      </div>
+    </div>
+  </div>
+</header>
+
 
                             <div className="container">
 
-
-                                <header className="header">
-        <div className="header__logo">
-          <div className="logo-container">
-            <img src={spsGujaratSection} alt="SPS Gujarat Section" />
-                       <img src={ieee_gs} alt="IEEE GS" />
-            {/*<img src={spsLogo} alt="SPS Logo" />*/}
-                            <img src={sou} alt="Sou SB" />
-            <img src={spsSou} alt="SPS Sou" />
-          </div>
-        </div></header>
 
 
                                 <div className="main-banner-content">
@@ -90,7 +105,7 @@ class MainBanner extends React.Component {
 
                                
                                     <p>Are you <span>ready</span> to attend?</p>
-                                    <h1>NeTSiP <span>-International </span> <br />Flagship Event <b>2</b><b>0</b><b>2</b><b>3</b></h1>
+                                    <h1>NeTSiP  <br />Flagship Event <b>2</b><b>0</b><b>2</b><b>3</b></h1>
 
                                     <ul>
                                         <li><i className="icofont-compass"></i> Silver Oak University, Ahmedabad</li>

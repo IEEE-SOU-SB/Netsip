@@ -660,75 +660,75 @@ Main Banner CSS
   opacity: .77;
 }
 
-.slideshow-banner::before {
-  z-index: 1;
-}
+/*.slideshow-banner::before {*/
+/*  z-index: 1;*/
+/*}*/
 
-.slideshow-banner .main-banner-content {
-  margin-top: 50px;
-}
+/*.slideshow-banner .main-banner-content {*/
+/*  margin-top: 50px;*/
+/*}*/
 
-.slideshow-banner .main-banner-content::before {
-  display: none;
-}
+/*.slideshow-banner .main-banner-content::before {*/
+/*  display: none;*/
+/*}*/
 
-.slideshow-banner .slideshow {
-  z-index: -1;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
+/*.slideshow-banner .slideshow {*/
+/*  z-index: -1;*/
+/*  list-style-type: none;*/
+/*  padding: 0;*/
+/*  margin: 0;*/
+/*}*/
 
-.slideshow-banner .slideshow li span {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: transparent;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  opacity: 0;
-  z-index: 0;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  -webkit-animation: imageAnimation 24s linear infinite 0s;
-          animation: imageAnimation 24s linear infinite 0s;
-}
+/*.slideshow-banner .slideshow li span {*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  color: transparent;*/
+/*  background-size: cover;*/
+/*  background-position: center center;*/
+/*  background-repeat: no-repeat;*/
+/*  opacity: 0;*/
+/*  z-index: 0;*/
+/*  -webkit-backface-visibility: hidden;*/
+/*          backface-visibility: hidden;*/
+/*  -webkit-animation: imageAnimation 24s linear infinite 0s;*/
+/*          animation: imageAnimation 24s linear infinite 0s;*/
+/*}*/
 
 .slideshow-banner .slideshow li:nth-child(1) span {
   background-image: url("../images/slideshow-bg1.jpg");
 }
 
-.slideshow-banner .slideshow li:nth-child(2) span {
-  background-image: url("../images/slideshow-bg2.jpg");
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
-}
+/*.slideshow-banner .slideshow li:nth-child(2) span {*/
+/*  background-image: url("../images/slideshow-bg2.jpg");*/
+/*  -webkit-animation-delay: 6s;*/
+/*          animation-delay: 6s;*/
+/*}*/
 
-.slideshow-banner .slideshow li:nth-child(3) span {
-  background-image: url("../images/slideshow-bg3.jpg");
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
-}
+/*.slideshow-banner .slideshow li:nth-child(3) span {*/
+/*  background-image: url("../images/slideshow-bg3.jpg");*/
+/*  -webkit-animation-delay: 12s;*/
+/*          animation-delay: 12s;*/
+/*}*/
 
-.slideshow-banner .slideshow li:nth-child(4) span {
-  background-image: url("../images/slideshow-bg4.jpg");
-  -webkit-animation-delay: 18s;
-          animation-delay: 18s;
-}
+/*.slideshow-banner .slideshow li:nth-child(4) span {*/
+/*  background-image: url("../images/slideshow-bg4.jpg");*/
+/*  -webkit-animation-delay: 18s;*/
+/*          animation-delay: 18s;*/
+/*}*/
 
-.slideshow-banner .event-countdown {
-  position: relative;
-  right: 0;
-  bottom: 0;
-  text-align: left;
-}
+/*.slideshow-banner .event-countdown {*/
+/*  position: relative;*/
+/*  right: 0;*/
+/*  bottom: 0;*/
+/*  text-align: left;*/
+/*}*/
 
-.slideshow-banner .event-countdown #days {
-  margin-left: 0;
-}
+/*.slideshow-banner .event-countdown #days {*/
+/*  margin-left: 0;*/
+/*}*/
 
 .video-banner {
   overflow: hidden;
@@ -746,7 +746,7 @@ Main Banner CSS
 }
 
 .item-bg1 {
-  background-image: url("../images/main-bg.mp4");
+  background-image: url("../images/main-bg-new.mp4");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1424,36 +1424,36 @@ Why Choose Us CSS
   color: transparent;
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
-  opacity: 0;
-  z-index: 0;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  -webkit-animation: imageAnimation 24s linear infinite 0s;
-          animation: imageAnimation 24s linear infinite 0s;
+  /*background-repeat: no-repeat;*/
+  /*opacity: 0;*/
+  /*z-index: 0;*/
+  /*-webkit-backface-visibility: hidden;*/
+  /*        backface-visibility: hidden;*/
+  /*-webkit-animation: imageAnimation 24s linear infinite 0s;*/
+  /*        animation: imageAnimation 24s linear infinite 0s;*/
 }
 
 .why-choose-us .slideshow li:nth-child(1) span {
   background-image: url("../images/slideshow-bg1.jpg");
 }
 
-.why-choose-us .slideshow li:nth-child(2) span {
-  background-image: url("../images/slideshow-bg2.jpg");
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
-}
+/*.why-choose-us .slideshow li:nth-child(2) span {*/
+/*  background-image: url("../images/slideshow-bg2.jpg");*/
+/*  -webkit-animation-delay: 6s;*/
+/*          animation-delay: 6s;*/
+/*}*/
 
-.why-choose-us .slideshow li:nth-child(3) span {
-  background-image: url("../images/slideshow-bg3.jpg");
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
-}
+/*.why-choose-us .slideshow li:nth-child(3) span {*/
+/*  background-image: url("../images/slideshow-bg3.jpg");*/
+/*  -webkit-animation-delay: 12s;*/
+/*          animation-delay: 12s;*/
+/*}*/
 
-.why-choose-us .slideshow li:nth-child(4) span {
-  background-image: url("../images/slideshow-bg4.jpg");
-  -webkit-animation-delay: 18s;
-          animation-delay: 18s;
-}
+/*.why-choose-us .slideshow li:nth-child(4) span {*/
+/*  background-image: url("../images/slideshow-bg4.jpg");*/
+/*  -webkit-animation-delay: 18s;*/
+/*          animation-delay: 18s;*/
+/*}*/
 
 .col-lg-3:first-child .single-box {
   border-left: none;

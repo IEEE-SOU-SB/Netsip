@@ -19,9 +19,7 @@
 
 .header__logo {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100%;
+  justify-content: space-between;
 }
 
 .logo-container {
@@ -40,9 +38,13 @@
   padding: 0 10px;
 }
 
-.logo-container .sps-sou-image {
-  margin-left: 20px; /* Add the desired margin left value for this specific image */
+.header__logo img {
+  margin-right: 10px; /* Adjust this value to control the space between logos */
 }
+
+/*.logo-container .sps-sou-image {*/
+/*  !*margin-left: 20px; !* Add the desired margin left value for this specific image *!*!*/
+/*}*/
 
 /* Add this CSS to your existing styles */
 .video-container {

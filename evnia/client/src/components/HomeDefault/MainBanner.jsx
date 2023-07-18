@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ModalVideo from 'react-modal-video';
-import spsGujaratSection from '../../assets/images/SPS_Logo_GS.png';
+import spsGujaratSection from '../../assets/images/IEEE SPS GS Logo.png';
 import spsLogo from '../../assets/images/SPS_logo.png';
-import spsSou from '../../assets/images/sps_sou.png';
-import sou from '../../assets/images/sou-sb.png';
-import ieee_gs from '../../assets/images/IEEE-Gujarat-Section.png';
+import spsSou from '../../assets/images/IEEE SPS SOU SBC - Full Color.png';
+import sou from '../../assets/images/IEEE New Logo- Blue (2).png';
+import ieee_gs from '../../assets/images/IEEE Gujarat Section Logo.png';
 import '../../assets/css/Header.css'
 import 'react-modal-video/scss/modal-video.scss'; // If you want to use the default styles for the modal video
 import mainVideo from '../../assets/images/main-bg.mp4'; // Replace 'main-video.mp4' with the actual video file path
@@ -81,15 +81,17 @@ class MainBanner extends React.Component {
 
                         <div className="d-table-cell">
 
-                                 <header className="header">
+                                 <header className="header" style={{ marginTop: '60px' }}>
+
+
   <div className="header__container"> {/* New container div */}
     <div className="header__logo">
       <div className="logo-container">
-        <img src={spsGujaratSection} alt="SPS Gujarat Section" />
-        <img src={ieee_gs} alt="IEEE GS" />
+<img src={spsGujaratSection} alt="SPS Gujarat Section" style={{ marginLeft: '60px' }} />
+        <img src={ieee_gs} alt="IEEE GS" style={{ height: '110px' }}/>
         {/*<img src={spsLogo} alt="SPS Logo" />*/}
-        <img src={sou} alt="Sou SB" />
-        <img src={spsSou} alt="SPS Sou" />
+<img src={sou} alt="Sou SB" style={{ width: '600px', height: '70px' }} />
+        <img src={spsSou} alt="SPS Sou" style={{ marginLeft: '40px' }} />
       </div>
     </div>
   </div>
@@ -104,8 +106,8 @@ class MainBanner extends React.Component {
 
 
                                
-                                    <p>Are you <span>ready</span> to attend?</p>
-                                    <h1>NeTSiP  <br />Flagship Event <b>2</b><b>0</b><b>2</b><b>3</b></h1>
+                                    {/*<p>Are you <span>ready</span> to attend?</p>*/}
+                                    <h1>NeTSiP <b>2</b><b>0</b><b>2</b><b>3</b> <br />International<br /> Flagship Event <br /> Of IEEE SPS GS</h1>
 
                                     <ul>
                                         <li><i className="icofont-compass"></i> Silver Oak University, Ahmedabad</li>

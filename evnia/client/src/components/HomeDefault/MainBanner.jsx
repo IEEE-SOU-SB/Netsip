@@ -81,9 +81,7 @@ class MainBanner extends React.Component {
 
                         <div className="d-table-cell">
 
-                                 <header className="header" style={{ marginTop: '60px' }}>
-
-
+                                 <header className="header" style={{ marginTop: '85px' }}>
   <div className="header__container"> {/* New container div */}
     <div className="header__logo">
       <div className="logo-container">

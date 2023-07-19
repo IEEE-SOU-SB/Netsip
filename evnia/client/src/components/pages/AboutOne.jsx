@@ -40,10 +40,10 @@ class AboutOne extends React.Component {
                 <FunFact />
                 {/* Pricing Area */}
                 <Partner />
-                {/* Buy Tickets Area */}
-                <BuyTicket />
-                {/* Subscribe Area */}
-                <Subscribe />
+                {/* Buy Tickets Area 
+                <BuyTicket />*/}
+                {/* Subscribe Area 
+                <Subscribe />*/}
 
                 <Footer />
 

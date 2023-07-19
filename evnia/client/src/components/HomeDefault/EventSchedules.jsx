@@ -42,7 +42,7 @@ class EventSchedules extends React.Component {
 
                         <LaxDiv text="Events" dataPreset="driftLeft" />
 
-                        <Link to="#" className="btn btn-primary">Buy Tickets Now!</Link>
+                        {/*<Link to="#" className="btn btn-primary">Register Now!</Link>*/}
 
                         <div className="bar"></div>
                     </div>
@@ -92,21 +92,21 @@ class EventSchedules extends React.Component {
                                             <li className="accordion-item">
                                                 <Link className="accordion-title" to="#">
                                                     <div className="author">
-                                                        <img 
-                                                            src={require("../../assets/images/author1.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Smith" 
-                                                            alt="Author" 
-                                                        />
+                                                        {/*<img */}
+                                                        {/*    // src={require("../../assets/images/author1.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="Steven Smith" */}
+                                                        {/*    alt="Author" */}
+                                                        {/*/>*/}
                                                     </div>
                                                     
                                                     <div className="schedule-info">
-                                                        <h3>Reducing test anxiety</h3>
+                                                        <h3>Inauguration</h3>
 
                                                         <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Tom Cruise</span> CEO of EnvyTheme</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
+                                                            {/*<li><i className="icofont-user-suited"></i> By <span>Tom Cruise</span> CEO of EnvyTheme</li>*/}
+                                                            <li><i className="icofont-wall-clock"></i> 09:30AM - 10:00AM</li>
                                                         </ul>
                                                     </div>
                                                 </Link>
@@ -131,42 +131,42 @@ class EventSchedules extends React.Component {
                                             <li className="accordion-item">
                                                 <Link className="accordion-title" to="#">
                                                     <div className="author author-multi">
-                                                        <img 
-                                                            src={require("../../assets/images/author5.jpg")} 
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Lucy" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author2.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Jonaton Smith" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author3.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Smith" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author4.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Doe" 
-                                                            alt="Author"
-                                                        />
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author5.jpg")} */}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="Steven Lucy" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author2.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="Jonaton Smith" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author3.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="John Smith" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author4.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="John Doe" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
                                                     </div>
                                                     
                                                     <div className="schedule-info">
-                                                        <h3>Time Management, Getting a Smart Start, Setting Goals</h3>
+                                                        <h3>Dr. Angshul Majumdar(Keynote Address) Professor, IIIT Delhi</h3>
 
                                                         <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Leonardo DiCaprio</span> of USA Inc</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
+                                                            {/*<li><i className="icofont-user-suited"></i> By <span>Leonardo DiCaprio</span> of USA Inc</li>*/}
+                                                            <li><i className="icofont-wall-clock"></i> 10:00AM - 11:30AM</li>
                                                         </ul>
                                                     </div>
                                                 </Link>
@@ -191,28 +191,28 @@ class EventSchedules extends React.Component {
                                             <li className="accordion-item">
                                                 <Link className="accordion-title" to="#">
                                                     <div className="author author-multi">
-                                                        <img 
-                                                            src={require("../../assets/images/author6.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Lucy" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author7.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Jonaton Smith" 
-                                                            alt="Author"
-                                                        />
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author6.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="Steven Lucy" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author7.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="Jonaton Smith" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
                                                     </div>
                                                     
                                                     <div className="schedule-info">
-                                                        <h3>Impact of mental health on academics</h3>
+                                                        <h3>Dr. Harshal Oza, Director R&D for RoboTechMech Solutions Pvt. Ltd. (RTM)</h3>
 
                                                         <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Robert Downey</span> of USA Inc</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
+                                                            {/*<li><i className="icofont-user-suited"></i> By <span>Robert Downey</span> of USA Inc</li>*/}
+                                                            <li><i className="icofont-wall-clock"></i> 11:45AM - 01:15PM</li>
                                                         </ul>
                                                     </div>
                                                 </Link>
@@ -237,42 +237,42 @@ class EventSchedules extends React.Component {
                                             <li className="accordion-item">
                                                 <Link className="accordion-title" to="#">
                                                     <div className="author author-multi">
-                                                        <img 
-                                                            src={require("../../assets/images/author8.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Lucy" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author9.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Jonaton Smith" 
-                                                            alt="Author" 
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author3.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Smith" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author4.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Doe" 
-                                                            alt="Author"
-                                                        />
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author8.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="Steven Lucy" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author9.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="Jonaton Smith" */}
+                                                        {/*    alt="Author" */}
+                                                        {/*/>*/}
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author3.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="John Smith" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author4.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="John Doe" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
                                                     </div>
                                                     
                                                     <div className="schedule-info">
-                                                        <h3>Athletic performance enhancement</h3>
+                                                        <h3>Session 3</h3>
 
                                                         <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Brad Pitt</span> of USA Inc</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
+                                                            {/*<li><i className="icofont-user-suited"></i> By <span>Brad Pitt</span> of USA Inc</li>*/}
+                                                            <li><i className="icofont-wall-clock"></i> 02:00PM - 03:30PM</li>
                                                         </ul>
                                                     </div>
                                                 </Link>
@@ -293,6 +293,67 @@ class EventSchedules extends React.Component {
                                                     </div>
                                                 </div>
                                             </li>
+
+                                            <li className="accordion-item">
+                                                <Link className="accordion-title" to="#">
+                                                    <div className="author author-multi">
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author8.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="Steven Lucy" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author9.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="Jonaton Smith" */}
+                                                        {/*    alt="Author" */}
+                                                        {/*/>*/}
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author3.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="John Smith" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author4.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="John Doe" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
+                                                    </div>
+
+                                                    <div className="schedule-info">
+                                                        <h3>Session 4</h3>
+
+                                                        <ul>
+                                                            {/*<li><i className="icofont-user-suited"></i> By <span>Brad Pitt</span> of USA Inc</li>*/}
+                                                            <li><i className="icofont-wall-clock"></i> 03:45PM - 05:15PM</li>
+                                                        </ul>
+                                                    </div>
+                                                </Link>
+
+                                                <div className="accordion-content">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+
+                                                    <div className="row h-100 align-items-center">
+                                                        <div className="col-lg-6 col-md-7">
+                                                            <div className="location">
+                                                                <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div className="col-lg-6 col-md-5 text-right">
+                                                            <Link to="#" className="btn btn-primary">View Details</Link>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
                                         </ul>	
                                     </div>
 
@@ -301,21 +362,21 @@ class EventSchedules extends React.Component {
                                             <li className="accordion-item">
                                                 <Link className="accordion-title" to="#">
                                                     <div className="author">
-                                                        <img 
-                                                            src={require("../../assets/images/author1.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Smith" 
-                                                            alt="Author"
-                                                        />
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author1.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="Steven Smith" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
                                                     </div>
                                                     
                                                     <div className="schedule-info">
-                                                        <h3>Introduction to prejudice, stereotyping, microaggressions</h3>
+                                                        <h3>Dr Mahesh Anand</h3>
 
                                                         <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Tom Hanks</span> CEO of EnvyTheme</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
+                                                            {/*<li><i className="icofont-user-suited"></i> By <span>Tom Hanks</span> CEO of EnvyTheme</li>*/}
+                                                            <li><i className="icofont-wall-clock"></i> 10:00AM - 11:30AM</li>
                                                         </ul>
                                                     </div>
                                                 </Link>
@@ -340,42 +401,42 @@ class EventSchedules extends React.Component {
                                             <li className="accordion-item">
                                                 <Link className="accordion-title" to="#">
                                                     <div className="author author-multi">
-                                                        <img 
-                                                            src={require("../../assets/images/author5.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Lucy" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author2.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Jonaton Smith" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author3.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Smith" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author4.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Doe" 
-                                                            alt="Author"
-                                                        />
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author5.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="Steven Lucy" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author2.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="Jonaton Smith" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author3.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="John Smith" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author4.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="John Doe" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
                                                     </div>
                                                     
                                                     <div className="schedule-info">
-                                                        <h3>Mental health within various cultures and identities</h3>
+                                                        <h3>Dr. Nalin Sharma</h3>
 
                                                         <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Matt Damon</span> of USA Inc</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
+                                                            {/*<li><i className="icofont-user-suited"></i> By <span>Matt Damon</span> of USA Inc</li>*/}
+                                                            <li><i className="icofont-wall-clock"></i> 11:45PM - 01:15PM</li>
                                                         </ul>
                                                     </div>
                                                 </Link>
@@ -400,28 +461,28 @@ class EventSchedules extends React.Component {
                                             <li className="accordion-item">
                                                 <Link className="accordion-title" to="#">
                                                     <div className="author author-multi">
-                                                        <img 
-                                                            src={require("../../assets/images/author6.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Lucy" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author7.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Jonaton Smith" 
-                                                            alt="Author"
-                                                        />
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author6.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="Steven Lucy" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author7.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="Jonaton Smith" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
                                                     </div>
                                                     
                                                     <div className="schedule-info">
-                                                        <h3>Working with Distressed Students</h3>
+                                                        <h3>Session 7</h3>
 
                                                         <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Johnny Depp</span> of USA Inc</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
+                                                            {/*<li><i className="icofont-user-suited"></i> By <span>Johnny Depp</span> of USA Inc</li>*/}
+                                                            <li><i className="icofont-wall-clock"></i> 02:00PM - 03:30PM</li>
                                                         </ul>
                                                     </div>
                                                 </Link>
@@ -442,6 +503,53 @@ class EventSchedules extends React.Component {
                                                     </div>
                                                 </div>
                                             </li>
+
+                                            <li className="accordion-item">
+                                                <Link className="accordion-title" to="#">
+                                                    <div className="author author-multi">
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author6.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="Steven Lucy" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author7.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="Jonaton Smith" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
+                                                    </div>
+
+                                                    <div className="schedule-info">
+                                                        <h3>Validcatory Session and Certificate Distribution</h3>
+
+                                                        <ul>
+                                                            {/*<li><i className="icofont-user-suited"></i> By <span>Johnny Depp</span> of USA Inc</li>*/}
+                                                            <li><i className="icofont-wall-clock"></i> 03:45PM - 05:15PM</li>
+                                                        </ul>
+                                                    </div>
+                                                </Link>
+
+                                                <div className="accordion-content">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+
+                                                    <div className="row h-100 align-items-center">
+                                                        <div className="col-lg-6 col-md-7">
+                                                            <div className="location">
+                                                                <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div className="col-lg-6 col-md-5 text-right">
+                                                            <Link to="#" className="btn btn-primary">View Details</Link>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
                                         </ul>	
                                     </div>
 

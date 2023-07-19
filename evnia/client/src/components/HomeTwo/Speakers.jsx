@@ -32,7 +32,7 @@ class Speakers extends React.Component {
                 <div className="row m-0">
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="elkevent-single-speakers">
-                            <img src={require("../../assets/images/speakers1.jpg")} alt="speaker" />
+                            {/*<img src={require("../../assets/images/speakers1.jpg")} alt="speaker" />*/}
 
                             <div className="speakers-content">
                                 <h3><Link to="#">James Anderson</Link></h3>

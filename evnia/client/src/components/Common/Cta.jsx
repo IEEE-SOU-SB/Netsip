@@ -12,9 +12,9 @@ class Cta extends React.Component {
                             <span>We're professional with experience of more than a decade</span>
                         </div>
 
-                        <div className="col-lg-4 text-right">
-                            <Link to="#" className="btn btn-secondary">Register Now!</Link>
-                        </div>
+                        {/*<div className="col-lg-4 text-right">
+                            <Link to="#" className="btn btn-primary">Register Now!</Link>
+                        </div>*/}
                     </div>
                 </div>
             </section>

@@ -45,11 +45,8 @@ const AppRouter = () => {
             <Switch>
                 <Route path="/" exact component={HomeDefault} />
                 <Route path="/about-1" exact component={AboutOne} />
-                <Route path="/pricing-1" exact component={PricingOne} />
-                <Route path="/pricing-2" exact component={PricingTwo} />
                 <Route path="/speakers-1" exact component={SpeakersOne} />
                 <Route path="/schedule-3" exact component={ScheduleThree} />
-                <Route path="/schedule-4" exact component={ScheduleFour} />
                 <Route path="/login" exact component={Login} />
                 <Route path="/signup" exact component={Signup} />
                 <Route path="/coming-soon" exact component={ComingSoon} />

@@ -53,7 +53,7 @@ class Partner extends React.Component {
                 <div className="container">
                     <div className="section-title">
                         <span>Check Who Makes This Event Possible!</span>
-                        <h2>Our Event <b>Sponsors</b></h2>
+                        <h2>Our  <b>Event</b></h2>
 
                         {/*<Link to="/sponsors" className="btn btn-primary">Become Link Sponsor</Link>*/}
 
@@ -120,7 +120,7 @@ class Partner extends React.Component {
                             <div className="border"></div>
                         </div>
 
-                        <div className="col-lg-12">
+                        {/*<div className="col-lg-12">
                             <div className="partner-title gold-sponsor">
                                 <GoldSponsors />
                             </div>
@@ -174,7 +174,7 @@ class Partner extends React.Component {
                                     </Link>
                                 </div>
                             </div>
-                        </OwlCarousel>
+                        </OwlCarousel>*/}
                     </div>
                 </div>
             </section>

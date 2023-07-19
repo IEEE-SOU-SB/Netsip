@@ -13,6 +13,7 @@ import Partner from '../Common/Partner';
 import LatestNews from '../HomeDefault/LatestNews';
 import BuyTicket from '../Common/BuyTicket';
 import Subscribe from '../Common/Subscribe';
+import Header from "../Header/Header";
  
 class HomeDefault extends React.Component {
     constructor(props) {
@@ -28,6 +29,8 @@ class HomeDefault extends React.Component {
     render(){
         return (
             <React.Fragment>
+                 {/* Header */}
+                {/*<Header />*/}
                 {/* Main Banner */}
                 <MainBanner />
                 {/* About Area */}
@@ -46,10 +49,10 @@ class HomeDefault extends React.Component {
                 <Partner />
                 {/* Blog Area 
                 <LatestNews />*/}
-                {/* Buy Tickets Area */}
-                <BuyTicket />
-                {/* Subscribe Area */}
-                <Subscribe />
+                {/* Buy Tickets Area 
+                <BuyTicket />*/}
+                {/* Subscribe Area 
+                <Subscribe />*/}
 
                 <Footer />
 

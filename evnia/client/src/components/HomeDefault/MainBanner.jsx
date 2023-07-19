@@ -64,18 +64,27 @@ class MainBanner extends React.Component {
                     
                         <div className="d-table-cell">
                             <div className="container">
-                            <header className="header">
-                                <div className="header__logo">
                                     <div className="logo-container">
-                                        <a href="https://ieeespsgs.org/" target="_blank"><img src={spsGujaratSection} alt="SPS Gujarat Section"/></a>
-                                        <a href="https://ieeegujaratsection.org/" target="_blank"><img src={ieee_gs} alt="IEEE GS"/></a>
-                                        <a href="https://ieee.socet.edu.in/about-socet-sb/" target="_blank"><img src={sou} alt="Sou SB"/></a>
-                                        <a href="https://ieee.socet.edu.in/" target="_blank"><img src={spsSou} alt="SPS Sou"/></a>
-                                        
+	                                        <div class="item-logo">
+                                                <a href="https://ieeespsgs.org/" target="_blank"><img class="image-logo"  src={spsGujaratSection} alt="SPS Gujarat Section"/></a>
+	                                        </div>
+	                                        <div class="item-logo">
+                                                <a href="https://ieeegujaratsection.org/" target="_blank"><img class="image-logo" src={ieee_gs} alt="IEEE GS"/></a>
+	                                        </div>
+	                                        <div class="item-logo">
+                                                <a href="https://ieee.socet.edu.in/about-socet-sb/" target="_blank"><img class="image-logo" src={sou} alt="Sou SB"/></a>
+	                                        </div>
+	                                        <div class="item-logo">
+                                                <a href="https://ieee.socet.edu.in/" target="_blank"><img class="image-logo" src={spsSou} alt="SPS Sou"/></a>
+	                                        </div>
+                                            <div class="item-logo">
+                                                <a href="https://ieeespsgs.org/" target="_blank"><img class="image-logo"  src={spsGujaratSection} alt="SPS Gujarat Section"/></a>
+	                                        </div>
+                                            
                                         {/*<img src={spsLogo} alt="SPS Logo" />*/}
                                     
                                     </div>
-                                </div></header>
+                              
                                     
                                 <div className="main-banner-content">
                                 

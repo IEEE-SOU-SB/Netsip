@@ -1,7 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ModalVideo from 'react-modal-video';
- 
+import spsGujaratSection from '../../assets/images/SPS_Logo_GS.png';
+import spsLogo from '../../assets/images/SPS_logo.png';
+import spsSou from '../../assets/images/sps_sou.png';
+import sou from '../../assets/images/sou-sb.png';
+import ieee_gs from '../../assets/images/IEEE-Gujarat-Section.png';
+import '../../assets/css/Header.css'
 class MainBanner extends React.Component {
 
     state = {
@@ -56,8 +61,22 @@ class MainBanner extends React.Component {
                 
                 <div className="main-banner item-bg1">
                     <div className="d-table">
+                    
                         <div className="d-table-cell">
                             <div className="container">
+                            <header className="header">
+                                <div className="header__logo">
+                                    <div className="logo-container">
+                                        <a href="https://ieeespsgs.org/" target="_blank"><img src={spsGujaratSection} alt="SPS Gujarat Section"/></a>
+                                        <a href="https://ieeegujaratsection.org/" target="_blank"><img src={ieee_gs} alt="IEEE GS"/></a>
+                                        <a href="https://ieee.socet.edu.in/about-socet-sb/" target="_blank"><img src={sou} alt="Sou SB"/></a>
+                                        <a href="https://ieee.socet.edu.in/" target="_blank"><img src={spsSou} alt="SPS Sou"/></a>
+                                        
+                                        {/*<img src={spsLogo} alt="SPS Logo" />*/}
+                                    
+                                    </div>
+                                </div></header>
+                                    
                                 <div className="main-banner-content">
                                 
                                

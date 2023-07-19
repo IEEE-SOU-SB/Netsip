@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, withRouter, NavLink } from 'react-router-dom';
 import logo from '../../assets/images/logo.png';
+import '../../assets/css/logo.css'
+
  
 class Navigation extends React.Component {
 
@@ -52,7 +54,7 @@ class Navigation extends React.Component {
                     <nav className="navbar navbar-expand-md navbar-light">
                         <div className="container">
                             <Link className="navbar-brand" to="/">
-                                <img src={require("../../assets/images/logo3.png")} alt="about" />
+                                <img src={require("../../assets/images/netsip-01.png")} alt="Netsip" class="logo-image" />
                                 
 
                             </Link>
@@ -122,11 +124,11 @@ class Navigation extends React.Component {
 
                                     <li className="nav-item">
                                         <NavLink 
-                                            to="/sponsors" 
+                                            to="/about-2" 
                                             className="nav-link" 
                                             onClick={this.toggleNavbar}
                                         >
-                                            Collaboration
+                                           About Us
                                         </NavLink>
                                     </li>
                                 

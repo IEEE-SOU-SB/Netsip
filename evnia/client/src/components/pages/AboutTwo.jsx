@@ -3,7 +3,7 @@ import MainBanner from '../AboutTwo/MainBanner';
 import About from '../AboutTwo/About';
 import WhyUs from '../AboutTwo/WhyUs';
 import Speakers from '../AboutTwo/Speakers';
-import Partner from '../Common/Partner';
+import Partner from '../AboutTwo/Partner';
 import BuyTicket from '../Common/BuyTicket';
 import Subscribe from '../Common/Subscribe';
 import Footer from '../Common/Footer';
@@ -25,10 +25,10 @@ class AboutTwo extends React.Component {
                 <Speakers />
                 {/* Partner Area */}
                 <Partner />
-                {/* Buy Tickets Area */}
-                <BuyTicket />
-                {/* Subscribe Area */}
-                <Subscribe />
+                {/* Buy Tickets Area 
+                <BuyTicket />*/}
+                {/* Subscribe Area 
+                <Subscribe />*/}
                 {/* Footer Area */}
                 <Footer />
                 {/* Back Top top */}

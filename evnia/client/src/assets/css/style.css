@@ -745,9 +745,9 @@ Main Banner CSS
   z-index: -2;
 }
 
-.item-bg1 {
+/* .item-bg1 {
   background-image: url("../images/main-bg1.jpg");
-}
+} */
 
 .item-bg2 {
   background-image: url("../images/main-bg2.jpg");
@@ -770,7 +770,7 @@ Main Banner CSS
   position: relative;
   z-index: 1;
 }
-
+/* 
 .main-banner-content::before {
   content: '';
   position: absolute;
@@ -787,7 +787,7 @@ Main Banner CSS
           box-sizing: border-box;
   -webkit-box-shadow: 0 60px 40px -40px rgba(0, 0, 0, 0.3);
           box-shadow: 0 60px 40px -40px rgba(0, 0, 0, 0.3);
-}
+} */
 
 .main-banner-content h1 {
   color: #ffffff;

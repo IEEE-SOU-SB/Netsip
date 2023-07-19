@@ -35,851 +35,959 @@ class EventSchedules extends React.Component {
     render(){
         return (
             <section className="schedule-area bg-image ptb-120">
-                <div className="container">
-                    <div className="section-title">
-                        <span>Schedule Plan</span>
-                        <h2>Information of <b>Event</b> <br /> Schedules</h2>
+            <div className="container">
+                <div className="section-title">
+                    <span>Schedule Plan</span>
+                    <h2>Information of <b>Event</b> <br /> Schedules</h2>
 
-                        <LaxDiv text="Events" dataPreset="driftLeft" />
+                    <LaxDiv text="Events" dataPreset="driftLeft" />
 
-                        {/*<Link to="#" className="btn btn-primary">Register Now!</Link>*/}
+                    {/*<Link to="#" className="btn btn-primary">Register Now!</Link>*/}
 
-                        <div className="bar"></div>
-                    </div>
+                    <div className="bar"></div>
+                </div>
 
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="tab">
-                                <ul className="tabs active">
-                                    <li
-                                        onClick={(e) => this.openTabSection(e, 'tab1')}
-                                        className="current"
-                                    >
-                                        <Link to="#">
-                                            First Day
-                                            <span>25<sup>th</sup> August 2023</span>
+                <div className="row">
+                    <div className="col-lg-12">
+                        <div className="tab">
+                            <ul className="tabs active">
+                                <li
+                                    onClick={(e) => this.openTabSection(e, 'tab1')}
+                                    className="current"
+                                >
+                                    <Link to="#">
+                                        First Day
+                                        <span>25<sup>th</sup> August 2023</span>
 
-                                        </Link>
-                                    </li>
+                                    </Link>
+                                </li>
 
-                                    <li onClick={(e) => this.openTabSection(e, 'tab2')}>
-                                        <Link to="#">
-                                            Second Day
-                                            <span>26<sup>th</sup> August 2023</span>
+                                <li onClick={(e) => this.openTabSection(e, 'tab2')}>
+                                    <Link to="#">
+                                        Second Day
+                                        <span>26<sup>th</sup> August 2023</span>
 
-                                        </Link>
-                                    </li>
+                                    </Link>
+                                </li>
 
-                                    {/*<li onClick={(e) => this.openTabSection(e, 'tab3')}>
-                                        <Link to="#">
-                                            Third Day
-                                            <span>6 April 2020</span>
-                                        </Link>
-                                    </li>
+                                {/*<li onClick={(e) => this.openTabSection(e, 'tab3')}>
+                                    <Link to="#">
+                                        Third Day
+                                        <span>6 April 2020</span>
+                                    </Link>
+                                </li>
 
-                                    <li onClick={(e) => this.openTabSection(e, 'tab4')}>
-                                        <Link to="#">
-                                            Fourth Day
-                                            <span>7 April 2020</span>
-                                        </Link> 
-                                    </li>*/}
+                                <li onClick={(e) => this.openTabSection(e, 'tab4')}>
+                                    <Link to="#">
+                                        Fourth Day
+                                        <span>7 April 2020</span>
+                                    </Link> 
+                                </li>*/}
 
-                                </ul>
+                            </ul>
 
-                                <div className="tab_content">
-                                    <div id="tab1" className="tabs_item">
-                                        <ul className="accordion">
-                                            <li className="accordion-item">
-                                                <Link className="accordion-title" to="#">
-                                                    <div className="author">
-                                                        <img 
-                                                            src={require("../../assets/images/author1.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Smith" 
-                                                            alt="Author" 
-                                                        />
-                                                    </div>
-                                                    
-                                                    <div className="schedule-info">
-                                                        <h3>Reducing test anxiety</h3>
-
-                                                        <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Tom Cruise</span> CEO of EnvyTheme</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
-                                                        </ul>
-                                                    </div>
-                                                </Link>
+                            <div className="tab_content">
+                                <div id="tab1" className="tabs_item">
+                                    <ul className="accordion">
+                                        <li className="accordion-item">
+                                            <Link className="accordion-title" to="#">
+                                                <div className="author">
+                                                    {/*<img */}
+                                                    {/*    // src={require("../../assets/images/author1.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="Steven Smith" */}
+                                                    {/*    alt="Author" */}
+                                                    {/*/>*/}
+                                                </div>
                                                 
-                                                <div className="accordion-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+                                                <div className="schedule-info">
+                                                    <h3>Inauguration</h3>
 
-                                                    <div className="row h-100 align-items-center">
-                                                        <div className="col-lg-6 col-md-7">
-                                                            <div className="location">
-                                                                <b>Location:</b> Hall 121, Building C/A , King Street , <span>USA</span>
-                                                            </div>
-                                                        </div>
+                                                    <ul>
+                                                        {/*<li><i className="icofont-user-suited"></i> By <span>Tom Cruise</span> CEO of EnvyTheme</li>*/}
+                                                        <li><i className="icofont-wall-clock"></i> 09:30AM - 10:00AM</li>
+                                                    </ul>
+                                                </div>
+                                            </Link>
+                                            
+                                            <div className="accordion-content">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
 
-                                                        <div className="col-lg-6 col-md-5 text-right">
-                                                            <Link to="#" className="btn btn-primary">View Details</Link>
+                                                <div className="row h-100 align-items-center">
+                                                    <div className="col-lg-6 col-md-7">
+                                                        <div className="location">
+                                                            <b>Location:</b> Hall 121, Building C/A , King Street , <span>USA</span>
                                                         </div>
+                                                    </div>
+
+                                                    <div className="col-lg-6 col-md-5 text-right">
+                                                        <Link to="#" className="btn btn-primary">View Details</Link>
                                                     </div>
                                                 </div>
-                                            </li>
+                                            </div>
+                                        </li>
 
-                                            <li className="accordion-item">
-                                                <Link className="accordion-title" to="#">
-                                                    <div className="author author-multi">
-                                                        <img 
-                                                            src={require("../../assets/images/author5.jpg")} 
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Lucy" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author2.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Jonaton Smith" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author3.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Smith" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author4.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Doe" 
-                                                            alt="Author"
-                                                        />
-                                                    </div>
-                                                    
-                                                    <div className="schedule-info">
-                                                        <h3>Time Management, Getting a Smart Start, Setting Goals</h3>
-
-                                                        <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Leonardo DiCaprio</span> of USA Inc</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
-                                                        </ul>
-                                                    </div>
-                                                </Link>
+                                        <li className="accordion-item">
+                                            <Link className="accordion-title" to="#">
+                                                <div className="author author-multi">
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author5.jpg")} */}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="Steven Lucy" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author2.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="Jonaton Smith" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author3.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="John Smith" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author4.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="John Doe" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                </div>
                                                 
-                                                <div className="accordion-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+                                                <div className="schedule-info">
+                                                    <h3>Dr. Angshul Majumdar(Keynote Address) Professor, IIIT Delhi</h3>
 
-                                                    <div className="row h-100 align-items-center">
-                                                        <div className="col-lg-6 col-md-7">
-                                                            <div className="location">
-                                                                <b>Location:</b> Hall 132, Building C , King Street , <span>USA</span>
-                                                            </div>
-                                                        </div>
+                                                    <ul>
+                                                        {/*<li><i className="icofont-user-suited"></i> By <span>Leonardo DiCaprio</span> of USA Inc</li>*/}
+                                                        <li><i className="icofont-wall-clock"></i> 10:00AM - 11:30AM</li>
+                                                    </ul>
+                                                </div>
+                                            </Link>
+                                            
+                                            <div className="accordion-content">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
 
-                                                        <div className="col-lg-6 col-md-5 text-right">
-                                                            <Link to="#" className="btn btn-primary">View Details</Link>
+                                                <div className="row h-100 align-items-center">
+                                                    <div className="col-lg-6 col-md-7">
+                                                        <div className="location">
+                                                            <b>Location:</b> Hall 132, Building C , King Street , <span>USA</span>
                                                         </div>
+                                                    </div>
+
+                                                    <div className="col-lg-6 col-md-5 text-right">
+                                                        <Link to="#" className="btn btn-primary">View Details</Link>
                                                     </div>
                                                 </div>
-                                            </li>
+                                            </div>
+                                        </li>
 
-                                            <li className="accordion-item">
-                                                <Link className="accordion-title" to="#">
-                                                    <div className="author author-multi">
-                                                        <img 
-                                                            src={require("../../assets/images/author6.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Lucy" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author7.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Jonaton Smith" 
-                                                            alt="Author"
-                                                        />
-                                                    </div>
-                                                    
-                                                    <div className="schedule-info">
-                                                        <h3>Impact of mental health on academics</h3>
-
-                                                        <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Robert Downey</span> of USA Inc</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
-                                                        </ul>
-                                                    </div>
-                                                </Link>
+                                        <li className="accordion-item">
+                                            <Link className="accordion-title" to="#">
+                                                <div className="author author-multi">
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author6.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="Steven Lucy" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author7.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="Jonaton Smith" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                </div>
                                                 
-                                                <div className="accordion-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+                                                <div className="schedule-info">
+                                                    <h3>Dr. Harshal Oza, Director R&D for RoboTechMech Solutions Pvt. Ltd. (RTM)</h3>
 
-                                                    <div className="row h-100 align-items-center">
-                                                        <div className="col-lg-6 col-md-7">
-                                                            <div className="location">
-                                                                <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                            </div>
-                                                        </div>
+                                                    <ul>
+                                                        {/*<li><i className="icofont-user-suited"></i> By <span>Robert Downey</span> of USA Inc</li>*/}
+                                                        <li><i className="icofont-wall-clock"></i> 11:45AM - 01:15PM</li>
+                                                    </ul>
+                                                </div>
+                                            </Link>
+                                            
+                                            <div className="accordion-content">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
 
-                                                        <div className="col-lg-6 col-md-5 text-right">
-                                                            <Link to="#" className="btn btn-primary">View Details</Link>
+                                                <div className="row h-100 align-items-center">
+                                                    <div className="col-lg-6 col-md-7">
+                                                        <div className="location">
+                                                            <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
                                                         </div>
+                                                    </div>
+
+                                                    <div className="col-lg-6 col-md-5 text-right">
+                                                        <Link to="#" className="btn btn-primary">View Details</Link>
                                                     </div>
                                                 </div>
-                                            </li>
+                                            </div>
+                                        </li>
 
-                                            <li className="accordion-item">
-                                                <Link className="accordion-title" to="#">
-                                                    <div className="author author-multi">
-                                                        <img 
-                                                            src={require("../../assets/images/author8.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Lucy" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author9.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Jonaton Smith" 
-                                                            alt="Author" 
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author3.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Smith" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author4.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Doe" 
-                                                            alt="Author"
-                                                        />
-                                                    </div>
-                                                    
-                                                    <div className="schedule-info">
-                                                        <h3>Athletic performance enhancement</h3>
-
-                                                        <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Brad Pitt</span> of USA Inc</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
-                                                        </ul>
-                                                    </div>
-                                                </Link>
+                                        <li className="accordion-item">
+                                            <Link className="accordion-title" to="#">
+                                                <div className="author author-multi">
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author8.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="Steven Lucy" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author9.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="Jonaton Smith" */}
+                                                    {/*    alt="Author" */}
+                                                    {/*/>*/}
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author3.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="John Smith" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author4.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="John Doe" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                </div>
                                                 
-                                                <div className="accordion-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+                                                <div className="schedule-info">
+                                                    <h3>Session 3</h3>
 
-                                                    <div className="row h-100 align-items-center">
-                                                        <div className="col-lg-6 col-md-7">
-                                                            <div className="location">
-                                                                <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                            </div>
-                                                        </div>
+                                                    <ul>
+                                                        {/*<li><i className="icofont-user-suited"></i> By <span>Brad Pitt</span> of USA Inc</li>*/}
+                                                        <li><i className="icofont-wall-clock"></i> 02:00PM - 03:30PM</li>
+                                                    </ul>
+                                                </div>
+                                            </Link>
+                                            
+                                            <div className="accordion-content">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
 
-                                                        <div className="col-lg-6 col-md-5 text-right">
-                                                            <Link to="#" className="btn btn-primary">View Details</Link>
+                                                <div className="row h-100 align-items-center">
+                                                    <div className="col-lg-6 col-md-7">
+                                                        <div className="location">
+                                                            <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
                                                         </div>
+                                                    </div>
+
+                                                    <div className="col-lg-6 col-md-5 text-right">
+                                                        <Link to="#" className="btn btn-primary">View Details</Link>
                                                     </div>
                                                 </div>
-                                            </li>
-                                        </ul>	
-                                    </div>
+                                            </div>
+                                        </li>
 
-                                    <div id="tab2" className="tabs_item">
-                                        <ul className="accordion">
-                                            <li className="accordion-item">
-                                                <Link className="accordion-title" to="#">
-                                                    <div className="author">
-                                                        <img 
-                                                            src={require("../../assets/images/author1.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Smith" 
-                                                            alt="Author"
-                                                        />
-                                                    </div>
-                                                    
-                                                    <div className="schedule-info">
-                                                        <h3>Introduction to prejudice, stereotyping, microaggressions</h3>
+                                        <li className="accordion-item">
+                                            <Link className="accordion-title" to="#">
+                                                <div className="author author-multi">
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author8.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="Steven Lucy" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author9.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="Jonaton Smith" */}
+                                                    {/*    alt="Author" */}
+                                                    {/*/>*/}
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author3.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="John Smith" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author4.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="John Doe" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                </div>
 
-                                                        <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Tom Hanks</span> CEO of EnvyTheme</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
-                                                        </ul>
-                                                    </div>
-                                                </Link>
-                                                
-                                                <div className="accordion-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+                                                <div className="schedule-info">
+                                                    <h3>Session 4</h3>
 
-                                                    <div className="row h-100 align-items-center">
-                                                        <div className="col-lg-6 col-md-7">
-                                                            <div className="location">
-                                                                <b>Location:</b> Hall 431, Building C , King Street , <span>USA</span>
-                                                            </div>
+                                                    <ul>
+                                                        {/*<li><i className="icofont-user-suited"></i> By <span>Brad Pitt</span> of USA Inc</li>*/}
+                                                        <li><i className="icofont-wall-clock"></i> 03:45PM - 05:15PM</li>
+                                                    </ul>
+                                                </div>
+                                            </Link>
+
+                                            <div className="accordion-content">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+
+                                                <div className="row h-100 align-items-center">
+                                                    <div className="col-lg-6 col-md-7">
+                                                        <div className="location">
+                                                            <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
                                                         </div>
+                                                    </div>
 
-                                                        <div className="col-lg-6 col-md-5 text-right">
-                                                            <Link to="#" className="btn btn-primary">View Details</Link>
-                                                        </div>
+                                                    <div className="col-lg-6 col-md-5 text-right">
+                                                        <Link to="#" className="btn btn-primary">View Details</Link>
                                                     </div>
                                                 </div>
-                                            </li>
+                                            </div>
+                                        </li>
 
-                                            <li className="accordion-item">
-                                                <Link className="accordion-title" to="#">
-                                                    <div className="author author-multi">
-                                                        <img 
-                                                            src={require("../../assets/images/author5.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Lucy" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author2.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Jonaton Smith" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author3.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Smith" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author4.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Doe" 
-                                                            alt="Author"
-                                                        />
-                                                    </div>
-                                                    
-                                                    <div className="schedule-info">
-                                                        <h3>Mental health within various cultures and identities</h3>
+                                    </ul>	
+                                </div>
 
-                                                        <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Matt Damon</span> of USA Inc</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
-                                                        </ul>
-                                                    </div>
-                                                </Link>
+                                <div id="tab2" className="tabs_item">
+                                    <ul className="accordion">
+                                        <li className="accordion-item">
+                                            <Link className="accordion-title" to="#">
+                                                <div className="author">
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author1.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="Steven Smith" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                </div>
                                                 
-                                                <div className="accordion-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+                                                <div className="schedule-info">
+                                                    <h3>Dr Mahesh Anand</h3>
 
-                                                    <div className="row h-100 align-items-center">
-                                                        <div className="col-lg-6 col-md-7">
-                                                            <div className="location">
-                                                                <b>Location:</b> Hall 1c2, Building C , King Street , <span>USA</span>
-                                                            </div>
-                                                        </div>
+                                                    <ul>
+                                                        {/*<li><i className="icofont-user-suited"></i> By <span>Tom Hanks</span> CEO of EnvyTheme</li>*/}
+                                                        <li><i className="icofont-wall-clock"></i> 10:00AM - 11:30AM</li>
+                                                    </ul>
+                                                </div>
+                                            </Link>
+                                            
+                                            <div className="accordion-content">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
 
-                                                        <div className="col-lg-6 col-md-5 text-right">
-                                                            <Link to="#" className="btn btn-primary">View Details</Link>
+                                                <div className="row h-100 align-items-center">
+                                                    <div className="col-lg-6 col-md-7">
+                                                        <div className="location">
+                                                            <b>Location:</b> Hall 431, Building C , King Street , <span>USA</span>
                                                         </div>
+                                                    </div>
+
+                                                    <div className="col-lg-6 col-md-5 text-right">
+                                                        <Link to="#" className="btn btn-primary">View Details</Link>
                                                     </div>
                                                 </div>
-                                            </li>
+                                            </div>
+                                        </li>
 
-                                            <li className="accordion-item">
-                                                <Link className="accordion-title" to="#">
-                                                    <div className="author author-multi">
-                                                        <img 
-                                                            src={require("../../assets/images/author6.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Lucy" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author7.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Jonaton Smith" 
-                                                            alt="Author"
-                                                        />
-                                                    </div>
-                                                    
-                                                    <div className="schedule-info">
-                                                        <h3>Working with Distressed Students</h3>
-
-                                                        <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Johnny Depp</span> of USA Inc</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
-                                                        </ul>
-                                                    </div>
-                                                </Link>
+                                        <li className="accordion-item">
+                                            <Link className="accordion-title" to="#">
+                                                <div className="author author-multi">
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author5.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="Steven Lucy" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author2.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="Jonaton Smith" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author3.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="John Smith" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author4.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="John Doe" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                </div>
                                                 
-                                                <div className="accordion-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+                                                <div className="schedule-info">
+                                                    <h3>Dr. Nalin Sharma</h3>
 
-                                                    <div className="row h-100 align-items-center">
-                                                        <div className="col-lg-6 col-md-7">
-                                                            <div className="location">
-                                                                <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                            </div>
-                                                        </div>
+                                                    <ul>
+                                                        {/*<li><i className="icofont-user-suited"></i> By <span>Matt Damon</span> of USA Inc</li>*/}
+                                                        <li><i className="icofont-wall-clock"></i> 11:45PM - 01:15PM</li>
+                                                    </ul>
+                                                </div>
+                                            </Link>
+                                            
+                                            <div className="accordion-content">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
 
-                                                        <div className="col-lg-6 col-md-5 text-right">
-                                                            <Link to="#" className="btn btn-primary">View Details</Link>
+                                                <div className="row h-100 align-items-center">
+                                                    <div className="col-lg-6 col-md-7">
+                                                        <div className="location">
+                                                            <b>Location:</b> Hall 1c2, Building C , King Street , <span>USA</span>
                                                         </div>
+                                                    </div>
+
+                                                    <div className="col-lg-6 col-md-5 text-right">
+                                                        <Link to="#" className="btn btn-primary">View Details</Link>
                                                     </div>
                                                 </div>
-                                            </li>
-                                        </ul>	
-                                    </div>
+                                            </div>
+                                        </li>
 
-                                    <div id="tab3" className="tabs_item">
-                                        <ul className="accordion">
-                                            <li className="accordion-item">
-                                                <Link className="accordion-title" to="#">
-                                                    <div className="author">
-                                                        <img 
-                                                            src={require("../../assets/images/author1.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Smith" 
-                                                            alt="Author"
-                                                        />
-                                                    </div>
-                                                    
-                                                    <div className="schedule-info">
-                                                        <h3>Managing Homesickness, Home for the Holidays</h3>
-
-                                                        <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Will Smith</span> CEO of EnvyTheme</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
-                                                        </ul>
-                                                    </div>
-                                                </Link>
+                                        <li className="accordion-item">
+                                            <Link className="accordion-title" to="#">
+                                                <div className="author author-multi">
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author6.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="Steven Lucy" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author7.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="Jonaton Smith" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                </div>
                                                 
-                                                <div className="accordion-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+                                                <div className="schedule-info">
+                                                    <h3>Session 7</h3>
 
-                                                    <div className="row h-100 align-items-center">
-                                                        <div className="col-lg-6 col-md-7">
-                                                            <div className="location">
-                                                                <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                            </div>
-                                                        </div>
+                                                    <ul>
+                                                        {/*<li><i className="icofont-user-suited"></i> By <span>Johnny Depp</span> of USA Inc</li>*/}
+                                                        <li><i className="icofont-wall-clock"></i> 02:00PM - 03:30PM</li>
+                                                    </ul>
+                                                </div>
+                                            </Link>
+                                            
+                                            <div className="accordion-content">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
 
-                                                        <div className="col-lg-6 col-md-5 text-right">
-                                                            <Link to="#" className="btn btn-primary">View Details</Link>
+                                                <div className="row h-100 align-items-center">
+                                                    <div className="col-lg-6 col-md-7">
+                                                        <div className="location">
+                                                            <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
                                                         </div>
+                                                    </div>
+
+                                                    <div className="col-lg-6 col-md-5 text-right">
+                                                        <Link to="#" className="btn btn-primary">View Details</Link>
                                                     </div>
                                                 </div>
-                                            </li>
+                                            </div>
+                                        </li>
 
-                                            <li className="accordion-item">
-                                                <Link className="accordion-title" to="#">
-                                                    <div className="author author-multi">
-                                                        <img 
-                                                            src={require("../../assets/images/author5.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Lucy" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author2.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Jonaton Smith" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author3.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Smith" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author4.jpg")} 
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Doe" 
-                                                            alt="Author"
-                                                        />
-                                                    </div>
-                                                    
-                                                    <div className="schedule-info">
-                                                        <h3>Depression & Alcohol Screening days</h3>
+                                        <li className="accordion-item">
+                                            <Link className="accordion-title" to="#">
+                                                <div className="author author-multi">
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author6.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="Steven Lucy" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                    {/*<img */}
+                                                    {/*    src={require("../../assets/images/author7.jpg")}*/}
+                                                    {/*    data-toggle="tooltip" */}
+                                                    {/*    data-placement="top" */}
+                                                    {/*    title="Jonaton Smith" */}
+                                                    {/*    alt="Author"*/}
+                                                    {/*/>*/}
+                                                </div>
 
-                                                        <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>George Clooney</span> of USA Inc</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
-                                                        </ul>
-                                                    </div>
-                                                </Link>
-                                                
-                                                <div className="accordion-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+                                                <div className="schedule-info">
+                                                    <h3>Validcatory Session and Certificate Distribution</h3>
 
-                                                    <div className="row h-100 align-items-center">
-                                                        <div className="col-lg-6 col-md-7">
-                                                            <div className="location">
-                                                                <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                            </div>
+                                                    <ul>
+                                                        {/*<li><i className="icofont-user-suited"></i> By <span>Johnny Depp</span> of USA Inc</li>*/}
+                                                        <li><i className="icofont-wall-clock"></i> 03:45PM - 05:15PM</li>
+                                                    </ul>
+                                                </div>
+                                            </Link>
+
+                                            <div className="accordion-content">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+
+                                                <div className="row h-100 align-items-center">
+                                                    <div className="col-lg-6 col-md-7">
+                                                        <div className="location">
+                                                            <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
                                                         </div>
+                                                    </div>
 
-                                                        <div className="col-lg-6 col-md-5 text-right">
-                                                            <Link to="#" className="btn btn-primary">View Details</Link>
-                                                        </div>
+                                                    <div className="col-lg-6 col-md-5 text-right">
+                                                        <Link to="#" className="btn btn-primary">View Details</Link>
                                                     </div>
                                                 </div>
-                                            </li>
+                                            </div>
+                                        </li>
 
-                                            <li className="accordion-item">
-                                                <Link className="accordion-title" to="#">
-                                                    <div className="author author-multi">
-                                                        <img 
-                                                            src={require("../../assets/images/author6.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Lucy" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author7.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Jonaton Smith" 
-                                                            alt="Author"
-                                                        />
-                                                    </div>
-                                                    
-                                                    <div className="schedule-info">
-                                                        <h3>Building resilience/Bounce Back</h3>
+                                    </ul>	
+                                </div>
 
-                                                        <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Mark Wahlberg</span> of USA Inc</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
-                                                        </ul>
-                                                    </div>
-                                                </Link>
+                                <div id="tab3" className="tabs_item">
+                                    <ul className="accordion">
+                                        <li className="accordion-item">
+                                            <Link className="accordion-title" to="#">
+                                                <div className="author">
+                                                    <img 
+                                                        src={require("../../assets/images/author1.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="Steven Smith" 
+                                                        alt="Author"
+                                                    />
+                                                </div>
                                                 
-                                                <div className="accordion-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+                                                <div className="schedule-info">
+                                                    <h3>Managing Homesickness, Home for the Holidays</h3>
 
-                                                    <div className="row h-100 align-items-center">
-                                                        <div className="col-lg-6 col-md-7">
-                                                            <div className="location">
-                                                                <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                            </div>
-                                                        </div>
+                                                    <ul>
+                                                        <li><i className="icofont-user-suited"></i> By <span>Will Smith</span> CEO of EnvyTheme</li>
+                                                        <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
+                                                    </ul>
+                                                </div>
+                                            </Link>
+                                            
+                                            <div className="accordion-content">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
 
-                                                        <div className="col-lg-6 col-md-5 text-right">
-                                                            <Link to="#" className="btn btn-primary">View Details</Link>
+                                                <div className="row h-100 align-items-center">
+                                                    <div className="col-lg-6 col-md-7">
+                                                        <div className="location">
+                                                            <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
                                                         </div>
+                                                    </div>
+
+                                                    <div className="col-lg-6 col-md-5 text-right">
+                                                        <Link to="#" className="btn btn-primary">View Details</Link>
                                                     </div>
                                                 </div>
-                                            </li>
+                                            </div>
+                                        </li>
 
-                                            <li className="accordion-item">
-                                                <Link className="accordion-title" to="#">
-                                                    <div className="author author-multi">
-                                                        <img 
-                                                            src={require("../../assets/images/author8.jpg")} 
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Lucy" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author9.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Jonaton Smith" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author3.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Smith" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author4.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Doe" 
-                                                            alt="Author"
-                                                        />
-                                                    </div>
-                                                    
-                                                    <div className="schedule-info">
-                                                        <h3>Binge drinking and drug problems</h3>
-
-                                                        <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Ryan Gosling</span> of USA Inc</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
-                                                        </ul>
-                                                    </div>
-                                                </Link>
+                                        <li className="accordion-item">
+                                            <Link className="accordion-title" to="#">
+                                                <div className="author author-multi">
+                                                    <img 
+                                                        src={require("../../assets/images/author5.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="Steven Lucy" 
+                                                        alt="Author"
+                                                    />
+                                                    <img 
+                                                        src={require("../../assets/images/author2.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="Jonaton Smith" 
+                                                        alt="Author"
+                                                    />
+                                                    <img 
+                                                        src={require("../../assets/images/author3.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="John Smith" 
+                                                        alt="Author"
+                                                    />
+                                                    <img 
+                                                        src={require("../../assets/images/author4.jpg")} 
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="John Doe" 
+                                                        alt="Author"
+                                                    />
+                                                </div>
                                                 
-                                                <div className="accordion-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+                                                <div className="schedule-info">
+                                                    <h3>Depression & Alcohol Screening days</h3>
 
-                                                    <div className="row h-100 align-items-center">
-                                                        <div className="col-lg-6 col-md-7">
-                                                            <div className="location">
-                                                                <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                            </div>
-                                                        </div>
+                                                    <ul>
+                                                        <li><i className="icofont-user-suited"></i> By <span>George Clooney</span> of USA Inc</li>
+                                                        <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
+                                                    </ul>
+                                                </div>
+                                            </Link>
+                                            
+                                            <div className="accordion-content">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
 
-                                                        <div className="col-lg-6 col-md-5 text-right">
-                                                            <Link to="#" className="btn btn-primary">View Details</Link>
+                                                <div className="row h-100 align-items-center">
+                                                    <div className="col-lg-6 col-md-7">
+                                                        <div className="location">
+                                                            <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
                                                         </div>
+                                                    </div>
+
+                                                    <div className="col-lg-6 col-md-5 text-right">
+                                                        <Link to="#" className="btn btn-primary">View Details</Link>
                                                     </div>
                                                 </div>
-                                            </li>
-                                        </ul>	
-                                    </div>
+                                            </div>
+                                        </li>
 
-                                    <div id="tab4" className="tabs_item">
-                                        <ul className="accordion">
-                                            <li className="accordion-item">
-                                                <Link className="accordion-title" to="#">
-                                                    <div className="author">
-                                                        <img 
-                                                            src={require("../../assets/images/author1.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Smith" 
-                                                            alt="Author"
-                                                        />
-                                                    </div>
-                                                    
-                                                    <div className="schedule-info">
-                                                        <h3>Benefits of physical exercise</h3>
-
-                                                        <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Denzel Washington</span> CEO of EnvyTheme</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
-                                                        </ul>
-                                                    </div>
-                                                </Link>
+                                        <li className="accordion-item">
+                                            <Link className="accordion-title" to="#">
+                                                <div className="author author-multi">
+                                                    <img 
+                                                        src={require("../../assets/images/author6.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="Steven Lucy" 
+                                                        alt="Author"
+                                                    />
+                                                    <img 
+                                                        src={require("../../assets/images/author7.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="Jonaton Smith" 
+                                                        alt="Author"
+                                                    />
+                                                </div>
                                                 
-                                                <div className="accordion-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+                                                <div className="schedule-info">
+                                                    <h3>Building resilience/Bounce Back</h3>
 
-                                                    <div className="row h-100 align-items-center">
-                                                        <div className="col-lg-6 col-md-7">
-                                                            <div className="location">
-                                                                <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                            </div>
-                                                        </div>
+                                                    <ul>
+                                                        <li><i className="icofont-user-suited"></i> By <span>Mark Wahlberg</span> of USA Inc</li>
+                                                        <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
+                                                    </ul>
+                                                </div>
+                                            </Link>
+                                            
+                                            <div className="accordion-content">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
 
-                                                        <div className="col-lg-6 col-md-5 text-right">
-                                                            <Link to="#" className="btn btn-primary">View Details</Link>
+                                                <div className="row h-100 align-items-center">
+                                                    <div className="col-lg-6 col-md-7">
+                                                        <div className="location">
+                                                            <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
                                                         </div>
+                                                    </div>
+
+                                                    <div className="col-lg-6 col-md-5 text-right">
+                                                        <Link to="#" className="btn btn-primary">View Details</Link>
                                                     </div>
                                                 </div>
-                                            </li>
+                                            </div>
+                                        </li>
 
-                                            <li className="accordion-item">
-                                                <Link className="accordion-title" to="#">
-                                                    <div className="author author-multi">
-                                                        <img 
-                                                            src={require("../../assets/images/author5.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Lucy" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author2.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Jonaton Smith" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author3.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Smith" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author4.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Doe" 
-                                                            alt="Author"
-                                                        />
-                                                    </div>
-                                                    
-                                                    <div className="schedule-info">
-                                                        <h3>Digital World Event Information</h3>
-
-                                                        <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>EnvyTheme Team</span> of USA Inc</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
-                                                        </ul>
-                                                    </div>
-                                                </Link>
+                                        <li className="accordion-item">
+                                            <Link className="accordion-title" to="#">
+                                                <div className="author author-multi">
+                                                    <img 
+                                                        src={require("../../assets/images/author8.jpg")} 
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="Steven Lucy" 
+                                                        alt="Author"
+                                                    />
+                                                    <img 
+                                                        src={require("../../assets/images/author9.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="Jonaton Smith" 
+                                                        alt="Author"
+                                                    />
+                                                    <img 
+                                                        src={require("../../assets/images/author3.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="John Smith" 
+                                                        alt="Author"
+                                                    />
+                                                    <img 
+                                                        src={require("../../assets/images/author4.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="John Doe" 
+                                                        alt="Author"
+                                                    />
+                                                </div>
                                                 
-                                                <div className="accordion-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+                                                <div className="schedule-info">
+                                                    <h3>Binge drinking and drug problems</h3>
 
-                                                    <div className="row h-100 align-items-center">
-                                                        <div className="col-lg-6 col-md-7">
-                                                            <div className="location">
-                                                                <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                            </div>
-                                                        </div>
+                                                    <ul>
+                                                        <li><i className="icofont-user-suited"></i> By <span>Ryan Gosling</span> of USA Inc</li>
+                                                        <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
+                                                    </ul>
+                                                </div>
+                                            </Link>
+                                            
+                                            <div className="accordion-content">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
 
-                                                        <div className="col-lg-6 col-md-5 text-right">
-                                                            <Link to="#" className="btn btn-primary">View Details</Link>
+                                                <div className="row h-100 align-items-center">
+                                                    <div className="col-lg-6 col-md-7">
+                                                        <div className="location">
+                                                            <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
                                                         </div>
+                                                    </div>
+
+                                                    <div className="col-lg-6 col-md-5 text-right">
+                                                        <Link to="#" className="btn btn-primary">View Details</Link>
                                                     </div>
                                                 </div>
-                                            </li>
+                                            </div>
+                                        </li>
+                                    </ul>	
+                                </div>
 
-                                            <li className="accordion-item">
-                                                <Link className="accordion-title" to="#">
-                                                    <div className="author author-multi">
-                                                        <img 
-                                                            src={require("../../assets/images/author6.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Lucy" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author7.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Jonaton Smith" 
-                                                            alt="Author"
-                                                        />
-                                                    </div>
-                                                    
-                                                    <div className="schedule-info">
-                                                        <h3>HTML, CSS and Bootstrap Introduction</h3>
-
-                                                        <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>EnvyTheme Team</span> of USA Inc</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
-                                                        </ul>
-                                                    </div>
-                                                </Link>
+                                <div id="tab4" className="tabs_item">
+                                    <ul className="accordion">
+                                        <li className="accordion-item">
+                                            <Link className="accordion-title" to="#">
+                                                <div className="author">
+                                                    <img 
+                                                        src={require("../../assets/images/author1.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="Steven Smith" 
+                                                        alt="Author"
+                                                    />
+                                                </div>
                                                 
-                                                <div className="accordion-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+                                                <div className="schedule-info">
+                                                    <h3>Benefits of physical exercise</h3>
 
-                                                    <div className="row h-100 align-items-center">
-                                                        <div className="col-lg-6 col-md-7">
-                                                            <div className="location">
-                                                                <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                            </div>
-                                                        </div>
+                                                    <ul>
+                                                        <li><i className="icofont-user-suited"></i> By <span>Denzel Washington</span> CEO of EnvyTheme</li>
+                                                        <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
+                                                    </ul>
+                                                </div>
+                                            </Link>
+                                            
+                                            <div className="accordion-content">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
 
-                                                        <div className="col-lg-6 col-md-5 text-right">
-                                                            <Link to="#" className="btn btn-primary">View Details</Link>
+                                                <div className="row h-100 align-items-center">
+                                                    <div className="col-lg-6 col-md-7">
+                                                        <div className="location">
+                                                            <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
                                                         </div>
+                                                    </div>
+
+                                                    <div className="col-lg-6 col-md-5 text-right">
+                                                        <Link to="#" className="btn btn-primary">View Details</Link>
                                                     </div>
                                                 </div>
-                                            </li>
+                                            </div>
+                                        </li>
 
-                                            <li className="accordion-item">
-                                                <Link className="accordion-title" to="#">
-                                                    <div className="author author-multi">
-                                                        <img 
-                                                            src={require("../../assets/images/author8.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Steven Lucy" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author9.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="Jonaton Smith" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author3.jpg")}
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Smith" 
-                                                            alt="Author"
-                                                        />
-                                                        <img 
-                                                            src={require("../../assets/images/author4.jpg")} 
-                                                            data-toggle="tooltip" 
-                                                            data-placement="top" 
-                                                            title="John Doe" 
-                                                            alt="Author"
-                                                        />
-                                                    </div>
-                                                    
-                                                    <div className="schedule-info">
-                                                        <h3>Digital World Event Information</h3>
-
-                                                        <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>EnvyTheme Team</span> of USA Inc</li>
-                                                            <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
-                                                        </ul>
-                                                    </div>
-                                                </Link>
+                                        <li className="accordion-item">
+                                            <Link className="accordion-title" to="#">
+                                                <div className="author author-multi">
+                                                    <img 
+                                                        src={require("../../assets/images/author5.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="Steven Lucy" 
+                                                        alt="Author"
+                                                    />
+                                                    <img 
+                                                        src={require("../../assets/images/author2.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="Jonaton Smith" 
+                                                        alt="Author"
+                                                    />
+                                                    <img 
+                                                        src={require("../../assets/images/author3.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="John Smith" 
+                                                        alt="Author"
+                                                    />
+                                                    <img 
+                                                        src={require("../../assets/images/author4.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="John Doe" 
+                                                        alt="Author"
+                                                    />
+                                                </div>
                                                 
-                                                <div className="accordion-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+                                                <div className="schedule-info">
+                                                    <h3>Digital World Event Information</h3>
 
-                                                    <div className="row h-100 align-items-center">
-                                                        <div className="col-lg-6 col-md-7">
-                                                            <div className="location">
-                                                                <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                            </div>
-                                                        </div>
+                                                    <ul>
+                                                        <li><i className="icofont-user-suited"></i> By <span>EnvyTheme Team</span> of USA Inc</li>
+                                                        <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
+                                                    </ul>
+                                                </div>
+                                            </Link>
+                                            
+                                            <div className="accordion-content">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
 
-                                                        <div className="col-lg-6 col-md-5 text-right">
-                                                            <Link to="#" className="btn btn-primary">View Details</Link>
+                                                <div className="row h-100 align-items-center">
+                                                    <div className="col-lg-6 col-md-7">
+                                                        <div className="location">
+                                                            <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
                                                         </div>
+                                                    </div>
+
+                                                    <div className="col-lg-6 col-md-5 text-right">
+                                                        <Link to="#" className="btn btn-primary">View Details</Link>
                                                     </div>
                                                 </div>
-                                            </li>
-                                        </ul>	
-                                    </div>
+                                            </div>
+                                        </li>
+
+                                        <li className="accordion-item">
+                                            <Link className="accordion-title" to="#">
+                                                <div className="author author-multi">
+                                                    <img 
+                                                        src={require("../../assets/images/author6.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="Steven Lucy" 
+                                                        alt="Author"
+                                                    />
+                                                    <img 
+                                                        src={require("../../assets/images/author7.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="Jonaton Smith" 
+                                                        alt="Author"
+                                                    />
+                                                </div>
+                                                
+                                                <div className="schedule-info">
+                                                    <h3>HTML, CSS and Bootstrap Introduction</h3>
+
+                                                    <ul>
+                                                        <li><i className="icofont-user-suited"></i> By <span>EnvyTheme Team</span> of USA Inc</li>
+                                                        <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
+                                                    </ul>
+                                                </div>
+                                            </Link>
+                                            
+                                            <div className="accordion-content">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+
+                                                <div className="row h-100 align-items-center">
+                                                    <div className="col-lg-6 col-md-7">
+                                                        <div className="location">
+                                                            <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div className="col-lg-6 col-md-5 text-right">
+                                                        <Link to="#" className="btn btn-primary">View Details</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li className="accordion-item">
+                                            <Link className="accordion-title" to="#">
+                                                <div className="author author-multi">
+                                                    <img 
+                                                        src={require("../../assets/images/author8.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="Steven Lucy" 
+                                                        alt="Author"
+                                                    />
+                                                    <img 
+                                                        src={require("../../assets/images/author9.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="Jonaton Smith" 
+                                                        alt="Author"
+                                                    />
+                                                    <img 
+                                                        src={require("../../assets/images/author3.jpg")}
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="John Smith" 
+                                                        alt="Author"
+                                                    />
+                                                    <img 
+                                                        src={require("../../assets/images/author4.jpg")} 
+                                                        data-toggle="tooltip" 
+                                                        data-placement="top" 
+                                                        title="John Doe" 
+                                                        alt="Author"
+                                                    />
+                                                </div>
+                                                
+                                                <div className="schedule-info">
+                                                    <h3>Digital World Event Information</h3>
+
+                                                    <ul>
+                                                        <li><i className="icofont-user-suited"></i> By <span>EnvyTheme Team</span> of USA Inc</li>
+                                                        <li><i className="icofont-wall-clock"></i> 13:00AM - 20:00PM</li>
+                                                    </ul>
+                                                </div>
+                                            </Link>
+                                            
+                                            <div className="accordion-content">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+
+                                                <div className="row h-100 align-items-center">
+                                                    <div className="col-lg-6 col-md-7">
+                                                        <div className="location">
+                                                            <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div className="col-lg-6 col-md-5 text-right">
+                                                        <Link to="#" className="btn btn-primary">View Details</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>	
                                 </div>
                             </div>
                         </div>
-
-                        {/*<div className="col-lg-12">
-                            <div className="btn-box">
-                                <Link to="#" className="btn btn-primary">Connect Via Instagram</Link>
-                                <Link to="#" className="btn btn-secondary">Connect Via Twitter</Link>
-                            </div>
-                        </div>*/}
                     </div>
-                </div>
 
-                <div className="shape1"><img src={require("../../assets/images/shapes/1.png")} alt="shape1" /></div>
-                <div className="shape2 rotateme"><img src={require("../../assets/images/shapes/2.png")} alt="shape2" /></div>
-                <div className="shape3 rotateme"><img src={require("../../assets/images/shapes/3.png")} alt="shape3" /></div>
-                <div className="shape4"><img src={require("../../assets/images/shapes/4.png")} alt="shape4" /></div>
-            </section>
+                    {/*<div className="col-lg-12">
+                        <div className="btn-box">
+                            <Link to="#" className="btn btn-primary">Connect Via Instagram</Link>
+                            <Link to="#" className="btn btn-secondary">Connect Via Twitter</Link>
+                        </div>
+                    </div>*/}
+                </div>
+            </div>
+
+            <div className="shape1"><img src={require("../../assets/images/shapes/1.png")} alt="shape1" /></div>
+            <div className="shape2 rotateme"><img src={require("../../assets/images/shapes/2.png")} alt="shape2" /></div>
+            <div className="shape3 rotateme"><img src={require("../../assets/images/shapes/3.png")} alt="shape3" /></div>
+            <div className="shape4"><img src={require("../../assets/images/shapes/4.png")} alt="shape4" /></div>
+        </section>
         );
     }
 }

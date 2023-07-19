@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ModalVideo from 'react-modal-video';
-import spsGujaratSection from '../../assets/images/SPS_Logo_GS.png';
-import spsLogo from '../../assets/images/SPS_logo.png';
-import spsSou from '../../assets/images/sps_sou.png';
-import sou from '../../assets/images/sou-sb.png';
-import ieee_gs from '../../assets/images/IEEE-Gujarat-Section.png';
+import spsGujaratSection from '../../assets/images/IEEE SPS GS Logo.png';
+import spsSou from '../../assets/images/IEEE SPS SOU.png';
+import ieeesou from '../../assets/images/IEEE sou.png';
+import ieee_gs from '../../assets/images/IEEE Gujarat Section Logo.png';
+import mainVideo from '../../assets/images/main-bg.mp4'; // Replace 'main-video.mp4' with the actual video file path
+
 import '../../assets/css/Header.css'
 class MainBanner extends React.Component {
 
@@ -60,31 +61,32 @@ class MainBanner extends React.Component {
                 />
                 
                 <div className="main-banner item-bg1">
+                <div className="video-container">
+            <video autoPlay muted loop className="video-background">
+              <source src={mainVideo} type="video/mp4" />
+              {/* Add additional source tags for other video formats (e.g., WebM, Ogg) if needed */}
+              Your browser does not support the video tag.
+            </video>
+          </div>
                     <div className="d-table">
                     
                         <div className="d-table-cell">
-                            <div className="container">
-                                    <div className="logo-container">
-	                                        <div class="item-logo">
-                                                <a href="https://ieeespsgs.org/" target="_blank"><img class="image-logo"  src={spsGujaratSection} alt="SPS Gujarat Section"/></a>
-	                                        </div>
-	                                        <div class="item-logo">
-                                                <a href="https://ieeegujaratsection.org/" target="_blank"><img class="image-logo" src={ieee_gs} alt="IEEE GS"/></a>
-	                                        </div>
-	                                        <div class="item-logo">
-                                                <a href="https://ieee.socet.edu.in/about-socet-sb/" target="_blank"><img class="image-logo" src={sou} alt="Sou SB"/></a>
-	                                        </div>
-	                                        <div class="item-logo">
-                                                <a href="https://ieee.socet.edu.in/" target="_blank"><img class="image-logo" src={spsSou} alt="SPS Sou"/></a>
-	                                        </div>
-                                            <div class="item-logo">
-                                                <a href="https://ieeespsgs.org/" target="_blank"><img class="image-logo"  src={spsGujaratSection} alt="SPS Gujarat Section"/></a>
-	                                        </div>
-                                            
-                                        {/*<img src={spsLogo} alt="SPS Logo" />*/}
                                     
-                                    </div>
-                              
+                        <header className="header">
+                            <div className="header__container"> {/* New container div */}
+                                <div className="header__logo">
+                                <div className="logo-container">
+                                  <img src={spsGujaratSection} alt="SPS Gujarat Section" style={{ marginLeft: '60px' }} />
+                                  <img src={ieee_gs} alt="IEEE GS" style={{ height: '110px' }}/>
+                                  {/*<img src={spsLogo} alt="SPS Logo" />*/}
+                                  <img src={ieeesou} alt="Sou SB" style={{ width: '600px', height: '70px' }} />
+                                  <img src={spsSou} alt="SPS Sou" style={{ marginLeft: '40px' }} />
+                                </div>
+                                </div>
+                            </div>
+                        </header>
+                            <div className="container">
+                            
                                     
                                 <div className="main-banner-content">
                                 

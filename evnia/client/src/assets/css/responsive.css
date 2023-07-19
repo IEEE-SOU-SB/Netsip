@@ -40,7 +40,7 @@
   }
   .main-banner {
     height: 100%;
-    padding-top: 150px;
+    /* padding-top: 150px; */
     padding-bottom: 100px;
   }
   .main-banner-content {

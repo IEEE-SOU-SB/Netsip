@@ -63,7 +63,6 @@ class MainBanner extends React.Component {
                     onClose={() => this.setState({isOpen: false})} 
                 />
 
-
                 <div className="main-banner item-bg1">
 
                     <div className="video-container">

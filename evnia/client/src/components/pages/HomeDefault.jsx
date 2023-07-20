@@ -7,7 +7,7 @@ import GoTop from '../Shared/GoTop';
 import Footer from '../Common/Footer';
 import EventSchedules from '../HomeDefault/EventSchedules';
 import FunFact from '../Common/FunFact';
-import Pricing from '../HomeDefault/Pricing';
+// import Pricing from '../HomeDefault/Pricing';
 import lax from 'lax.js';
 // import Partner from '../Common/Partner';
 // import LatestNews from '../HomeDefault/LatestNews';

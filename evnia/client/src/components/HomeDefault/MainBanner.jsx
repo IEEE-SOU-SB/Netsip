@@ -76,7 +76,7 @@ class MainBanner extends React.Component {
                             <div className="header__container"> {/* New container div */}
                                 <div className="header__logo">
                                 <div className="logo-container">
-                                  <img src={spsGujaratSection} alt="SPS Gujarat Section" style={{ marginLeft: '60px' }} />
+                                  <img src={spsGujaratSection} alt="SPS Gujarat Section" style={{ marginLeft: '34px' }} />
                                   <img src={ieee_gs} alt="IEEE GS" style={{ height: '110px' }}/>
                                   {/*<img src={spsLogo} alt="SPS Logo" />*/}
                                   <img src={ieeesou} alt="Sou SB" style={{ width: '600px', height: '70px' }} />

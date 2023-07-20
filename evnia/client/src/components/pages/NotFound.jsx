@@ -11,7 +11,7 @@ class NotFound extends React.Component {
                         <h3>Oops! Page Not Found</h3>
                         <p>The page you were looking for could not be found.</p>
                         <Link 
-                            to="/Netship" 
+                            to="/Netsip" 
                             className="btn btn-primary"
                             onClick={this.toggleNavbar}
                         >

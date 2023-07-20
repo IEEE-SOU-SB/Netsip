@@ -754,9 +754,9 @@ Main Banner CSS
   z-index: -2;
 }
 
-/* .item-bg1 {
+.item-bg1 {
   background-image: url("../images/main-bg1.jpg");
-} */
+} 
 
 .item-bg2 {
   background-image: url("../images/main-bg2.jpg");
@@ -1423,8 +1423,8 @@ Why Choose Us CSS
 }
 .why-us-image
 {
-  width: 45%;
-  height: 45%;
+  width: 40%;
+  height: 40%;
 }
 
 .why-choose-us .slideshow li span {
@@ -1476,7 +1476,7 @@ Why Choose Us CSS
   z-index: 1;
   border-left: 1px solid rgba(255, 255, 255, 0.2);
   text-align: center;
-  height: 450px;
+  height: 750px;
 }
 
 .single-box .d-table-cell {

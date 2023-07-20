@@ -67,50 +67,50 @@ class Sponsor extends React.Component {
                                 className="platinum-partner-slides owl-carousel owl-theme"
                                 {...options}
                             >
-                                <div className="col-lg-12 col-md-12">
+                                {/* <div className="col-lg-12 col-md-12">
                                     <div className="partner-item">
                                         <Link to="#">
                                             <img src={require("../../assets/images/platinum-partner1.png")} alt="sponsor" />
                                             <img src={require("../../assets/images/platinum-partner1.png")} alt="sponsor" />
                                         </Link>
                                     </div>
-                                </div>
+                                </div> */}
 
-                                <div className="col-lg-12 col-md-12">
+                                {/* <div className="col-lg-12 col-md-12">
                                     <div className="partner-item">
                                         <Link to="#">
                                             <img src={require("../../assets/images/platinum-partner2.png")} alt="sponsor" />
                                             <img src={require("../../assets/images/platinum-partner2.png")} alt="sponsor" />
                                         </Link>
                                     </div>
-                                </div>
+                                </div> */}
 
-                                <div className="col-lg-12 col-md-12">
+                                {/* <div className="col-lg-12 col-md-12">
                                     <div className="partner-item">
                                         <Link to="#">
                                             <img src={require("../../assets/images/platinum-partner3.png")} alt="sponsor" />
                                             <img src={require("../../assets/images/platinum-partner3.png")} alt="sponsor" />
                                         </Link>
                                     </div>
-                                </div>
+                                </div> */}
 
-                                <div className="col-lg-12 col-md-12">
+                                {/* <div className="col-lg-12 col-md-12">
                                     <div className="partner-item">
                                         <Link to="#">
                                             <img src={require("../../assets/images/platinum-partner4.png")} alt="sponsor" />
                                             <img src={require("../../assets/images/platinum-partner4.png")} alt="sponsor" />
                                         </Link>
                                     </div>
-                                </div>
+                                </div> */}
 
-                                <div className="col-lg-12 col-md-12">
+                                {/* <div className="col-lg-12 col-md-12">
                                     <div className="partner-item">
                                         <Link to="#">
                                             <img src={require("../../assets/images/platinum-partner5.png")} alt="sponsor" />
                                             <img src={require("../../assets/images/platinum-partner5.png")} alt="sponsor" />
                                         </Link>
                                     </div>
-                                </div>
+                                </div> */}
                             </OwlCarousel>
 
                             <div className="col-lg-12">

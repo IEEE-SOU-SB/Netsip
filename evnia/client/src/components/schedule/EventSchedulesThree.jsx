@@ -18,7 +18,7 @@ class EventSchedulesThree extends React.Component {
 
                                 <div className="schedule-item-wrapper">
                                     <div className="schedule-content">
-                                        <div className="author">
+                                        {/* <div className="author">
                                             <img 
                                                 src={require("../../assets/images/author1.jpg")}
                                                 data-toggle="tooltip" 
@@ -26,25 +26,25 @@ class EventSchedulesThree extends React.Component {
                                                 title="Steven Smith" 
                                                 alt="Schedules" 
                                             />
-                                        </div>
+                                        </div> */}
                                         
                                         <div className="schedule-info">
-                                            <h3><Link to="#">Digital Marketing Theory</Link></h3>
+                                            <h3><Link to="#">Inauguration</Link></h3>
 
                                             <ul>
-                                                <li>
+                                                {/* <li>
                                                     <i className="icofont-user-suited"></i> 
                                                     By <Link to="#">Riley</Link> CEO of EnvyTheme
-                                                </li>
+                                                </li> */}
                                                 <li>
-                                                    <i className="icofont-wall-clock"></i> 13:00AM - 20:00PM
+                                                    <i className="icofont-wall-clock"></i> 09:30AM - 10:00AM
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
 
                                     <div className="schedule-content">
-                                        <div className="author author-multi">
+                                        {/* <div className="author author-multi">
                                             <img 
                                                 src={require("../../assets/images/author5.jpg")} 
                                                 data-toggle="tooltip" 
@@ -73,27 +73,27 @@ class EventSchedulesThree extends React.Component {
                                                 title="John Doe" 
                                                 alt="Schedules" 
                                             />
-                                        </div>
+                                        </div> */}
                                         
                                         <div className="schedule-info">
                                             <h3>
-                                                <Link to="#">Digital World Event Information</Link>
+                                                <Link to="#">Dr. Angshul Majumdar(Keynote Address) Professor, IIIT Delhi</Link>
                                             </h3>
 
                                             <ul>
-                                                <li>
+                                                {/* <li>
                                                     <i className="icofont-user-suited"></i> 
                                                     By <Link to="#">Gilbert</Link> CEO of EnvyTheme
-                                                </li>
+                                                </li> */}
                                                 <li>
-                                                    <i className="icofont-wall-clock"></i> 13:00AM - 20:00PM
+                                                    <i className="icofont-wall-clock"></i> 10:00AM - 11:30AM
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
 
                                     <div className="schedule-content">
-                                        <div className="author author-multi">
+                                        {/* <div className="author author-multi">
                                             <img 
                                                 src={require("../../assets/images/author8.jpg")} 
                                                 data-toggle="tooltip" 
@@ -108,20 +108,90 @@ class EventSchedulesThree extends React.Component {
                                                 title="Jonaton Smith" 
                                                 alt="Schedules" 
                                             />
-                                        </div>
+                                        </div> */}
                                         
                                         <div className="schedule-info">
                                             <h3>
-                                                <Link to="#">Digital Marketing Theory</Link>
+                                                <Link to="#">Dr. Harshal Oza, Director R&D for RoboTechMech Solutions Pvt. Ltd. (RTM)</Link>
                                             </h3>
 
                                             <ul>
-                                                <li>
+                                                {/* <li>
                                                     <i className="icofont-user-suited"></i> 
                                                     By <Link to="#">Brian</Link> CEO of EnvyTheme
-                                                </li>
+                                                </li> */}
                                                 <li>
-                                                    <i className="icofont-wall-clock"></i> 13:00AM - 20:00PM
+                                                    <i className="icofont-wall-clock"></i> 11:45AM - 01:15PM
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div className="schedule-content">
+                                        {/* <div className="author author-multi">
+                                            <img 
+                                                src={require("../../assets/images/author8.jpg")} 
+                                                data-toggle="tooltip" 
+                                                data-placement="top" 
+                                                title="Steven Lucy" 
+                                                alt="Schedules" 
+                                            />
+                                            <img 
+                                                src={require("../../assets/images/author9.jpg")} 
+                                                data-toggle="tooltip" 
+                                                data-placement="top" 
+                                                title="Jonaton Smith" 
+                                                alt="Schedules" 
+                                            />
+                                        </div> */}
+                                        
+                                        <div className="schedule-info">
+                                            <h3>
+                                                <Link to="#">Session 3</Link>
+                                            </h3>
+
+                                            <ul>
+                                                {/* <li>
+                                                    <i className="icofont-user-suited"></i> 
+                                                    By <Link to="#">Brian</Link> CEO of EnvyTheme
+                                                </li> */}
+                                                <li>
+                                                    <i className="icofont-wall-clock"></i> 02:00PM - 03:30PM
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div className="schedule-content">
+                                        {/* <div className="author author-multi">
+                                            <img 
+                                                src={require("../../assets/images/author8.jpg")} 
+                                                data-toggle="tooltip" 
+                                                data-placement="top" 
+                                                title="Steven Lucy" 
+                                                alt="Schedules" 
+                                            />
+                                            <img 
+                                                src={require("../../assets/images/author9.jpg")} 
+                                                data-toggle="tooltip" 
+                                                data-placement="top" 
+                                                title="Jonaton Smith" 
+                                                alt="Schedules" 
+                                            />
+                                        </div> */}
+                                        
+                                        <div className="schedule-info">
+                                            <h3>
+                                                <Link to="#">Session 4</Link>
+                                            </h3>
+
+                                            <ul>
+                                                {/* <li>
+                                                    <i className="icofont-user-suited"></i> 
+                                                    By <Link to="#">Brian</Link> CEO of EnvyTheme
+                                                </li> */}
+                                                <li>
+                                                    <i className="icofont-wall-clock"></i> 03:45PM - 05:15PM
                                                 </li>
                                             </ul>
                                         </div>
@@ -141,7 +211,7 @@ class EventSchedulesThree extends React.Component {
 
                                 <div className="schedule-item-wrapper">
                                     <div className="schedule-content">
-                                        <div className="author">
+                                        {/* <div className="author">
                                             <img 
                                                 src={require("../../assets/images/author1.jpg")} 
                                                 data-toggle="tooltip" 
@@ -149,27 +219,27 @@ class EventSchedulesThree extends React.Component {
                                                 title="Steven Smith" 
                                                 alt="Schedules" 
                                             />
-                                        </div>
+                                        </div> */}
                                         
                                         <div className="schedule-info">
                                             <h3>
-                                                <Link to="#">Digital Marketing Theory</Link>
+                                                <Link to="#">Dr Mahesh Anand</Link>
                                             </h3>
 
                                             <ul>
-                                                <li>
+                                                {/* <li>
                                                     <i className="icofont-user-suited"></i> 
                                                     By <Link to="#">Roberto</Link> CEO of EnvyTheme
-                                                </li>
+                                                </li> */}
                                                 <li>
-                                                    <i className="icofont-wall-clock"></i> 13:00AM - 20:00PM
+                                                    <i className="icofont-wall-clock"></i> 10:00AM - 11:30AM
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
 
                                     <div className="schedule-content">
-                                        <div className="author author-multi">
+                                        {/* <div className="author author-multi">
                                             <img 
                                                 src={require("../../assets/images/author5.jpg")} 
                                                 data-toggle="tooltip" 
@@ -198,27 +268,27 @@ class EventSchedulesThree extends React.Component {
                                                 title="John Doe" 
                                                 alt="Schedules" 
                                             />
-                                        </div>
+                                        </div> */}
                                         
                                         <div className="schedule-info">
                                             <h3>
-                                                <Link to="#">Digital World Event Information</Link>
+                                                <Link to="#">Dr. Nalin Sharma</Link>
                                             </h3>
 
                                             <ul>
-                                                <li>
+                                                {/* <li>
                                                     <i className="icofont-user-suited"></i> 
                                                     By <Link to="#">Ramon</Link> CEO of EnvyTheme
-                                                </li>
+                                                </li> */}
                                                 <li>
-                                                    <i className="icofont-wall-clock"></i> 13:00AM - 20:00PM
+                                                    <i className="icofont-wall-clock"></i> 11:45PM - 01:15PM
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
 
                                     <div className="schedule-content">
-                                        <div className="author author-multi">
+                                        {/* <div className="author author-multi">
                                             <img 
                                                 src={require("../../assets/images/author8.jpg")} 
                                                 data-toggle="tooltip" 
@@ -233,22 +303,93 @@ class EventSchedulesThree extends React.Component {
                                                 title="Jonaton Smith" 
                                                 alt="Schedules" 
                                             />
-                                        </div>
+                                        </div> */}
                                         
                                         <div className="schedule-info">
-                                            <h3><Link to="#">Digital Marketing Theory</Link></h3>
+                                            <h3><Link to="#">Session 7</Link></h3>
 
                                             <ul>
-                                                <li>
+                                                {/* <li>
                                                     <i className="icofont-user-suited"></i> 
                                                     By <Link to="#">Miles</Link> CEO of EnvyTheme
-                                                </li>
+                                                </li> */}
                                                 <li>
-                                                    <i className="icofont-wall-clock"></i> 13:00AM - 20:00PM
+                                                    <i className="icofont-wall-clock"></i> 02:00PM - 03:30PM
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
+
+
+                                    <div className="schedule-content">
+                                        {/* <div className="author author-multi">
+                                            <img 
+                                                src={require("../../assets/images/author8.jpg")} 
+                                                data-toggle="tooltip" 
+                                                data-placement="top" 
+                                                title="Steven Lucy" 
+                                                alt="Schedules" 
+                                            />
+                                            <img 
+                                                src={require("../../assets/images/author9.jpg")} 
+                                                data-toggle="tooltip" 
+                                                data-placement="top" 
+                                                title="Jonaton Smith" 
+                                                alt="Schedules" 
+                                            />
+                                        </div> */}
+                                        
+                                        <div className="schedule-info">
+                                            <h3><Link to="#">Validcatory Session and Certificate Distribution</Link></h3>
+
+                                            <ul>
+                                                {/* <li>
+                                                    <i className="icofont-user-suited"></i> 
+                                                    By <Link to="#">Miles</Link> CEO of EnvyTheme
+                                                </li> */}
+                                                <li>
+                                                    <i className="icofont-wall-clock"></i> 03:45PM - 05:15PM
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    
+                                    <div className="schedule-content">
+                                        {/* <div className="author author-multi">
+                                            <img 
+                                                src={require("../../assets/images/author8.jpg")} 
+                                                data-toggle="tooltip" 
+                                                data-placement="top" 
+                                                title="Steven Lucy" 
+                                                alt="Schedules" 
+                                            />
+                                            <img 
+                                                src={require("../../assets/images/author9.jpg")} 
+                                                data-toggle="tooltip" 
+                                                data-placement="top" 
+                                                title="Jonaton Smith" 
+                                                alt="Schedules" 
+                                            />
+                                        </div> */}
+                                        
+                                        <div className="schedule-info">
+                                            {/* <h3><Link to="#">Validcatory Session and Certificate Distribution</Link></h3> */}
+
+                                            <ul>
+                                                {/* <li>
+                                                    <i className="icofont-user-suited"></i> 
+                                                    By <Link to="#">Miles</Link> CEO of EnvyTheme
+                                                </li> */}
+                                                {/* <li>
+                                                    <i className="icofont-wall-clock"></i> 03:45PM - 05:15PM
+                                                </li> */}
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+                                   
                                 </div>
                             </div>
                         </div>

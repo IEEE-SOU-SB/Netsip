@@ -43,7 +43,7 @@ class HomeDefault extends React.Component {
                 {/* Pricing Area 
                 <Pricing />*/}
                 {/* Partner Area */}
-                <Partner />
+                {/* <Partner /> */}
                 {/* Blog Area 
                 <LatestNews />*/}
                 {/* Buy Tickets Area 

@@ -19,15 +19,16 @@ class About extends React.Component {
     render(){
         return (
             <section className="about-area ptb-120 bg-image">
+                
                 <div className="container">
                     <div className="row h-100 align-items-center">
                         <div className="col-lg-6">
                             <div className="about-content">
-                                <span>Join The Event</span>
+                                <span>About The Event</span>
                                 <h2>We Create and <b>Turn</b> Into Reality</h2>
-                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                <p>NeTSiP is a IEEE Signal Processing Society initiative is aimed to provide an opportunity for students, faculties, scientists, and engineers to interact with leading researchers in communication, speech, biometrics, and image and signal processing areas.</p>
                                 
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p>It includes invited talks from experts in these and related areas. Researchers in academic, government, and industrial organizations are encouraged to participate in the program.</p>
 
                                
 

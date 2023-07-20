@@ -512,8 +512,15 @@ Navbar CSS
   width: 100%;
   z-index: 999;
   height: auto;
+  
 }
+.navbar>.container
+{
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.1);
 
+}
 .elkevent-nav nav ul {
   padding: 0;
   margin: 0;
@@ -523,6 +530,7 @@ Navbar CSS
 .elkevent-nav nav .navbar-nav .nav-item {
   position: relative;
   padding: 15px 0;
+  
 }
 
 .elkevent-nav nav .navbar-nav .nav-item a {
@@ -536,6 +544,7 @@ Navbar CSS
   padding-bottom: 0;
   margin-left: 15px;
   margin-right: 15px;
+  
 }
 
 .elkevent-nav nav .navbar-nav .nav-item a:hover, .elkevent-nav nav .navbar-nav .nav-item a:focus, .elkevent-nav nav .navbar-nav .nav-item a.active {
@@ -797,8 +806,8 @@ Main Banner CSS
 }
 
 .main-banner-content h1 span {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #0073AE));
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #0073AE 80%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #74BB23));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #74BB23 80%);
   background-size: 100px 1.2em !important;
 }
 
@@ -1411,6 +1420,11 @@ Why Choose Us CSS
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+.why-us-image
+{
+  width: 45%;
+  height: 45%;
 }
 
 .why-choose-us .slideshow li span {

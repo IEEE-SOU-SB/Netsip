@@ -1,6 +1,6 @@
 import React from 'react';
 import lax from 'lax.js';
-import LaxButton from '../Shared/LaxButton';
+// import LaxButton from '../Shared/LaxButton';
  
 class About extends React.Component {
 

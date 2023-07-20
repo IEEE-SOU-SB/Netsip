@@ -1,7 +1,7 @@
 import React from 'react';
 import lax from 'lax.js';
-import { Link } from 'react-router-dom';
-import LaxButton from '../Shared/LaxButton';
+// import { Link } from 'react-router-dom';
+// import LaxButton from '../Shared/LaxButton';
  
 class About extends React.Component {
     

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import lax from 'lax.js';
 import OwlCarousel from 'react-owl-carousel3';
 import PlatinumSponsors from './PlatinumSponsors';
-import GoldSponsors from '../LaxButton/GoldSponsors';
+// import GoldSponsors from '../LaxButton/GoldSponsors';
 
 const options = {
     loop: true,

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, withRouter, NavLink } from 'react-router-dom';
-import logo from '../../assets/images/logo.png';
+// import logo from '../../assets/images/logo.png';
 import '../../assets/css/logo.css'
 
  

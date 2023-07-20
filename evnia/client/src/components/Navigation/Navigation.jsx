@@ -54,7 +54,7 @@ class Navigation extends React.Component {
                     <nav className="navbar navbar-expand-md navbar-light">
                         
                         <div className="container">
-                            <Link className="navbar-brand" to="/">
+                            <Link className="navbar-brand" to="/Netsip">
                                 <img src={require("../../assets/images/netsip-01.png")} alt="Netsip" class="logo-image" />
                                 
 
@@ -78,7 +78,7 @@ class Navigation extends React.Component {
                                     <li className="nav-item">
                                         <Link 
                                             exact="true" 
-                                            to="/" 
+                                            to="/Netsip" 
                                             onClick={this.toggleOpen} 
                                             className="nav-link"
                                         >

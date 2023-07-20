@@ -57,7 +57,7 @@ class Footer extends React.Component {
                         <div className="col-lg-12">
                             <div className="copyright-area">
                                 <div className="logo">
-                                    <Link to="/">
+                                    <Link to="/Netsip">
                                         <img src={require("../../assets/images/logo.png")} alt="logo" />
                                     </Link>
                                 </div>

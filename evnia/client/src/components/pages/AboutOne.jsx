@@ -8,8 +8,8 @@ import Footer from '../Common/Footer';
 import FunFact from '../Common/FunFact';
 import lax from 'lax.js';
 import Partner from '../Common/Partner';
-import BuyTicket from '../Common/BuyTicket';
-import Subscribe from '../Common/Subscribe';
+// import BuyTicket from '../Common/BuyTicket';
+// import Subscribe from '../Common/Subscribe';
 import Cta from '../Common/Cta';
  
 class AboutOne extends React.Component {
@@ -40,10 +40,10 @@ class AboutOne extends React.Component {
                 <FunFact />
                 {/* Pricing Area */}
                 <Partner />
-                {/* Buy Tickets Area */}
-                <BuyTicket />
-                {/* Subscribe Area */}
-                <Subscribe />
+                {/* Buy Tickets Area 
+                <BuyTicket />*/}
+                {/* Subscribe Area 
+                <Subscribe />*/}
 
                 <Footer />
 

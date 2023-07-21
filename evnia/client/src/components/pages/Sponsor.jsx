@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import lax from 'lax.js';
 import OwlCarousel from 'react-owl-carousel3';
 import PlatinumSponsors from '../LaxButton/PlatinumSponsors';
-import GoldSponsors from '../LaxButton/GoldSponsors';
+// import GoldSponsors from '../LaxButton/GoldSponsors';
 import Footer from '../Common/Footer';
 
 const options = {
@@ -45,11 +45,11 @@ class Sponsor extends React.Component {
             <React.Fragment>
                 <div className="page-title-area item-bg2">
                     <div className="container">
-                        <h1>Sponsors</h1>
+                        <h1>Collaboration</h1>
                         <span>Check Who Makes This Event Possible!</span>
                         <ul>
                             <li><Link to="/">Home</Link></li>
-                            <li>Sponsors</li>
+                            <li>Collaboration</li>
                         </ul>
                     </div>
                 </div>
@@ -67,57 +67,57 @@ class Sponsor extends React.Component {
                                 className="platinum-partner-slides owl-carousel owl-theme"
                                 {...options}
                             >
-                                <div className="col-lg-12 col-md-12">
+                                {/* <div className="col-lg-12 col-md-12">
                                     <div className="partner-item">
                                         <Link to="#">
                                             <img src={require("../../assets/images/platinum-partner1.png")} alt="sponsor" />
                                             <img src={require("../../assets/images/platinum-partner1.png")} alt="sponsor" />
                                         </Link>
                                     </div>
-                                </div>
+                                </div> */}
 
-                                <div className="col-lg-12 col-md-12">
+                                {/* <div className="col-lg-12 col-md-12">
                                     <div className="partner-item">
                                         <Link to="#">
                                             <img src={require("../../assets/images/platinum-partner2.png")} alt="sponsor" />
                                             <img src={require("../../assets/images/platinum-partner2.png")} alt="sponsor" />
                                         </Link>
                                     </div>
-                                </div>
+                                </div> */}
 
-                                <div className="col-lg-12 col-md-12">
+                                {/* <div className="col-lg-12 col-md-12">
                                     <div className="partner-item">
                                         <Link to="#">
                                             <img src={require("../../assets/images/platinum-partner3.png")} alt="sponsor" />
                                             <img src={require("../../assets/images/platinum-partner3.png")} alt="sponsor" />
                                         </Link>
                                     </div>
-                                </div>
+                                </div> */}
 
-                                <div className="col-lg-12 col-md-12">
+                                {/* <div className="col-lg-12 col-md-12">
                                     <div className="partner-item">
                                         <Link to="#">
                                             <img src={require("../../assets/images/platinum-partner4.png")} alt="sponsor" />
                                             <img src={require("../../assets/images/platinum-partner4.png")} alt="sponsor" />
                                         </Link>
                                     </div>
-                                </div>
+                                </div> */}
 
-                                <div className="col-lg-12 col-md-12">
+                                {/* <div className="col-lg-12 col-md-12">
                                     <div className="partner-item">
                                         <Link to="#">
                                             <img src={require("../../assets/images/platinum-partner5.png")} alt="sponsor" />
                                             <img src={require("../../assets/images/platinum-partner5.png")} alt="sponsor" />
                                         </Link>
                                     </div>
-                                </div>
+                                </div> */}
                             </OwlCarousel>
 
                             <div className="col-lg-12">
                                 <div className="border"></div>
                             </div>
 
-                            <div className="col-lg-12">
+                            {/*<div className="col-lg-12">
                                 <div className="partner-title gold-sponsor">
                                     <GoldSponsors />
                                 </div>
@@ -171,7 +171,7 @@ class Sponsor extends React.Component {
                                         </Link>
                                     </div>
                                 </div>
-                            </OwlCarousel>
+                            </OwlCarousel>*/}
                         </div>
                     </div>
                 </section>

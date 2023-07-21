@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, withRouter, NavLink } from 'react-router-dom';
-import logo from '../../assets/images/logo.png';
+// import logo from '../../assets/images/logo.png';
+import '../../assets/css/logo.css'
+
  
 class Navigation extends React.Component {
 
@@ -45,14 +47,17 @@ class Navigation extends React.Component {
         const { collapsed } = this.state;
         const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
         const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
-        const menuClass = `dropdown-menu${this.state.isOpen ? " show" : ""}`;
+        // const menuClass = `dropdown-menu${this.state.isOpen ? " show" : ""}`;
         return (
             <header id="header" className="header-area">
                 <div id="navbar" className="elkevent-nav">
                     <nav className="navbar navbar-expand-md navbar-light">
+                        
                         <div className="container">
-                            <Link className="navbar-brand" to="/">
-                                {<img src={logo} alt="logo" />}
+                            <Link className="navbar-brand" to="/Netsip">
+                                <img src={require("../../assets/images/netsip-01.png")} alt="Netsip" class="logo-image" />
+                                
+
                             </Link>
 
                             <button 
@@ -73,7 +78,7 @@ class Navigation extends React.Component {
                                     <li className="nav-item">
                                         <Link 
                                             exact="true" 
-                                            to="/" 
+                                            to="/Netsip" 
                                             onClick={this.toggleOpen} 
                                             className="nav-link"
                                         >
@@ -120,11 +125,11 @@ class Navigation extends React.Component {
 
                                     <li className="nav-item">
                                         <NavLink 
-                                            to="/sponsors" 
+                                            to="/about-2" 
                                             className="nav-link" 
                                             onClick={this.toggleNavbar}
                                         >
-                                            Sponsor
+                                           About Us
                                         </NavLink>
                                     </li>
                                 

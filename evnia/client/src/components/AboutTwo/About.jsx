@@ -1,6 +1,6 @@
 import React from 'react';
 import lax from 'lax.js';
-import LaxButton from '../Shared/LaxButton';
+// import LaxButton from '../Shared/LaxButton';
  
 class About extends React.Component {
 
@@ -29,9 +29,9 @@ class About extends React.Component {
                                 
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 
-                                <div className="signature">
+                                {/* <div className="signature">
                                     <img src={require("../../assets/images/signature.png")} alt="about" />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
 
@@ -39,7 +39,7 @@ class About extends React.Component {
                             <div className="about-image">
                                 <img src={require("../../assets/images/about3.jpg")} className="about-img1" alt="about" />
 
-                                <LaxButton />
+                               
                             </div>
                         </div>
                     </div>

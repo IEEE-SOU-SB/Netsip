@@ -77,6 +77,15 @@ a:hover, a:focus {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.logo
+{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 2%;
+  margin-top: 2%;
+  max-width: 100px;
+  height: auto;
+} 
 
 img {
   max-width: 100%;
@@ -145,7 +154,7 @@ label {
   position: absolute;
   top: 0;
   width: 51%;
-  background: #FF2D55;
+  background: #74BB23;
   height: 100%;
   z-index: -1;
   -webkit-transition: 0.5s;
@@ -259,7 +268,7 @@ label {
 }
 
 .section-title span {
-  color: #FF2D55;
+  color: #0073AE;
   letter-spacing: 1px;
   font-size: 16px;
   text-transform: uppercase;
@@ -273,8 +282,8 @@ label {
 }
 
 .section-title h2 b {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #FF2D55));
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #0073AE));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #0073AE 80%);
   font-weight: unset;
   background-size: 100px 1.07em !important;
 }
@@ -304,7 +313,7 @@ label {
   position: relative;
   width: 20px;
   height: 4px;
-  background: #FF2D55;
+  background: #0073AE;
   display: block;
 }
 
@@ -359,8 +368,8 @@ label {
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background: #FF2D55;
-  border-color: #FF2D55;
+  background: #0073AE;
+  border-color: #0073AE;
 }
 
 /*form-control*/
@@ -378,7 +387,7 @@ label {
 .form-control:hover, .form-control:focus, .form-control.active {
   -webkit-box-shadow: unset;
           box-shadow: unset;
-  border-color: #FF2D55;
+  border-color: #0073AE;
 }
 
 /*================================================
@@ -405,7 +414,7 @@ Preloader CSS
   margin: -80px 0 0 -75px;
   border-radius: 50%;
   border: 7px solid transparent;
-  border-top-color: #FF2D55;
+  border-top-color: #74BB23;
   -webkit-animation: spin 1.7s linear infinite;
           animation: spin 1.7s linear infinite;
   z-index: 11;
@@ -420,7 +429,7 @@ Preloader CSS
   bottom: 5px;
   border-radius: 50%;
   border: 7px solid transparent;
-  border-top-color: #efa506;
+  border-top-color: #ffffff;
   -webkit-animation: spin-reverse .6s linear infinite;
           animation: spin-reverse .6s linear infinite;
 }
@@ -434,7 +443,7 @@ Preloader CSS
   bottom: 15px;
   border-radius: 50%;
   border: 7px solid transparent;
-  border-top-color: #00acee;
+  border-top-color: #0073AE;
   -webkit-animation: spin 1s linear infinite;
           animation: spin 1s linear infinite;
 }
@@ -491,7 +500,7 @@ Navbar CSS
 }
 
 .elkevent-mobile-nav.mean-container .mean-nav ul li a.active {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .elkevent-nav {
@@ -503,8 +512,15 @@ Navbar CSS
   width: 100%;
   z-index: 999;
   height: auto;
+  
 }
+.navbar>.container
+{
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.1);
 
+}
 .elkevent-nav nav ul {
   padding: 0;
   margin: 0;
@@ -514,6 +530,7 @@ Navbar CSS
 .elkevent-nav nav .navbar-nav .nav-item {
   position: relative;
   padding: 15px 0;
+  
 }
 
 .elkevent-nav nav .navbar-nav .nav-item a {
@@ -527,14 +544,15 @@ Navbar CSS
   padding-bottom: 0;
   margin-left: 15px;
   margin-right: 15px;
+  
 }
 
 .elkevent-nav nav .navbar-nav .nav-item a:hover, .elkevent-nav nav .navbar-nav .nav-item a:focus, .elkevent-nav nav .navbar-nav .nav-item a.active {
-  color: #FF2D55;
+  color:  #74BB23;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item:hover a {
-  color: #FF2D55;
+  color:  #74BB23;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu {
@@ -573,7 +591,7 @@ Navbar CSS
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li a:focus, .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #FF2D55;
+  color: #74BB23;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -590,7 +608,7 @@ Navbar CSS
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #FF2D55;
+  color: #74BB23;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
@@ -600,7 +618,7 @@ Navbar CSS
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li:hover a {
-  color: #FF2D55;
+  color: #74BB23;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item:hover ul {
@@ -738,7 +756,7 @@ Main Banner CSS
 
 .item-bg1 {
   background-image: url("../images/main-bg1.jpg");
-}
+} 
 
 .item-bg2 {
   background-image: url("../images/main-bg2.jpg");
@@ -761,7 +779,7 @@ Main Banner CSS
   position: relative;
   z-index: 1;
 }
-
+/* 
 .main-banner-content::before {
   content: '';
   position: absolute;
@@ -778,7 +796,7 @@ Main Banner CSS
           box-sizing: border-box;
   -webkit-box-shadow: 0 60px 40px -40px rgba(0, 0, 0, 0.3);
           box-shadow: 0 60px 40px -40px rgba(0, 0, 0, 0.3);
-}
+} */
 
 .main-banner-content h1 {
   color: #ffffff;
@@ -788,8 +806,8 @@ Main Banner CSS
 }
 
 .main-banner-content h1 span {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #FF2D55));
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #74BB23));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #74BB23 80%);
   background-size: 100px 1.2em !important;
 }
 
@@ -798,7 +816,7 @@ Main Banner CSS
 }
 
 .main-banner-content h1 b:nth-of-type(2) {
-  color: #FF2D55;
+  color: #74BB23;
 }
 
 .main-banner-content h1 b:nth-of-type(3) {
@@ -826,7 +844,7 @@ Main Banner CSS
 
 .main-banner-content ul li i {
   margin-right: 3px;
-  color: #FF2D55;
+  color: #74BB23;
 }
 
 .main-banner-content ul li:last-child {
@@ -892,7 +910,7 @@ Main Banner CSS
 }
 
 .main-banner-content .button-box .video-btn:hover i, .main-banner-content .button-box .video-btn:focus i {
-  background-color: #FF2D55;
+  background-color: #0073AE;
   color: #ffffff;
 }
 
@@ -906,6 +924,7 @@ Main Banner CSS
   background: #8dc63f;
 }
 
+
 .countdown-area .event-countdown {
   position: relative;
   right: 0;
@@ -915,10 +934,11 @@ Main Banner CSS
 
 .countdown-area .event-countdown #timer div {
   margin: 0 55px;
+  
 }
 
 .countdown-area .event-countdown #timer div#seconds {
-  color: #FF2D55;
+  color: #74BB23;
 }
 
 .event-countdown {
@@ -926,7 +946,9 @@ Main Banner CSS
   right: 10%;
   bottom: 20px;
   text-align: right;
+  
 }
+
 
 .event-countdown #timer div {
   display: inline-block;
@@ -935,10 +957,11 @@ Main Banner CSS
   color: #ffffff;
   margin: 0 35px;
   position: relative;
+  
 }
 
 .event-countdown #timer div#days {
-  color: #FF2D55;
+  color: #74BB23;
 }
 
 .event-countdown #timer div#hours {
@@ -1137,7 +1160,7 @@ Main Banner CSS
 
 @-webkit-keyframes colorchange {
   0% {
-    color: #FF2D55;
+    color: #0073AE;
   }
   25% {
     color: #ffffff;
@@ -1155,7 +1178,7 @@ Main Banner CSS
 
 @keyframes colorchange {
   0% {
-    color: #FF2D55;
+    color: #0073AE;
   }
   25% {
     color: #ffffff;
@@ -1200,7 +1223,7 @@ Main Banner CSS
 }
 
 .home-slides.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #FF2D55;
+  background-color: #0073AE;
   color: #ffffff;
   opacity: 1;
   outline: 0;
@@ -1225,7 +1248,7 @@ About CSS
 }
 
 .about-content span {
-  color: #FF2D55;
+  color: #0073AE;
   letter-spacing: 1px;
   font-size: 16px;
   text-transform: uppercase;
@@ -1239,8 +1262,8 @@ About CSS
 }
 
 .about-content h2 b {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #FF2D55));
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #0073AE));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #0073AE 80%);
   font-weight: unset;
   background-size: 100px 1.05em !important;
 }
@@ -1366,7 +1389,7 @@ About CSS
 }
 
 .about-area-three .about-content ul li i {
-  color: #FF2D55;
+  color: #0073AE;
   position: absolute;
   left: 0;
   top: 50%;
@@ -1402,6 +1425,11 @@ Why Choose Us CSS
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+.why-us-image
+{
+  width: 40%;
+  height: 40%;
 }
 
 .why-choose-us .slideshow li span {
@@ -1453,7 +1481,7 @@ Why Choose Us CSS
   z-index: 1;
   border-left: 1px solid rgba(255, 255, 255, 0.2);
   text-align: center;
-  height: 450px;
+  height: 750px;
 }
 
 .single-box .d-table-cell {
@@ -1486,7 +1514,7 @@ Why Choose Us CSS
 
 .single-box .content .icon {
   font-size: 45px;
-  color: #FF2D55;
+  color: #74BB23;
 }
 
 .single-box .content h3 {
@@ -1594,7 +1622,7 @@ Why Choose Us CSS
 }
 
 .why-choose-content a {
-  color: #FF2D55;
+  color: #0073AE;
   margin-top: 15px;
 }
 
@@ -1619,7 +1647,7 @@ Why Choose Us CSS
 CTA CSS
 =================================================*/
 .cta-area {
-  background-color: #FF2D55;
+  background-color: #0073AE;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -1669,7 +1697,7 @@ Speakers CSS
 }
 
 .single-speakers .speakers-content h3 a {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .single-speakers .speakers-content h3 a:hover, .single-speakers .speakers-content h3 a:focus {
@@ -1712,7 +1740,7 @@ Speakers CSS
   height: 35px;
   line-height: 35px;
   text-align: center;
-  background-color: #FF2D55;
+  background-color: #0073AE;
   color: #ffffff;
   border-radius: 50%;
   font-size: 14px;
@@ -1736,7 +1764,7 @@ Speakers CSS
 }
 
 .single-speakers ul li a:hover, .single-speakers ul li a:focus {
-  background-color: #FF2D55;
+  background-color: #0073AE;
   color: #ffffff;
 }
 
@@ -1780,13 +1808,13 @@ Speakers CSS
 }
 
 .elkevent-single-speakers .speakers-content h3 a:hover, .elkevent-single-speakers .speakers-content h3 a:focus {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .elkevent-single-speakers .speakers-content span {
   display: block;
   margin-top: 8px;
-  color: #FF2D55;
+  color: #0073AE;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -1815,7 +1843,7 @@ Speakers CSS
   height: 35px;
   line-height: 35px;
   text-align: center;
-  background-color: #FF2D55;
+  background-color: #0073AE;
   color: #ffffff;
   border-radius: 50%;
   font-size: 14px;
@@ -1839,7 +1867,7 @@ Speakers CSS
 }
 
 .elkevent-single-speakers ul li a:hover, .elkevent-single-speakers ul li a:focus {
-  background-color: #FF2D55;
+  background-color: #0073AE;
   color: #ffffff;
 }
 
@@ -1901,7 +1929,7 @@ Speakers CSS
   width: 0;
   height: 20px;
   color: #ffffff;
-  background: #FF2D55;
+  background: #0073AE;
   position: absolute;
   top: -20px;
   right: 0;
@@ -1923,7 +1951,7 @@ Speakers CSS
   text-transform: capitalize;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .single-speakers-box .speakers-content .social {
@@ -1989,13 +2017,13 @@ Speakers CSS
 }
 
 .single-speakers-box:hover::before, .single-speakers-box:hover::after {
-  border-color: #FF2D55;
+  border-color: #0073AE;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
 
 .single-speakers-box:hover .speakers-content {
-  background: #FF2D55;
+  background: #0073AE;
 }
 
 .single-speakers-box:hover .speakers-content::before {
@@ -2062,7 +2090,7 @@ Schedule CSS
   left: 0;
   bottom: -15px;
   position: absolute;
-  background: #FF2D55;
+  background: #0073AE;
   content: '';
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -2091,7 +2119,8 @@ Schedule CSS
 }
 
 .tabs li:nth-child(2) {
-  background-color: #00acee;
+  background-color:  #74BB23
+;
 }
 
 .tabs li:nth-child(3) {
@@ -2103,7 +2132,7 @@ Schedule CSS
 }
 
 .tabs li.current {
-  background-color: #FF2D55;
+  background-color: #0073AE;
 }
 
 .tabs li.current::before {
@@ -2252,11 +2281,11 @@ Schedule CSS
 
 .tab_content .tabs_item .accordion .accordion-item .accordion-title .schedule-info ul li i {
   margin-right: 5px;
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .tab_content .tabs_item .accordion .accordion-item .accordion-title .schedule-info ul li span {
-  color: #00acee;
+  color:  #0073AE;
 }
 
 .tab_content .tabs_item .accordion .accordion-item .accordion-content {
@@ -2270,7 +2299,7 @@ Schedule CSS
 }
 
 .tab_content .tabs_item .accordion .accordion-item .accordion-content .location b {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .tab_content .tabs_item .accordion .accordion-item .accordion-content .location span {
@@ -2297,7 +2326,7 @@ Schedule CSS
 .schedule-slides-item .single-schedule .schedule-date {
   font-size: 24px;
   color: #ffffff;
-  background: #FF2D55;
+  background: #0073AE;
   text-transform: uppercase;
   padding: 25px 40px;
   position: absolute;
@@ -2403,7 +2432,7 @@ Schedule CSS
 }
 
 .schedule-slides-item .single-schedule .schedule-content .schedule-info h3 a:hover, .schedule-slides-item .single-schedule .schedule-content .schedule-info h3 a:focus {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .schedule-slides-item .single-schedule .schedule-content .schedule-info ul {
@@ -2425,7 +2454,7 @@ Schedule CSS
 
 .schedule-slides-item .single-schedule .schedule-content .schedule-info ul li i {
   margin-right: 6px;
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .schedule-slides-item .single-schedule .schedule-content .schedule-info ul li:last-child {
@@ -2438,7 +2467,7 @@ Schedule CSS
 }
 
 .schedule-slides-item .single-schedule .schedule-content .schedule-info ul li a:hover, .schedule-slides-item .single-schedule .schedule-content .schedule-info ul li a:focus {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .schedule-slides-item .single-schedule:nth-child(2) .schedule-date {
@@ -2487,7 +2516,7 @@ Schedule CSS
 }
 
 .schedule-slides.owl-theme .owl-nav [class*=owl-]:hover, .schedule-slides.owl-theme .owl-nav [class*=owl-]:focus {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .schedule-slides.owl-theme .owl-nav [class*=owl-].owl-next {
@@ -2535,7 +2564,7 @@ Schedule CSS
 .single-schedule-item .schedule-date {
   font-size: 24px;
   color: #ffffff;
-  background: #FF2D55;
+  background: #0073AE;
   text-transform: uppercase;
   padding: 20px;
 }
@@ -2636,7 +2665,7 @@ Schedule CSS
 }
 
 .single-schedule-item .schedule-item-wrapper .schedule-content .schedule-info h3 a:hover, .single-schedule-item .schedule-item-wrapper .schedule-content .schedule-info h3 a:focus {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .single-schedule-item .schedule-item-wrapper .schedule-content .schedule-info ul {
@@ -2655,7 +2684,7 @@ Schedule CSS
 
 .single-schedule-item .schedule-item-wrapper .schedule-content .schedule-info ul li i {
   margin-right: 5px;
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .single-schedule-item .schedule-item-wrapper .schedule-content .schedule-info ul li .icofont-user-suited {
@@ -2672,7 +2701,7 @@ Schedule CSS
 }
 
 .single-schedule-item .schedule-item-wrapper .schedule-content .schedule-info ul li a:hover, .single-schedule-item .schedule-item-wrapper .schedule-content .schedule-info ul li a:focus {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .single-schedule-item .schedule-item-wrapper .schedule-content:last-child {
@@ -2781,7 +2810,7 @@ FunFacts CSS
 }
 
 .col-lg-3:nth-child(1) .single-funfact h3, .col-lg-3:nth-child(1) .funFact h3 {
-  color: #FF2D55;
+  color: #74BB23;
 }
 
 .col-lg-3:nth-child(2) .single-funfact h3, .col-lg-3:nth-child(2) .funFact h3 {
@@ -2793,7 +2822,7 @@ FunFacts CSS
 }
 
 .col-lg-3:nth-child(4) .single-funfact h3, .col-lg-3:nth-child(4) .funFact h3 {
-  color: #8dc63f;
+  color: #ff3c3c;
 }
 
 /*================================================
@@ -2830,7 +2859,7 @@ Pricing CSS
 
 .pricing-table-box .pricingTable-header {
   padding: 30px 15px 10px;
-  background: #FF2D55;
+  background: #0073AE;
   -webkit-clip-path: polygon(50% 100%, 100% 60%, 100% 0, 0 0, 0 60%);
           clip-path: polygon(50% 100%, 100% 60%, 100% 0, 0 0, 0 60%);
   position: relative;
@@ -2918,7 +2947,7 @@ Pricing CSS
   font-size: 24px;
   padding: 30px 15px;
   margin-bottom: 100px;
-  background-color: #FF2D55;
+  background-color: #0073AE;
   color: #ffffff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2926,7 +2955,7 @@ Pricing CSS
 
 .pricing-plan h3 span {
   display: block;
-  color: #FF2D55;
+  color: #0073AE;
   background: #ffffff;
   height: 150px;
   width: 150px;
@@ -3028,14 +3057,14 @@ Partner CSS
   font-size: 24px;
   font-weight: 900;
   margin-bottom: 0;
-  color: #FF2D55;
+  color: #74BB23;
   text-transform: uppercase;
   -webkit-transform: translateX(0) !important;
           transform: translateX(0) !important;
 }
 
 .partner-area .partner-title.gold-sponsor h3 {
-  color: #8dc63f;
+  color:  #0073AE;
 }
 
 .partner-area .partner-item {
@@ -3121,7 +3150,7 @@ Blog CSS
 }
 
 .single-blog-post .blog-image .post-tag a {
-  background: #FF2D55;
+  background: #0073AE;
   color: #ffffff;
   padding: 9px 28px;
 }
@@ -3151,7 +3180,7 @@ Blog CSS
 }
 
 .single-blog-post .blog-post-content h3 a:hover, .single-blog-post .blog-post-content h3 a:focus {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .single-blog-post .blog-post-content p {
@@ -3161,7 +3190,7 @@ Blog CSS
 .single-blog-post .read-more-btn {
   position: relative;
   font-weight: 500;
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .single-blog-post .read-more-btn:hover {
@@ -3229,7 +3258,7 @@ Blog CSS
 }
 
 .single-blog-card .post-tag a {
-  background: #FF2D55;
+  background: #0073AE;
   color: #ffffff;
   padding: 9px 28px;
 }
@@ -3255,7 +3284,7 @@ Blog CSS
 }
 
 .single-blog-card .blog-post-content h3 a:hover, .single-blog-card .blog-post-content h3 a:focus {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .single-blog-card .blog-post-content p {
@@ -3267,7 +3296,7 @@ Blog CSS
   font-weight: 500;
   opacity: 0;
   visibility: hidden;
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .single-blog-card .blog-post-content .read-more-btn:hover {
@@ -3458,7 +3487,7 @@ Page Title CSS
 .page-title-area ul li {
   display: inline-block;
   position: relative;
-  color: #FF2D55;
+  color: #0073AE;
   font-size: 16px;
   margin: 0 13px;
 }
@@ -3517,7 +3546,7 @@ Login CSS
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #FF2D55;
+  background: #0073AE;
   opacity: .77;
 }
 
@@ -3568,7 +3597,7 @@ Login CSS
 }
 
 .login-area .login-form p a:hover, .login-area .login-form p a:focus {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .login-area .login-form p a.pull-left {
@@ -3600,7 +3629,7 @@ Signup CSS
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #FF2D55;
+  background: #0073AE;
   opacity: .77;
 }
 
@@ -3653,7 +3682,7 @@ Signup CSS
 }
 
 .signup-area .signup-form p a:hover, .signup-area .signup-form p a:focus {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 /*================================================
@@ -3673,7 +3702,7 @@ Signup CSS
   font-weight: bold;
   line-height: 110px;
   margin: 0;
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .error-area h1 span {
@@ -3813,7 +3842,7 @@ Coming Soon CSS
 }
 
 .coming-soon .coming-soon-content form .form-control:focus, .coming-soon .coming-soon-content form .form-control:hover {
-  border-color: #FF2D55;
+  border-color: #0073AE;
 }
 
 .coming-soon .coming-soon-content form .form-control::-webkit-input-placeholder {
@@ -3836,7 +3865,7 @@ Coming Soon CSS
   position: absolute;
   right: -1px;
   height: 100%;
-  background: #FF2D55;
+  background: #0073AE;
   top: 0;
   color: #ffffff;
   border: none;
@@ -3910,7 +3939,7 @@ Pagination CSS
 }
 
 .pagination-area ul li a.active, .pagination-area ul li a:hover, .pagination-area ul li a:focus {
-  background: #FF2D55;
+  background: #0073AE;
   color: #ffffff;
   -webkit-box-shadow: unset;
           box-shadow: unset;
@@ -3946,7 +3975,7 @@ Blog Details CSS
 
 .blog-details .blog-meta ul li i {
   margin-right: 4px;
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .blog-details .blog-meta ul li::before {
@@ -4009,7 +4038,7 @@ Blog Details CSS
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   font-size: 55px;
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .blog-details blockquote p, .blog-details .blockquote p {
@@ -4049,7 +4078,7 @@ Blog Details CSS
 }
 
 .post-tag-media ul li a:hover, .post-tag-media ul li a:focus {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .post-tag-media ul.social-share {
@@ -4119,7 +4148,7 @@ Blog Details CSS
 }
 
 .comments-area ol li .comment-body .comment-meta .comment-metadata a:hover, .comments-area ol li .comment-body .comment-meta .comment-metadata a:focus, .comments-area ul li .comment-body .comment-meta .comment-metadata a:hover, .comments-area ul li .comment-body .comment-meta .comment-metadata a:focus {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .comments-area ol li .comment-body .comment-content, .comments-area ul li .comment-body .comment-content {
@@ -4140,7 +4169,7 @@ Blog Details CSS
 }
 
 .comments-area ol li .comment-body .reply a:hover, .comments-area ol li .comment-body .reply a:focus, .comments-area ul li .comment-body .reply a:hover, .comments-area ul li .comment-body .reply a:focus {
-  background: #FF2D55;
+  background: #0073AE;
 }
 
 .comments-area .comment-respond {
@@ -4172,7 +4201,7 @@ Blog Details CSS
 }
 
 .comments-area .comment-respond .comment-form-comment input:focus, .comments-area .comment-respond .comment-form-comment textarea:focus, .comments-area .comment-respond .comment-form-author input:focus, .comments-area .comment-respond .comment-form-author textarea:focus, .comments-area .comment-respond .comment-form-email input:focus, .comments-area .comment-respond .comment-form-email textarea:focus, .comments-area .comment-respond .comment-form-url input:focus, .comments-area .comment-respond .comment-form-url textarea:focus {
-  border-color: #FF2D55;
+  border-color: #0073AE;
 }
 
 .comments-area .comment-respond .comment-form-comment textarea, .comments-area .comment-respond .comment-form-author textarea, .comments-area .comment-respond .comment-form-email textarea, .comments-area .comment-respond .comment-form-url textarea {
@@ -4185,7 +4214,7 @@ Blog Details CSS
 
 .comments-area .comment-respond .form-submit input {
   display: inline-block;
-  background: #FF2D55;
+  background: #0073AE;
   border: none;
   color: #ffffff;
   padding: 13px 25px;
@@ -4227,7 +4256,7 @@ Sidebar CSS
   top: 2px;
   width: 17px;
   height: 17px;
-  background: #FF2D55;
+  background: #0073AE;
   -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
           clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   -webkit-transition: 0.5s;
@@ -4264,7 +4293,7 @@ Sidebar CSS
   -webkit-box-shadow: unset;
           box-shadow: unset;
   background: transparent;
-  color: #FF2D55;
+  color: #0073AE;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -4294,7 +4323,7 @@ Sidebar CSS
   top: 50%;
   width: 10px;
   height: 10px;
-  background: #FF2D55;
+  background: #0073AE;
   margin-top: -5px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -4309,7 +4338,7 @@ Sidebar CSS
 }
 
 .sidebar .widget.widget_categories ul li a:hover {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .sidebar .widget.widget_categories ul li:hover::before {
@@ -4354,7 +4383,7 @@ Sidebar CSS
 }
 
 .sidebar .widget.widget_recent_entries ul li h5 a:hover, .sidebar .widget.widget_recent_entries ul li h5 a:focus {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .sidebar .widget.widget_recent_entries ul li:last-child {
@@ -4375,9 +4404,9 @@ Sidebar CSS
 }
 
 .sidebar .widget.widget_tag_cloud .tagcloud a:hover {
-  background: #FF2D55;
+  background: #0073AE;
   color: #ffffff;
-  border-color: #FF2D55;
+  border-color: #0073AE;
 }
 
 .sidebar .widget.widget_archive ul {
@@ -4401,7 +4430,7 @@ Sidebar CSS
   top: 50%;
   width: 10px;
   height: 10px;
-  background: #FF2D55;
+  background: #0073AE;
   margin-top: -5px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -4417,7 +4446,7 @@ Sidebar CSS
 }
 
 .sidebar .widget.widget_archive ul li a:hover {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .sidebar .widget.widget_archive ul li:hover::before {
@@ -4446,9 +4475,9 @@ Contact Us CSS
   height: 50px;
   text-align: center;
   line-height: 47px;
-  border: 1px dashed #FF2D55;
+  border: 1px dashed #0073AE;
   border-radius: 50%;
-  color: #FF2D55;
+  color: #0073AE;
   font-size: 20px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -4468,7 +4497,7 @@ Contact Us CSS
 }
 
 .contact-box .content p a:hover, .contact-box .content p a:focus {
-  color: #FF2D55;
+color: #74BB23;
 }
 
 .contact-box .content p:last-child {
@@ -4483,7 +4512,7 @@ Contact Us CSS
 }
 
 .contact-box:hover .icon, .contact-box:focus .icon {
-  background: #FF2D55;
+  background: #0073AE;
   color: #ffffff;
 }
 
@@ -4542,7 +4571,7 @@ Contact Us CSS
 }
 
 .leave-your-message .stay-connected ul li a:hover, .leave-your-message .stay-connected ul li a:focus {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 #contactForm {
@@ -4627,7 +4656,7 @@ Footer CSS
 }
 
 .single-footer-widget .contact-authority:hover, .single-footer-widget .contact-authority:focus {
-  color: #FF2D55;
+  color: #74BB23;
 }
 
 .single-footer-widget .contact-authority i {
@@ -4678,9 +4707,9 @@ Footer CSS
 }
 
 .single-footer-widget .social-links li a:hover, .single-footer-widget .social-links li a:focus {
-  background-color: #FF2D55;
+  background-color: #0073AE;
   color: #ffffff;
-  border-color: #FF2D55;
+  border-color: #0073AE;
 }
 
 .copyright-area {
@@ -4724,7 +4753,7 @@ Footer CSS
 }
 
 .copyright-area ul li a:hover, .copyright-area ul li a:focus {
-  color: #FF2D55;
+  color: #0073AE;
 }
 
 .copyright-area ul li:first-child {
@@ -4762,7 +4791,7 @@ Back To Top CSS
   outline: 0 !important;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background-color: #00acee;
+  background-color: #74BB23;
 }
 
 .back-to-top::before, .back-to-top::after {
@@ -4778,13 +4807,13 @@ Back To Top CSS
 .back-to-top::before {
   top: -20px;
   z-index: 4;
-  border-bottom: 20px solid #00acee;
+  border-bottom: 20px solid #74BB23;
 }
 
 .back-to-top::after {
   bottom: 0;
   z-index: 5;
-  border-bottom: 20px solid #FF2D55;
+  border-bottom: 20px solid  #0073AE;
 }
 
 .back-to-top:hover, .back-to-top:focus {

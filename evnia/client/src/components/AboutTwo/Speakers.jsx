@@ -13,7 +13,7 @@ class Speakers extends React.Component {
                         <div className="bg-title lax" data-lax-preset="driftRight">
                             Speakers
                         </div>
-                        <Link to="/speakers-3" className="btn btn-primary">View More Speakers</Link>
+                        {/* <Link to="/speakers-3" className="btn btn-primary">View More Speakers</Link> */}
                     </div>
                 </div>
 

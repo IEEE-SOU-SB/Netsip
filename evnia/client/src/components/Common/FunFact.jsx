@@ -98,7 +98,7 @@ class FunFact extends React.Component {
                                         />
                                     </VisibilitySensor>
                                 </h3>
-                                <p>Sponsors</p>
+                                <p>Total Our Members</p>
                             </div>
                         </div>
 

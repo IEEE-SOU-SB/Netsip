@@ -7,12 +7,12 @@ import GoTop from '../Shared/GoTop';
 import Footer from '../Common/Footer';
 import EventSchedules from '../HomeDefault/EventSchedules';
 import FunFact from '../Common/FunFact';
-import Pricing from '../HomeDefault/Pricing';
+// import Pricing from '../HomeDefault/Pricing';
 import lax from 'lax.js';
-import Partner from '../Common/Partner';
-import LatestNews from '../HomeDefault/LatestNews';
-import BuyTicket from '../Common/BuyTicket';
-import Subscribe from '../Common/Subscribe';
+// import Partner from '../Common/Partner';
+// import LatestNews from '../HomeDefault/LatestNews';
+// import BuyTicket from '../Common/BuyTicket';
+// import Subscribe from '../Common/Subscribe';
  
 class HomeDefault extends React.Component {
     constructor(props) {
@@ -43,13 +43,13 @@ class HomeDefault extends React.Component {
                 {/* Pricing Area 
                 <Pricing />*/}
                 {/* Partner Area */}
-                <Partner />
+                {/* <Partner /> */}
                 {/* Blog Area 
                 <LatestNews />*/}
-                {/* Buy Tickets Area */}
-                <BuyTicket />
-                {/* Subscribe Area */}
-                <Subscribe />
+                {/* Buy Tickets Area 
+                <BuyTicket />*/}
+                {/* Subscribe Area 
+                <Subscribe />*/}
 
                 <Footer />
 

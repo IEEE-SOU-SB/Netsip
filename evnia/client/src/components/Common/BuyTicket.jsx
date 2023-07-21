@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
  
 class BuyTicket extends React.Component {
     render(){
@@ -19,7 +19,7 @@ class BuyTicket extends React.Component {
 
                             <div className="col-lg-6">
                                 <div className="buy-ticket-btn">
-                                    <Link to="#" className="btn btn-primary">Register Now!</Link>
+                                    {/*<Link to="#" className="btn btn-primary">Register Now!</Link>*/}
                                 </div>
                             </div>
                         </div>

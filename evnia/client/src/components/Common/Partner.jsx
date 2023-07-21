@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import lax from 'lax.js';
 import OwlCarousel from 'react-owl-carousel3';
 import PlatinumSponsors from '../LaxButton/PlatinumSponsors';
-import GoldSponsors from '../LaxButton/GoldSponsors';
+// import GoldSponsors from '../LaxButton/GoldSponsors';
 
 const options = {
     loop: true,
@@ -53,7 +53,7 @@ class Partner extends React.Component {
                 <div className="container">
                     <div className="section-title">
                         <span>Check Who Makes This Event Possible!</span>
-                        <h2>Our Event <b>Sponsors</b></h2>
+                        <h2>Our  <b>Event</b></h2>
 
                         {/*<Link to="/sponsors" className="btn btn-primary">Become Link Sponsor</Link>*/}
 
@@ -70,57 +70,57 @@ class Partner extends React.Component {
                             className="platinum-partner-slides owl-carousel owl-theme"
                             {...options}
                         >
-                            <div className="col-lg-12 col-md-12">
+                            {/* <div className="col-lg-12 col-md-12">
                                 <div className="partner-item">
                                     <Link to="/sponsors" target="_blank">
                                         <img src={require("../../assets/images/platinum-partner1.png")} alt="Partner Logo" />
                                         <img src={require("../../assets/images/platinum-partner1.png")} alt="Partner Logo" />
                                     </Link>
                                 </div>
-                            </div>
+                            </div> */}
 
                             <div className="col-lg-12 col-md-12">
                                 <div className="partner-item">
                                     <Link to="/sponsors" target="_blank">
-                                        <img src={require("../../assets/images/platinum-partner2.png")} alt="Partner Logo" />
-                                        <img src={require("../../assets/images/platinum-partner2.png")} alt="Partner Logo" />
+                                        <img src={require("../../assets/images/IEEE Gujarat Section Logo.png")} alt="IEEE Gujarat Section Logo" />
+                                        <img src={require("../../assets/images/IEEE Gujarat Section Logo.png")} alt="IEEE Gujarat Section Logo" />
                                     </Link>
                                 </div>
                             </div>
 
-                            <div className="col-lg-12 col-md-12">
+                            {/* <div className="col-lg-12 col-md-12">
                                 <div className="partner-item">
                                     <Link to="/sponsors" target="_blank">
                                         <img src={require("../../assets/images/platinum-partner3.png")} alt="Partner Logo" />
                                         <img src={require("../../assets/images/platinum-partner3.png")} alt="Partner Logo" />
                                     </Link>
                                 </div>
-                            </div>
+                            </div> */}
 
                             <div className="col-lg-12 col-md-12">
                                 <div className="partner-item">
                                     <Link to="/sponsors" target="_blank">
-                                        <img src={require("../../assets/images/platinum-partner4.png")} alt="Partner Logo" />
-                                        <img src={require("../../assets/images/platinum-partner4.png")} alt="Partner Logo" />
+                                        <img src={require("../../assets/images/IEEE SPS GS Logo.png")} alt="IEEE SPS GS LOGO" />
+                                        <img src={require("../../assets/images/IEEE SPS GS Logo.png")} alt="IEEE SPS GS LOGO" />
                                     </Link>
                                 </div>
                             </div>
 
-                            <div className="col-lg-12 col-md-12">
+                            {/* <div className="col-lg-12 col-md-12">
                                 <div className="partner-item">
                                     <Link to="/sponsors" target="_blank">
                                         <img src={require("../../assets/images/platinum-partner5.png")} alt="Partner Logo" />
                                         <img src={require("../../assets/images/platinum-partner5.png")} alt="Partner Logo" />
                                     </Link>
                                 </div>
-                            </div>
+                            </div> */}
                         </OwlCarousel>
 
                         <div className="col-lg-12">
                             <div className="border"></div>
                         </div>
 
-                        <div className="col-lg-12">
+                        {/*<div className="col-lg-12">
                             <div className="partner-title gold-sponsor">
                                 <GoldSponsors />
                             </div>
@@ -174,7 +174,7 @@ class Partner extends React.Component {
                                     </Link>
                                 </div>
                             </div>
-                        </OwlCarousel>
+                        </OwlCarousel>*/}
                     </div>
                 </div>
             </section>

@@ -46,10 +46,7 @@ const AppRouter = () => {
             <Switch>
                 <Route path="/Netsip" exact component={HomeDefault} />
                 <Route path="/about-1" exact component={AboutOne} />
-                <Route path='/about-2' component={() => {
-    window.location.href = 'https://ieee.socet.edu.in/about-socet-sb/';
-    return null;
-}}/>
+                <Route path='/about-2' component={() => {window.location.href = 'https://ieee.socet.edu.in/about-socet-sb/';return null;}}/>
                 <Route path="/speakers-1" exact component={SpeakersOne} />
                 <Route path="/schedule-3" exact component={ScheduleThree} />
                 <Route path="/login" exact component={Login} />

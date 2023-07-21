@@ -6,47 +6,28 @@ class WhyUs extends React.Component {
         return (
             <section className="why-choose-us">
                 <div className="row m-0">
-                    <div className="col-lg-3 col-sm-6 p-0">
+
+                <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-box">
                             <div className="d-table">
                                 <div className="d-table-cell">
                                     <div className="content">
                                         <div className="icon">
-                                        <img src={require("../../assets/images/sou-logo.png")} className="why-us-image" alt="shape4" />
+                                        <img src={require("../../assets/images/SPS_logo.png")} className="why-us-image" alt="shape4" />
 
                                         </div>
-                                        <h3>Silver Oak University</h3>
-
-                                        <p>Silver Oak University is a distinguished institution renowned for its commitment to academic excellence and holistic education. As a reflection of its motto, “Gyanam Param Bhushanam” the university offers a diverse range of undergraduate and postgraduate programs, fostering and nurturing an environment that empowers students to explore their potential fully.<pre>                   </pre><pre>                   </pre><pre></pre></p>
-
-                                          
-                                        <a href="https://www.silveroakuni.ac.in/about" target='_blank' className="btn btn-primary">Read More</a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-sm-6 p-0">
-                        <div className="single-box">
-                            <div className="d-table">
-                                <div className="d-table-cell">
-                                    <div className="content">
-                                        <div className="icon">
-                                            <img src={require("../../assets/images/sps_sou.png")} alt="shape4" className="why-us-image"/>
-
-                                        </div>
-                                        <h3>SPS IEEE-SOU-SB</h3>
-
-                                        <p>Silver Oak University IEEE Signal Processing Society is a dynamic platform dedicated to igniting technological innovation, fostering academic excellence, and empowering the signal processing community. Driven by a shared vision of advancing the frontiers of signal processing and nurturing a community of passionate individuals dedicated to shaping a brighter future.<pre>                   </pre><pre>                   </pre><pre>         </pre></p>
+                                        <h3>IEEE SPS</h3>
                                         
-                                        <a href="https://ieee.socet.edu.in/about-socet-sb/" target='_blank' className="btn btn-primary">Read More</a>
+                                        <p>IEEE Signal Processing Society (SPS) is a prominent professional organization dedicated to advancing the theory and practice of signal processing, an interdisciplinary field that plays a vital role in a wide range of technological applications. As a society under the umbrella of the Institute of Electrical and Electronics Engineers (IEEE), SPS is at the forefront of shaping cutting-edge research, innovation, and advancements in signal processing.<pre> </pre></p>
+            
+                                        <a href="https://signalprocessingsociety.org/our-story/scope-mission" target='_blank' className="btn btn-primary">Read More</a>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
 
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-box">
@@ -74,20 +55,48 @@ class WhyUs extends React.Component {
                                 <div className="d-table-cell">
                                     <div className="content">
                                         <div className="icon">
-                                        <img src={require("../../assets/images/SPS_logo.png")} className="why-us-image" alt="shape4" />
+                                            <img src={require("../../assets/images/sps_sou.png")} alt="shape4" className="why-us-image"/>
 
                                         </div>
-                                        <h3>IEEE SPS</h3>
+                                        <h3>SPS IEEE-SOU-SB</h3>
+
+                                        <p>Silver Oak University IEEE Signal Processing Society is a dynamic platform dedicated to igniting technological innovation, fostering academic excellence, and empowering the signal processing community. Driven by a shared vision of advancing the frontiers of signal processing and nurturing a community of passionate individuals dedicated to shaping a brighter future.<pre>                   </pre><pre>                   </pre><pre>         </pre></p>
                                         
-                                        <p>IEEE Signal Processing Society (SPS) is a prominent professional organization dedicated to advancing the theory and practice of signal processing, an interdisciplinary field that plays a vital role in a wide range of technological applications. As a society under the umbrella of the Institute of Electrical and Electronics Engineers (IEEE), SPS is at the forefront of shaping cutting-edge research, innovation, and advancements in signal processing.<pre> </pre></p>
-            
-                                        <a href="https://signalprocessingsociety.org/our-story/scope-mission" target='_blank' className="btn btn-primary">Read More</a>
+                                        <a href="https://ieee.socet.edu.in/about-socet-sb/" target='_blank' className="btn btn-primary">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className="col-lg-3 col-sm-6 p-0">
+                        <div className="single-box">
+                            <div className="d-table">
+                                <div className="d-table-cell">
+                                    <div className="content">
+                                        <div className="icon">
+                                        <img src={require("../../assets/images/sou-logo.png")} className="why-us-image" alt="shape4" />
+
+                                        </div>
+                                        <h3>Silver Oak University</h3>
+
+                                        <p>Silver Oak University is a distinguished institution renowned for its commitment to academic excellence and holistic education. As a reflection of its motto, “Gyanam Param Bhushanam” the university offers a diverse range of undergraduate and postgraduate programs, fostering and nurturing an environment that empowers students to explore their potential fully.<pre>                   </pre><pre>                   </pre><pre></pre></p>
+
+                                          
+                                        <a href="https://www.silveroakuni.ac.in/about" target='_blank' className="btn btn-primary">Read More</a>
 
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    
+
+                   
+
+                   
                 </div>
 
                 <ul className='slideshow'>

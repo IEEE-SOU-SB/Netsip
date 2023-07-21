@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Netsip/static/css/main.3c5332f3.chunk.css",
-    "main.js": "/Netsip/static/js/main.a91835b3.chunk.js",
-    "main.js.map": "/Netsip/static/js/main.a91835b3.chunk.js.map",
+    "main.css": "/Netsip/static/css/main.96aca025.chunk.css",
+    "main.js": "/Netsip/static/js/main.977dc0fd.chunk.js",
+    "main.js.map": "/Netsip/static/js/main.977dc0fd.chunk.js.map",
     "runtime-main.js": "/Netsip/static/js/runtime-main.516e2afe.js",
     "runtime-main.js.map": "/Netsip/static/js/runtime-main.516e2afe.js.map",
     "static/css/2.f0c7496f.chunk.css": "/Netsip/static/css/2.f0c7496f.chunk.css",
-    "static/js/2.633fde03.chunk.js": "/Netsip/static/js/2.633fde03.chunk.js",
-    "static/js/2.633fde03.chunk.js.map": "/Netsip/static/js/2.633fde03.chunk.js.map",
+    "static/js/2.4b74c30d.chunk.js": "/Netsip/static/js/2.4b74c30d.chunk.js",
+    "static/js/2.4b74c30d.chunk.js.map": "/Netsip/static/js/2.4b74c30d.chunk.js.map",
     "index.html": "/Netsip/index.html",
-    "precache-manifest.3a6f8d9c9c95ffb48222011212b62c84.js": "/Netsip/precache-manifest.3a6f8d9c9c95ffb48222011212b62c84.js",
+    "precache-manifest.32a9b77d39de6bd4e14f31cb9e5acb40.js": "/Netsip/precache-manifest.32a9b77d39de6bd4e14f31cb9e5acb40.js",
     "service-worker.js": "/Netsip/service-worker.js",
     "static/css/2.f0c7496f.chunk.css.map": "/Netsip/static/css/2.f0c7496f.chunk.css.map",
-    "static/css/main.3c5332f3.chunk.css.map": "/Netsip/static/css/main.3c5332f3.chunk.css.map",
-    "static/js/2.633fde03.chunk.js.LICENSE.txt": "/Netsip/static/js/2.633fde03.chunk.js.LICENSE.txt",
+    "static/css/main.96aca025.chunk.css.map": "/Netsip/static/css/main.96aca025.chunk.css.map",
+    "static/js/2.4b74c30d.chunk.js.LICENSE.txt": "/Netsip/static/js/2.4b74c30d.chunk.js.LICENSE.txt",
     "static/media/Angshul.jpeg": "/Netsip/static/media/Angshul.29795206.jpeg",
     "static/media/Harshal.jpeg": "/Netsip/static/media/Harshal.655db536.jpeg",
     "static/media/IEEE Gujarat Section Logo.png": "/Netsip/static/media/IEEE Gujarat Section Logo.7e4cfff1.png",
@@ -55,6 +55,7 @@
     "static/media/speakers8.jpg": "/Netsip/static/media/speakers8.7605392d.jpg",
     "static/media/sps-gujarat-section.png": "/Netsip/static/media/sps-gujarat-section.66d4c425.png",
     "static/media/sps_sou.png": "/Netsip/static/media/sps_sou.2bbf233c.png",
+    "static/media/uttama.jpg": "/Netsip/static/media/uttama.4a72595a.jpg",
     "static/media/white.jpg": "/Netsip/static/media/white.3a41b65f.jpg",
     "static/media/why-choose-img1.jpg": "/Netsip/static/media/why-choose-img1.5ecc8b90.jpg",
     "static/media/why-choose-img2.jpg": "/Netsip/static/media/why-choose-img2.95b514f4.jpg",
@@ -63,8 +64,8 @@
   "entrypoints": [
     "static/js/runtime-main.516e2afe.js",
     "static/css/2.f0c7496f.chunk.css",
-    "static/js/2.633fde03.chunk.js",
-    "static/css/main.3c5332f3.chunk.css",
-    "static/js/main.a91835b3.chunk.js"
+    "static/js/2.4b74c30d.chunk.js",
+    "static/css/main.96aca025.chunk.css",
+    "static/js/main.977dc0fd.chunk.js"
   ]
 }

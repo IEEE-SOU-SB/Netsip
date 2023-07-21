@@ -48,7 +48,7 @@ class Speakers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <Link to="https://www.linkedin.com/" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
+                                    <Link to=" https://www.linkedin.com/in/mahesh-anand-s-a5ba299/" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
                                 </li>
                             </ul>
                         </div>
@@ -73,7 +73,7 @@ class Speakers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <Link to="https://www.linkedin.com/" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
+                                    <Link to=" https://www.linkedin.com/in/angshul-majumdar-b388761ab/" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
                                 </li>
                             </ul>
                         </div>
@@ -98,7 +98,7 @@ class Speakers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <Link to="https://www.linkedin.com/" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
+                                    <Link to=" https://www.linkedin.com/in/nalin-kumar-sharma-68a20891/?originalSubdomain=in" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
                                 </li>
                             </ul>
                         </div>
@@ -123,7 +123,7 @@ class Speakers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <Link to="https://www.linkedin.com/" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
+                                    <Link to="https://www.linkedin.com/in/jyotika-athavale-460b383/" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
                                 </li>
                             </ul>
                         </div>
@@ -148,7 +148,7 @@ class Speakers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <Link to="https://www.linkedin.com/" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
+                                    <Link to="https://www.linkedin.com/in/harshaloza/" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
                                 </li>
                             </ul>
                         </div>
@@ -173,7 +173,7 @@ class Speakers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <Link to="https://www.linkedin.com/" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
+                                    <Link to="https://www.linkedin.com/in/tapas-maiti/?originalSubdomain=in" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
                                 </li>
                             </ul>
                         </div>
@@ -181,7 +181,7 @@ class Speakers extends React.Component {
 
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-speakers">
-                            <img src={require("../../assets/images/white.jpg")} alt="Speaker" />
+                            <img src={require("../../assets/images/uttama.jpg")} alt="Speaker" />
 
                             <div className="speakers-content">
                                 <h3><Link to="#">UTTAMA LAHIRI </Link></h3>
@@ -198,7 +198,7 @@ class Speakers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <Link to="https://www.linkedin.com/" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
+                                    <Link to="https://www.linkedin.com/in/uttama-lahiri-a0353b57/?originalSubdomain=in" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
                                 </li>
                             </ul>
                         </div>

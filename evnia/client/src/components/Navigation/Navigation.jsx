@@ -125,8 +125,9 @@ class Navigation extends React.Component {
 
                                     <li className="nav-item">
                                         <NavLink 
-                                            to="/about-2" 
-                                            className="nav-link" 
+                                            to="/about-2"
+                                            
+                                            className="nav-link"
                                             onClick={this.toggleNavbar}
                                         >
                                            About Us

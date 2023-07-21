@@ -6,42 +6,21 @@ class WhyUs extends React.Component {
         return (
             <section className="why-choose-us">
                 <div className="row m-0">
-
-                <div className="col-lg-3 col-sm-6 p-0">
-                        <div className="single-box">
-                            <div className="d-table">
-                                <div className="d-table-cell">
-                                    <div className="content">
-                                        <div className="icon">
-                                        <img src={require("../../assets/images/SPS_logo.png")} className="why-us-image" alt="shape4" />
-
-                                        </div>
-                                        <h3>IEEE SPS</h3>
-                                        
-                                        <p>IEEE Signal Processing Society (SPS) is a prominent professional organization dedicated to advancing the theory and practice of signal processing, an interdisciplinary field that plays a vital role in a wide range of technological applications. As a society under the umbrella of the Institute of Electrical and Electronics Engineers (IEEE), SPS is at the forefront of shaping cutting-edge research, innovation, and advancements in signal processing.<pre> </pre></p>
-            
-                                        <a href="https://signalprocessingsociety.org/our-story/scope-mission" target='_blank' className="btn btn-primary">Read More</a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-box">
                             <div className="d-table">
                                 <div className="d-table-cell">
                                     <div className="content">
                                         <div className="icon">
-                                        <img src={require("../../assets/images/sps-gujarat-section.png")} className="why-us-image" alt="shape4" />
+                                        <img src={require("../../assets/images/sou-logo.png")} className="why-us-image" alt="shape4" />
 
                                         </div>
-                                        <h3>SPS Gujarat Section</h3>
-                                        <p>IEEE Signal Processing Society Gujarat Section is a dynamic chapter of IEEE supporting dissemination of expertise through various events like AI, Computational Imaging, STTP and much more. Conceived to forge a formidable platform to provide a conducive milieu for its members, focused on signal processing methodologies, applications and guiding members towards lesser exposed sub-domains in the field with the intersection ofbiotechnology, entertainment, and social interactions.<pre></pre></p>
-                                        
-                                        <a href="https://ieeespsgs.org/" target='_blank' className="btn btn-primary">Read More</a>
+                                        <h3>Silver Oak University</h3>
+
+                                        <p>Silver Oak University is a distinguished institution renowned for its commitment to academic excellence and holistic education. As a reflection of its motto, “Gyanam Param Bhushanam” the university offers a diverse range of undergraduate and postgraduate programs, fostering and nurturing an environment that empowers students to explore their potential fully.<pre>                   </pre><pre>                   </pre><pre></pre></p>
+
+                                          
+                                        <a href="https://www.silveroakuni.ac.in/about" target='_blank' className="btn btn-primary">Read More</a>
 
                                     </div>
                                 </div>
@@ -69,22 +48,19 @@ class WhyUs extends React.Component {
                         </div>
                     </div>
 
-
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-box">
                             <div className="d-table">
                                 <div className="d-table-cell">
                                     <div className="content">
                                         <div className="icon">
-                                        <img src={require("../../assets/images/sou-logo.png")} className="why-us-image" alt="shape4" />
+                                        <img src={require("../../assets/images/sps-gujarat-section.png")} className="why-us-image" alt="shape4" />
 
                                         </div>
-                                        <h3>Silver Oak University</h3>
-
-                                        <p>Silver Oak University is a distinguished institution renowned for its commitment to academic excellence and holistic education. As a reflection of its motto, “Gyanam Param Bhushanam” the university offers a diverse range of undergraduate and postgraduate programs, fostering and nurturing an environment that empowers students to explore their potential fully.<pre>                   </pre><pre>                   </pre><pre></pre></p>
-
-                                          
-                                        <a href="https://www.silveroakuni.ac.in/about" target='_blank' className="btn btn-primary">Read More</a>
+                                        <h3>SPS Gujarat Section</h3>
+                                        <p>IEEE Signal Processing Society Gujarat Section is a dynamic chapter of IEEE supporting dissemination of expertise through various events like AI, Computational Imaging, STTP and much more. Conceived to forge a formidable platform to provide a conducive milieu for its members, focused on signal processing methodologies, applications and guiding members towards lesser exposed sub-domains in the field with the intersection ofbiotechnology, entertainment, and social interactions.<pre></pre></p>
+                                        
+                                        <a href="https://ieeespsgs.org/" target='_blank' className="btn btn-primary">Read More</a>
 
                                     </div>
                                 </div>
@@ -92,11 +68,26 @@ class WhyUs extends React.Component {
                         </div>
                     </div>
 
-                    
+                    <div className="col-lg-3 col-sm-6 p-0">
+                        <div className="single-box">
+                            <div className="d-table">
+                                <div className="d-table-cell">
+                                    <div className="content">
+                                        <div className="icon">
+                                        <img src={require("../../assets/images/SPS_logo.png")} className="why-us-image" alt="shape4" />
 
-                   
+                                        </div>
+                                        <h3>IEEE SPS</h3>
+                                        
+                                        <p>IEEE Signal Processing Society (SPS) is a prominent professional organization dedicated to advancing the theory and practice of signal processing, an interdisciplinary field that plays a vital role in a wide range of technological applications. As a society under the umbrella of the Institute of Electrical and Electronics Engineers (IEEE), SPS is at the forefront of shaping cutting-edge research, innovation, and advancements in signal processing.<pre> </pre></p>
+            
+                                        <a href="https://signalprocessingsociety.org/our-story/scope-mission" target='_blank' className="btn btn-primary">Read More</a>
 
-                   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <ul className='slideshow'>

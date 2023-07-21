@@ -95,8 +95,8 @@ class MainBanner extends React.Component {
                                     <h1>NeTSiP <span>-International </span> <br />Flagship Event <b>2</b><b>0</b><b>2</b><b>3</b></h1>
 
                                     <ul>
-                                        <li><i className="icofont-compass"></i> Silver Oak University, Ahmedabad</li>
-                                        <li><i className="icofont-calendar"></i> 25<sup>th</sup>-26<sup>th</sup> August, 2023</li>
+                                        <li><i className="icofont-compass"></i> <strong>Silver Oak University, Ahmedabad</strong></li>
+                                        <li><i className="icofont-calendar"></i><strong>25<sup>th</sup>-26<sup>th</sup> August, 2023</strong> </li>
                                     </ul>
 
                                     <div className="button-box">
@@ -107,7 +107,7 @@ class MainBanner extends React.Component {
                                             to="#" 
                                             className="video-btn popup-youtube"
                                         >
-                                            <i className="icofont-ui-play"></i> Watch Promo Video
+                                            <i className="icofont-ui-play"></i> Watch Promo Video<pre></pre>
                                         </Link>
 
 

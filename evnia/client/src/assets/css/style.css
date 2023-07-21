@@ -924,6 +924,7 @@ Main Banner CSS
   background: #8dc63f;
 }
 
+
 .countdown-area .event-countdown {
   position: relative;
   right: 0;
@@ -933,6 +934,7 @@ Main Banner CSS
 
 .countdown-area .event-countdown #timer div {
   margin: 0 55px;
+  
 }
 
 .countdown-area .event-countdown #timer div#seconds {
@@ -944,7 +946,9 @@ Main Banner CSS
   right: 10%;
   bottom: 20px;
   text-align: right;
+  
 }
+
 
 .event-countdown #timer div {
   display: inline-block;
@@ -953,6 +957,7 @@ Main Banner CSS
   color: #ffffff;
   margin: 0 35px;
   position: relative;
+  
 }
 
 .event-countdown #timer div#days {

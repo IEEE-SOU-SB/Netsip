@@ -104,7 +104,7 @@ class Contact extends React.Component {
                 <section className="contact-area ptb-120">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-4 col-md-6">
+                            {/* <div className="col-lg-4 col-md-6">
                                 <div className="contact-box">
                                     <div className="icon">
                                         <i className="icofont-phone"></i>
@@ -116,7 +116,7 @@ class Contact extends React.Component {
                                         <p>(+000) 245522455</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             
                             <div className="col-lg-4 col-md-6">
                                 <div className="contact-box">
@@ -126,8 +126,8 @@ class Contact extends React.Component {
                                     
                                     <div className="content">
                                         <h4>E-mail</h4>
-                                        <p>info@evnia.com</p>
-                                        <p>support@evnia.com</p>
+                                        <p>ieee.fbc@socet.edu.in</p>
+                                        {/* <p>support@evnia.com</p> */}
                                     </div>
                                 </div>
                             </div>
@@ -140,7 +140,7 @@ class Contact extends React.Component {
                                     
                                     <div className="content">
                                         <h4>Location</h4>
-                                        <p>2750 Quadra Street Victoria, City, Canada</p>
+                                        <p>Apple Lab, Silver Oak University, Ahmedabad, Gujarat</p>
                                     </div>
                                 </div>
                             </div>
@@ -150,7 +150,7 @@ class Contact extends React.Component {
                             <div className="col-lg-4 col-md-12">
                                 <div className="leave-your-message">
                                     <h3>Leave Your Message</h3>
-                                    <p>If you have any questions about the services we provide simply use the form below. We try and respond to all queries and comments within 24 hours.</p>
+                                    <p>If you have any questions about the event we provide simply use the form below. We try and respond to all queries and comments within 24 hours.</p>
                                     
                                     <div className="stay-connected">
                                         <h3>Stay Connected</h3>

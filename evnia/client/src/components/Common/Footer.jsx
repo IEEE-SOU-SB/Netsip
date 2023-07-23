@@ -66,13 +66,13 @@ class Footer extends React.Component {
                                         <img src={require("../../assets/images/logo.png")} alt="logo" />
                                     </Link>
                                 </div>
-                                <ul>
+                                {/* <ul>
                                     <li><Link to="/blog-1">Blog</Link></li>
                                     <li><Link to="/contact">Contact</Link></li>
                                     <li><Link to="#">Sponsor</Link></li>
                                     <li><Link to="#">Venue</Link></li>
                                     <li><Link to="#">Terms & Conditions</Link></li>
-                                </ul>
+                                </ul> */}
                                 <p>
                                     Copyright <i className="icofont-copyright"></i> 2023 IEEE SOU SB. All rights reserved
                                 </p>

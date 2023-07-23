@@ -151,8 +151,8 @@ class Contact extends React.Component {
                         <div className="row h-100 align-items-center contact-form">
                             <div className="col-lg-4 col-md-12">
                                 <div className="leave-your-message">
-                                    <h3>Leave Your Message</h3>
-                                    <p>If you have any questions about the services we provide simply use the form below. We try and respond to all queries and comments within 24 hours.</p>
+                                    {/* <h3>Leave Your Message</h3> */}
+                                    {/* <p>If you have any questions about the services we provide simply use the form below. We try and respond to all queries and comments within 24 hours.</p> */}
 
                                     {/* <div className="stay-connected">
                                         <h3>Stay Connected</h3>
@@ -190,7 +190,7 @@ class Contact extends React.Component {
                             </div>
 
                             <div className="col-lg-8 col-md-12">
-                                <form onSubmit={this.onSubmit} id="contactForm">
+                                {/* <form onSubmit={this.onSubmit} id="contactForm">
                                     <div className="row">
                                         <div className="col-lg-6 col-md-6">
                                             <div className="form-group">
@@ -269,7 +269,7 @@ class Contact extends React.Component {
                                             <div className="clearfix"></div>
                                         </div>
                                     </div>
-                                </form>
+                                </form> */}
                             </div>
                         </div>
                     </div>

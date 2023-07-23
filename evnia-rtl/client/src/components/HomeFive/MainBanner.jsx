@@ -44,7 +44,7 @@ class MainBanner extends React.Component {
                 <ModalVideo 
                     channel='youtube' 
                     isOpen={this.state.isOpen} 
-                    videoId='cRXm1p-CNyk' 
+                    videoId='F8lypCKJbNw' 
                     onClose={() => this.setState({isOpen: false})} 
                 />
             

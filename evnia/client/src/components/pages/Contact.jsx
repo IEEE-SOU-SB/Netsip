@@ -104,15 +104,9 @@ class Contact extends React.Component {
                 <section className="contact-area ptb-120">
                     <div className="container">
                         <div className="row">
-<<<<<<< HEAD
-                            {/* <div className="col-lg-4 col-md-6">
-                                <div className="contact-box">
-                                    <div className="icon">
-=======
                             <div className="col-lg-4 col-md-6">
                                 <div className="">
                                     {/* <div className="icon">
->>>>>>> 5731365 (new)
                                         <i className="icofont-phone"></i>
                                     </div> */}
 
@@ -122,13 +116,8 @@ class Contact extends React.Component {
                                         <p>(+000) 245522455</p>
                                     </div> */}
                                 </div>
-<<<<<<< HEAD
-                            </div> */}
-                            
-=======
                             </div>
 
->>>>>>> 5731365 (new)
                             <div className="col-lg-4 col-md-6">
                                 <div className="contact-box">
                                     <div className="icon">
@@ -137,12 +126,7 @@ class Contact extends React.Component {
 
                                     <div className="content">
                                         <h4>E-mail</h4>
-<<<<<<< HEAD
-                                        <p>ieee.fbc@socet.edu.in</p>
-                                        {/* <p>support@evnia.com</p> */}
-=======
                                         <p>digantparmar@ieee.org</p>
->>>>>>> 5731365 (new)
                                     </div>
                                 </div>
                             </div>
@@ -155,14 +139,10 @@ class Contact extends React.Component {
 
                                     <div className="content">
                                         <h4>Location</h4>
-<<<<<<< HEAD
-                                        <p>Apple Lab, Silver Oak University, Ahmedabad, Gujarat</p>
-=======
                                         <p>Silver Oak University,
                                             Sarkhej - Gandhinagar Hwy,<br /> Opp.
                                             Bhagwat Vidyapith, <br /> Gota,
                                             Ahmedabad, Gujarat 382481</p>
->>>>>>> 5731365 (new)
                                     </div>
                                 </div>
                             </div>
@@ -172,15 +152,9 @@ class Contact extends React.Component {
                             <div className="col-lg-4 col-md-12">
                                 <div className="leave-your-message">
                                     <h3>Leave Your Message</h3>
-<<<<<<< HEAD
-                                    <p>If you have any questions about the event we provide simply use the form below. We try and respond to all queries and comments within 24 hours.</p>
-                                    
-                                    <div className="stay-connected">
-=======
                                     <p>If you have any questions about the services we provide simply use the form below. We try and respond to all queries and comments within 24 hours.</p>
 
                                     {/* <div className="stay-connected">
->>>>>>> 5731365 (new)
                                         <h3>Stay Connected</h3>
                                         <ul>
                                             <li>

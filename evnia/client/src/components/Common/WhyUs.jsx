@@ -85,7 +85,7 @@ class WhyUs extends React.Component {
                                         <p>Silver Oak University is a distinguished institution renowned for its commitment to academic excellence and holistic education. As a reflection of its motto, “Gyanam Param Bhushanam” the university offers a diverse range of undergraduate and postgraduate programs, fostering and nurturing an environment that empowers students to explore their potential fully.<pre>                   </pre><pre>                   </pre><pre></pre></p>
 
                                           
-                                        <a href="https://www.silveroakuni.ac.in/about" target='_blank' className="btn btn-primary">Read More</a>
+                                        <a href="https://silveroakuni.ac.in/about" target='_blank' className="btn btn-primary">Read More</a>
 
                                     </div>
                                 </div>

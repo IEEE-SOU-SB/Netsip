@@ -31,32 +31,26 @@ class Speakers extends React.Component {
                 <div className="row m-0">
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-speakers">
-                            <img src={require("../../assets/images/speakers1.jpg")} alt="Speaker" />
+                            <img src={require("../../assets/images/Mahesh.jpeg")} alt="Speaker" />
 
                             <div className="speakers-content">
-                                <h3><Link to="#">James Anderson</Link></h3>
-                                <span>Founder & CEO</span>
+                                <h3><Link to="#">Dr. Mahesh Anand.S</Link></h3>
+                                <span>Data Science & AI Educator</span>
                             </div>
                             <ul>
-                                <li>
-                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook">
-                                        <i className="icofont-facebook"></i>
-                                    </Link>
+                                {/* <li>
+                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook"><i className="icofont-facebook"></i></Link>
                                 </li>
                                 <li>
-                                    <Link to="https://twitter.com/" target="_blank" className="twitter">
-                                        <i className="icofont-twitter"></i>
-                                    </Link>
+                                    <Link to="https://twitter.com/" target="_blank" className="twitter"><i className="icofont-twitter"></i></Link>
                                 </li>
                                 <li>
-                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram">
-                                        <i className="icofont-instagram"></i>
-                                    </Link>
-                                </li>
+                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
+                                </li> */}
                                 <li>
-                                    <Link to="https://www.linkedin.com/" target="_blank" className="linkedin">
-                                        <i className="icofont-linkedin"></i>
-                                    </Link>
+                                    <a href="https://www.linkedin.com/in/mahesh-anand-s-a5ba299/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+  <i class="icofont-linkedin"></i>
+</a>
                                 </li>
                             </ul>
                         </div>
@@ -64,32 +58,26 @@ class Speakers extends React.Component {
 
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-speakers">
-                            <img src={require("../../assets/images/speakers2.jpg")} alt="Speaker" />
+                            <img src={require("../../assets/images/Angshul.jpeg")} alt="Speaker" />
 
                             <div className="speakers-content">
-                                <h3><Link to="#">Steven Smith</Link></h3>
-                                <span>Lead Designer</span>
+                                <h3><Link to="#">Dr. Angshul Majumdar</Link></h3>
+                                <span>Co-Founder ShikshAI Inc</span>
                             </div>
                             <ul>
-                                <li>
-                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook">
-                                        <i className="icofont-facebook"></i>
-                                    </Link>
+                                {/* <li>
+                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook"><i className="icofont-facebook"></i></Link>
                                 </li>
                                 <li>
-                                    <Link to="https://twitter.com/" target="_blank" className="twitter">
-                                        <i className="icofont-twitter"></i>
-                                    </Link>
+                                    <Link to="https://twitter.com/" target="_blank" className="twitter"><i className="icofont-twitter"></i></Link>
                                 </li>
                                 <li>
-                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram">
-                                        <i className="icofont-instagram"></i>
-                                    </Link>
-                                </li>
+                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
+                                </li> */}
                                 <li>
-                                    <Link to="https://www.linkedin.com/" target="_blank" className="linkedin">
-                                        <i className="icofont-linkedin"></i>
-                                    </Link>
+                                    <a href="https://www.linkedin.com/in/angshul-majumdar-b388761ab/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+  <i class="icofont-linkedin"></i>
+</a>
                                 </li>
                             </ul>
                         </div>
@@ -97,32 +85,26 @@ class Speakers extends React.Component {
 
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-speakers">
-                            <img src={require("../../assets/images/speakers3.jpg")} alt="Speaker" />
+                            <img src={require("../../assets/images/Nalin.jpg")} alt="Speaker" />
 
                             <div className="speakers-content">
-                                <h3><Link to="#">Lucy Mandana</Link></h3>
-                                <span>Developer Expert</span>
+                                <h3><Link to="#">Dr. Nalin Sharma </Link></h3>
+                                <span>Assistant Professor at ABV</span>
                             </div>
                             <ul>
-                                <li>
-                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook">
-                                        <i className="icofont-facebook"></i>
-                                    </Link>
+                                {/* <li>
+                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook"><i className="icofont-facebook"></i></Link>
                                 </li>
                                 <li>
-                                    <Link to="https://twitter.com/" target="_blank" className="twitter">
-                                        <i className="icofont-twitter"></i>
-                                    </Link>
+                                    <Link to="https://twitter.com/" target="_blank" className="twitter"><i className="icofont-twitter"></i></Link>
                                 </li>
                                 <li>
-                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram">
-                                        <i className="icofont-instagram"></i>
-                                    </Link>
-                                </li>
+                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
+                                </li> */}
                                 <li>
-                                    <Link to="https://www.linkedin.com/" target="_blank" className="linkedin">
-                                        <i className="icofont-linkedin"></i>
-                                    </Link>
+                                <a href="https://www.linkedin.com/in/nalin-kumar-sharma-68a20891/?originalSubdomain=in" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+  <i class="icofont-linkedin"></i>
+</a>
                                 </li>
                             </ul>
                         </div>
@@ -130,32 +112,26 @@ class Speakers extends React.Component {
 
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-speakers">
-                            <img src={require("../../assets/images/speakers4.jpg")} alt="Speaker" />
+                            <img src={require("../../assets/images/Jyotika.jpeg")} alt="Speaker" />
 
                             <div className="speakers-content">
-                                <h3><Link to="#">David Warner</Link></h3>
-                                <span>Senio Visual Designer</span>
+                                <h3><Link to="#">Ms. Jyotika Athawale</Link></h3>
+                                <span>Director - RAS Architecture (R&D)</span>
                             </div>
                             <ul>
-                                <li>
-                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook">
-                                        <i className="icofont-facebook"></i>
-                                    </Link>
+                                {/* <li>
+                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook"><i className="icofont-facebook"></i></Link>
                                 </li>
                                 <li>
-                                    <Link to="https://twitter.com/" target="_blank" className="twitter">
-                                        <i className="icofont-twitter"></i>
-                                    </Link>
+                                    <Link to="https://twitter.com/" target="_blank" className="twitter"><i className="icofont-twitter"></i></Link>
                                 </li>
                                 <li>
-                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram">
-                                        <i className="icofont-instagram"></i>
-                                    </Link>
-                                </li>
+                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
+                                </li> */}
                                 <li>
-                                    <Link to="https://www.linkedin.com/" target="_blank" className="linkedin">
-                                        <i className="icofont-linkedin"></i>
-                                    </Link>
+                                    <a href="https://www.linkedin.com/in/jyotika-athavale-460b383/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+  <i class="icofont-linkedin"></i>
+</a>
                                 </li>
                             </ul>
                         </div>
@@ -163,32 +139,26 @@ class Speakers extends React.Component {
 
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-speakers">
-                            <img src={require("../../assets/images/speakers5.jpg")} alt="Speaker" />
+                            <img src={require("../../assets/images/Harshal.jpeg")} alt="Speaker" />
 
                             <div className="speakers-content">
-                                <h3><Link to="#">Alberta Amelia</Link></h3>
-                                <span>Lead Designer</span>
+                                <h3><Link to="#">Dr. Harshal Oza</Link></h3>
+                                <span>Co-Founder - APTRaise Technologies</span>
                             </div>
                             <ul>
-                                <li>
-                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook">
-                                        <i className="icofont-facebook"></i>
-                                    </Link>
+                                {/* <li>
+                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook"><i className="icofont-facebook"></i></Link>
                                 </li>
                                 <li>
-                                    <Link to="https://twitter.com/" target="_blank" className="twitter">
-                                        <i className="icofont-twitter"></i>
-                                    </Link>
+                                    <Link to="https://twitter.com/" target="_blank" className="twitter"><i className="icofont-twitter"></i></Link>
                                 </li>
                                 <li>
-                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram">
-                                        <i className="icofont-instagram"></i>
-                                    </Link>
-                                </li>
+                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
+                                </li> */}
                                 <li>
-                                    <Link to="https://www.linkedin.com/" target="_blank" className="linkedin">
-                                        <i className="icofont-linkedin"></i>
-                                    </Link>
+                                    <a href="https://www.linkedin.com/in/harshaloza/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+  <i class="icofont-linkedin"></i>
+</a>
                                 </li>
                             </ul>
                         </div>
@@ -196,32 +166,26 @@ class Speakers extends React.Component {
 
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-speakers">
-                            <img src={require("../../assets/images/speakers6.jpg")} alt="Speaker" />
+                            <img src={require("../../assets/images/Tapas.jpeg")} alt="Speaker" />
 
                             <div className="speakers-content">
-                                <h3><Link to="#">Abbie Edie</Link></h3>
-                                <span>Lead Designer</span>
+                              <h3><Link to="#">Dr. Tapas Kumar Maiti</Link></h3>
+                                <span>Associate Professor</span>
                             </div>
                             <ul>
-                                <li>
-                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook">
-                                        <i className="icofont-facebook"></i>
-                                    </Link>
+                                {/* <li>
+                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook"><i className="icofont-facebook"></i></Link>
                                 </li>
                                 <li>
-                                    <Link to="https://twitter.com/" target="_blank" className="twitter">
-                                        <i className="icofont-twitter"></i>
-                                    </Link>
+                                    <Link to="https://twitter.com/" target="_blank" className="twitter"><i className="icofont-twitter"></i></Link>
                                 </li>
                                 <li>
-                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram">
-                                        <i className="icofont-instagram"></i>
-                                    </Link>
-                                </li>
+                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
+                                </li> */}
                                 <li>
-                                    <Link to="https://www.linkedin.com/" target="_blank" className="linkedin">
-                                        <i className="icofont-linkedin"></i>
-                                    </Link>
+                                    <a href="https://www.linkedin.com/in/tapas-maiti/?originalSubdomain=in" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+  <i class="icofont-linkedin"></i>
+</a>
                                 </li>
                             </ul>
                         </div>
@@ -229,38 +193,33 @@ class Speakers extends React.Component {
 
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-speakers">
-                            <img src={require("../../assets/images/speakers7.jpg")} alt="Speaker" />
+                            <img src={require("../../assets/images/uttama.jpg")} alt="Speaker" />
 
                             <div className="speakers-content">
-                                <h3><Link to="#">Steven Garrad</Link></h3>
-                                <span>Developer Expert</span>
+                                <h3><Link to="#">Dr. UTTAMA LAHIRI </Link></h3>
+                                <span>Associate Professor </span>
                             </div>
                             <ul>
-                                <li>
-                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook">
-                                        <i className="icofont-facebook"></i>
-                                    </Link>
+                                {/* <li>
+                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook"><i className="icofont-facebook"></i></Link>
                                 </li>
                                 <li>
-                                    <Link to="https://twitter.com/" target="_blank" className="twitter">
-                                        <i className="icofont-twitter"></i>
-                                    </Link>
+                                    <Link to="https://twitter.com/" target="_blank" className="twitter"><i className="icofont-twitter"></i></Link>
                                 </li>
                                 <li>
-                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram">
-                                        <i className="icofont-instagram"></i>
-                                    </Link>
-                                </li>
+                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
+                                </li> */}
                                 <li>
-                                    <Link to="https://www.linkedin.com/" target="_blank" className="linkedin">
-                                        <i className="icofont-linkedin"></i>
-                                    </Link>
+                                <a href="https://www.linkedin.com/in/uttama-lahiri-a0353b57/?originalSubdomain=in" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+  <i class="icofont-linkedin"></i>
+</a>
+                                    
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-sm-6 p-0">
+                    {/*<div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-speakers">
                             <img src={require("../../assets/images/speakers8.jpg")} alt="Speaker" />
 
@@ -270,28 +229,20 @@ class Speakers extends React.Component {
                             </div>
                             <ul>
                                 <li>
-                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook">
-                                        <i className="icofont-facebook"></i>
-                                    </Link>
+                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook"><i className="icofont-facebook"></i></Link>
                                 </li>
                                 <li>
-                                    <Link to="https://twitter.com/" target="_blank" className="twitter">
-                                        <i className="icofont-twitter"></i>
-                                    </Link>
+                                    <Link to="https://twitter.com/" target="_blank" className="twitter"><i className="icofont-twitter"></i></Link>
                                 </li>
                                 <li>
-                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram">
-                                        <i className="icofont-instagram"></i>
-                                    </Link>
+                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li>
                                 <li>
-                                    <Link to="https://www.linkedin.com/" target="_blank" className="linkedin">
-                                        <i className="icofont-linkedin"></i>
-                                    </Link>
+                                    <Link to="https://www.linkedin.com/" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div>*/}
                 </div>
             </section>
         );

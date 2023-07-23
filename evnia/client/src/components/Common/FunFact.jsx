@@ -35,7 +35,7 @@ class FunFact extends React.Component {
                                             start={0}
                                             end={
                                                 this.state.didViewCountUp
-                                                    ? 80
+                                                    ? 7
                                                     : 0
                                             }
                                             duration={3}
@@ -63,7 +63,7 @@ class FunFact extends React.Component {
                                             start={0}
                                             end={
                                                 this.state.didViewCountUp
-                                                    ? 70
+                                                    ? 7
                                                     : 0
                                             }
                                             duration={3}
@@ -91,7 +91,7 @@ class FunFact extends React.Component {
                                             start={0}
                                             end={
                                                 this.state.didViewCountUp
-                                                    ? 100
+                                                    ? 200
                                                     : 0
                                             }
                                             duration={3}
@@ -102,7 +102,7 @@ class FunFact extends React.Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-6 col-sm-6">
+                        {/* <div className="col-lg-3 col-6 col-sm-6">
                             <div className="single-funfact">
                                 <div className="icon">
                                     <i className="icofont-users-social"></i>
@@ -128,7 +128,7 @@ class FunFact extends React.Component {
                                 </h3>
                                 <p>Total Attendance</p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

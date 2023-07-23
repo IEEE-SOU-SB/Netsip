@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
- 
+
 class Footer extends React.Component {
-    render(){
+    render() {
         return (
             <footer className="footer-area">
                 <div className="container">
@@ -15,8 +15,13 @@ class Footer extends React.Component {
                                 </span>
 
                                 <p className="location">
-                                    <i className="icofont-google-map"></i> Apple-Lab, Silver oak University, Ahmedabad
+                                    <i className="icofont-google-map"></i> Silver Oak University,
+                                    Sarkhej - Gandhinagar Hwy, Opp.
+                                    Bhagwat Vidyapith, <br /> Gota,
+                                    Ahmedabad, Gujarat 382481
                                 </p>
+
+
 
                                 <Link to="/contact" className="contact-authority">
                                     <i className="icofont-phone"></i> Contact Our Authority
@@ -24,11 +29,11 @@ class Footer extends React.Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 col-md-6">
+                        {/* <div className="col-lg-6 col-md-6">
                             <div className="single-footer-widget">
                                 <h3>Social Connection</h3>
                                 <p>Don't miss Link thing! Receive daily news You should connect social area for Any Proper Updates Anytime.</p>
-                                
+
                                 <ul className="social-links">
                                     <li>
                                         <Link to="https://www.facebook.com/" className="facebook" target="_blank">
@@ -52,7 +57,7 @@ class Footer extends React.Component {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="col-lg-12">
                             <div className="copyright-area">
@@ -79,5 +84,5 @@ class Footer extends React.Component {
         );
     }
 }
- 
+
 export default Footer;

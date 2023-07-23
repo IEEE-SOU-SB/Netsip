@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import 'isomorphic-fetch';
 import Footer from '../Common/Footer';
- 
+
 class Contact extends React.Component {
     state = {
         submitting: false,
@@ -35,48 +35,48 @@ class Contact extends React.Component {
             formFields.email = '';
             formFields.phone = '';
             formFields.text = '';
-            this.setState({formFields});
+            this.setState({ formFields });
         });
     }
 
     nameChangeHandler = (e) => {
         let formFields = Object.assign({}, this.state.formFields);
         formFields.name = e.target.value;
-        this.setState({formFields});
+        this.setState({ formFields });
     }
 
     emailChangeHandler = (e) => {
         let formFields = Object.assign({}, this.state.formFields);
         formFields.email = e.target.value;
-        this.setState({formFields});
+        this.setState({ formFields });
     }
 
     phoneChangeHandler = (e) => {
         let formFields = Object.assign({}, this.state.formFields);
         formFields.phone = e.target.value;
-        this.setState({formFields});
+        this.setState({ formFields });
     }
 
     textChangeHandler = (e) => {
         let formFields = Object.assign({}, this.state.formFields);
         formFields.text = e.target.value;
-        this.setState({formFields});
+        this.setState({ formFields });
     }
 
     onHideSuccess = () => {
-        this.setState({submitted: false});
+        this.setState({ submitted: false });
     }
 
     successMessage = () => {
-        if (this.state.submitted){
+        if (this.state.submitted) {
             return (
-                <div 
-                    className="alert alert-success alert-dismissible fade show" 
+                <div
+                    className="alert alert-success alert-dismissible fade show"
                     style={{ marginTop: '14px' }}
                 >
                     <strong>Thank you!</strong> Your message is send to the owner.
-                    <button 
-                        type="button" 
+                    <button
+                        type="button"
                         className="close"
                         onClick={this.onHideSuccess}
                     >
@@ -87,7 +87,7 @@ class Contact extends React.Component {
         }
     }
 
-    render(){
+    render() {
         return (
             <React.Fragment>
                 <div className="page-title-area item-bg1">
@@ -104,43 +104,65 @@ class Contact extends React.Component {
                 <section className="contact-area ptb-120">
                     <div className="container">
                         <div className="row">
+<<<<<<< HEAD
                             {/* <div className="col-lg-4 col-md-6">
                                 <div className="contact-box">
                                     <div className="icon">
+=======
+                            <div className="col-lg-4 col-md-6">
+                                <div className="">
+                                    {/* <div className="icon">
+>>>>>>> 5731365 (new)
                                         <i className="icofont-phone"></i>
-                                    </div>
-                                    
-                                    <div className="content">
+                                    </div> */}
+
+                                    {/* <div className="content">
                                         <h4>Phone / Fax</h4>
                                         <p>(+021) 245522455</p>
                                         <p>(+000) 245522455</p>
-                                    </div>
+                                    </div> */}
                                 </div>
+<<<<<<< HEAD
                             </div> */}
                             
+=======
+                            </div>
+
+>>>>>>> 5731365 (new)
                             <div className="col-lg-4 col-md-6">
                                 <div className="contact-box">
                                     <div className="icon">
                                         <i className="icofont-email"></i>
                                     </div>
-                                    
+
                                     <div className="content">
                                         <h4>E-mail</h4>
+<<<<<<< HEAD
                                         <p>ieee.fbc@socet.edu.in</p>
                                         {/* <p>support@evnia.com</p> */}
+=======
+                                        <p>digantparmar@ieee.org</p>
+>>>>>>> 5731365 (new)
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                                 <div className="contact-box">
                                     <div className="icon">
                                         <i className="icofont-world"></i>
                                     </div>
-                                    
+
                                     <div className="content">
                                         <h4>Location</h4>
+<<<<<<< HEAD
                                         <p>Apple Lab, Silver Oak University, Ahmedabad, Gujarat</p>
+=======
+                                        <p>Silver Oak University,
+                                            Sarkhej - Gandhinagar Hwy,<br /> Opp.
+                                            Bhagwat Vidyapith, <br /> Gota,
+                                            Ahmedabad, Gujarat 382481</p>
+>>>>>>> 5731365 (new)
                                     </div>
                                 </div>
                             </div>
@@ -150,9 +172,15 @@ class Contact extends React.Component {
                             <div className="col-lg-4 col-md-12">
                                 <div className="leave-your-message">
                                     <h3>Leave Your Message</h3>
+<<<<<<< HEAD
                                     <p>If you have any questions about the event we provide simply use the form below. We try and respond to all queries and comments within 24 hours.</p>
                                     
                                     <div className="stay-connected">
+=======
+                                    <p>If you have any questions about the services we provide simply use the form below. We try and respond to all queries and comments within 24 hours.</p>
+
+                                    {/* <div className="stay-connected">
+>>>>>>> 5731365 (new)
                                         <h3>Stay Connected</h3>
                                         <ul>
                                             <li>
@@ -161,21 +189,21 @@ class Contact extends React.Component {
                                                     <span>Facebook</span>
                                                 </Link>
                                             </li>
-                                            
+
                                             <li>
                                                 <Link to="#" target="_blank">
                                                     <i className="icofont-twitter"></i>
                                                     <span>Twitter</span>
                                                 </Link>
                                             </li>
-                                            
+
                                             <li>
                                                 <Link to="#" target="_blank">
                                                     <i className="icofont-instagram"></i>
                                                     <span>Instagram</span>
                                                 </Link>
                                             </li>
-                                            
+
                                             <li>
                                                 <Link to="#" target="_blank">
                                                     <i className="icofont-linkedin"></i>
@@ -183,7 +211,7 @@ class Contact extends React.Component {
                                                 </Link>
                                             </li>
                                         </ul>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
 
@@ -193,72 +221,72 @@ class Contact extends React.Component {
                                         <div className="col-lg-6 col-md-6">
                                             <div className="form-group">
                                                 <label htmlFor="name">Name*</label>
-                                                <input 
-                                                    type="text" 
-                                                    className="form-control" 
-                                                    name="name" 
-                                                    id="name" 
-                                                    required={true} 
-                                                    data-error="Please enter your name" 
+                                                <input
+                                                    type="text"
+                                                    className="form-control"
+                                                    name="name"
+                                                    id="name"
+                                                    required={true}
+                                                    data-error="Please enter your name"
                                                     value={this.state.formFields.name}
                                                     onChange={this.nameChangeHandler}
                                                 />
                                                 <div className="help-block with-errors"></div>
                                             </div>
                                         </div>
-                                        
+
                                         <div className="col-lg-6 col-md-6">
                                             <div className="form-group">
                                                 <label htmlFor="email">Email*</label>
-                                                <input 
-                                                    type="email" 
-                                                    className="form-control" 
-                                                    name="email" 
-                                                    id="email" 
-                                                    required={true} 
-                                                    data-error="Please enter your email" 
+                                                <input
+                                                    type="email"
+                                                    className="form-control"
+                                                    name="email"
+                                                    id="email"
+                                                    required={true}
+                                                    data-error="Please enter your email"
                                                     value={this.state.formFields.email}
                                                     onChange={this.emailChangeHandler}
                                                 />
                                                 <div className="help-block with-errors"></div>
                                             </div>
                                         </div>
-                                        
+
                                         <div className="col-lg-12 col-md-12">
                                             <div className="form-group">
                                                 <label htmlFor="number">Phone Number*</label>
-                                                <input 
-                                                    type="text" 
-                                                    className="form-control" 
-                                                    name="number" 
-                                                    id="number" 
-                                                    required={true} 
-                                                    data-error="Please enter your number" 
+                                                <input
+                                                    type="text"
+                                                    className="form-control"
+                                                    name="number"
+                                                    id="number"
+                                                    required={true}
+                                                    data-error="Please enter your number"
                                                     value={this.state.formFields.phone}
                                                     onChange={this.phoneChangeHandler}
                                                 />
                                                 <div className="help-block with-errors"></div>
                                             </div>
                                         </div>
-                                        
+
                                         <div className="col-lg-12 col-md-12">
                                             <div className="form-group">
                                                 <label htmlFor="message">Message*</label>
-                                                <textarea 
-                                                    name="message" 
-                                                    className="form-control" 
-                                                    id="message" 
-                                                    cols="30" 
-                                                    rows="4" 
-                                                    required={true} 
-                                                    data-error="Write your message" 
+                                                <textarea
+                                                    name="message"
+                                                    className="form-control"
+                                                    id="message"
+                                                    cols="30"
+                                                    rows="4"
+                                                    required={true}
+                                                    data-error="Write your message"
                                                     value={this.state.formFields.text}
                                                     onChange={this.textChangeHandler}
                                                 />
                                                 <div className="help-block with-errors"></div>
                                             </div>
                                         </div>
-                                        
+
                                         <div className="col-lg-12 col-md-12">
                                             <button type="submit" className="btn btn-primary">Send Message</button>
                                             <div id="msgSubmit" className="h3 text-center hidden">
@@ -277,5 +305,5 @@ class Contact extends React.Component {
         );
     }
 }
- 
+
 export default Contact;

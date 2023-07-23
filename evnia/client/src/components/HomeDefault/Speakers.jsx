@@ -48,7 +48,9 @@ class Speakers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <Link to=" https://www.linkedin.com/in/mahesh-anand-s-a5ba299/" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
+                                    <a href="https://www.linkedin.com/in/mahesh-anand-s-a5ba299/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+  <i class="icofont-linkedin"></i>
+</a>
                                 </li>
                             </ul>
                         </div>
@@ -73,7 +75,9 @@ class Speakers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <Link to=" https://www.linkedin.com/in/angshul-majumdar-b388761ab/" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
+                                    <a href="https://www.linkedin.com/in/angshul-majumdar-b388761ab/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+  <i class="icofont-linkedin"></i>
+</a>
                                 </li>
                             </ul>
                         </div>
@@ -98,7 +102,9 @@ class Speakers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <Link to=" https://www.linkedin.com/in/nalin-kumar-sharma-68a20891/?originalSubdomain=in" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
+                                <a href="https://www.linkedin.com/in/nalin-kumar-sharma-68a20891/?originalSubdomain=in" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+  <i class="icofont-linkedin"></i>
+</a>
                                 </li>
                             </ul>
                         </div>
@@ -123,7 +129,9 @@ class Speakers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <Link to="https://www.linkedin.com/in/jyotika-athavale-460b383/" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
+                                    <a href="https://www.linkedin.com/in/jyotika-athavale-460b383/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+  <i class="icofont-linkedin"></i>
+</a>
                                 </li>
                             </ul>
                         </div>
@@ -148,7 +156,9 @@ class Speakers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <Link to="https://www.linkedin.com/in/harshaloza/" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
+                                    <a href="https://www.linkedin.com/in/harshaloza/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+  <i class="icofont-linkedin"></i>
+</a>
                                 </li>
                             </ul>
                         </div>
@@ -159,7 +169,7 @@ class Speakers extends React.Component {
                             <img src={require("../../assets/images/Tapas.jpeg")} alt="Speaker" />
 
                             <div className="speakers-content">
-                              <h3><Link to="#">Tapas Kumar Maiti</Link></h3>
+                              <h3><Link to="#">Dr. Tapas Kumar Maiti</Link></h3>
                                 <span>Associate Professor</span>
                             </div>
                             <ul>
@@ -173,7 +183,9 @@ class Speakers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <Link to="https://www.linkedin.com/in/tapas-maiti/?originalSubdomain=in" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
+                                    <a href="https://www.linkedin.com/in/tapas-maiti/?originalSubdomain=in" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+  <i class="icofont-linkedin"></i>
+</a>
                                 </li>
                             </ul>
                         </div>
@@ -184,7 +196,7 @@ class Speakers extends React.Component {
                             <img src={require("../../assets/images/uttama.jpg")} alt="Speaker" />
 
                             <div className="speakers-content">
-                                <h3><Link to="#">UTTAMA LAHIRI </Link></h3>
+                                <h3><Link to="#">Dr. UTTAMA LAHIRI </Link></h3>
                                 <span>Associate Professor </span>
                             </div>
                             <ul>
@@ -198,7 +210,10 @@ class Speakers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <Link to="https://www.linkedin.com/in/uttama-lahiri-a0353b57/?originalSubdomain=in" target="_blank" className="linkedin"><i className="icofont-linkedin"></i></Link>
+                                <a href="https://www.linkedin.com/in/uttama-lahiri-a0353b57/?originalSubdomain=in" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+  <i class="icofont-linkedin"></i>
+</a>
+                                    
                                 </li>
                             </ul>
                         </div>

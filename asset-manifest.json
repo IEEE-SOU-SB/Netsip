@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Netsip/static/css/main.f6dbb8d5.css",
-    "main.js": "/Netsip/static/js/main.50329f5c.js",
+    "main.js": "/Netsip/static/js/main.6e862e25.js",
     "static/media/main-bg.mp4": "/Netsip/static/media/main-bg.e8601eeb753cf148c50a.mp4",
     "static/media/icofont.woff": "/Netsip/static/media/icofont.dad3accba068281878f1.woff",
     "static/media/icofont.woff2": "/Netsip/static/media/icofont.9c33516aab48c61e3081.woff2",
@@ -39,7 +39,7 @@
     "static/media/about2.jpg": "/Netsip/static/media/about2.319202b4bc5da6716d49.jpg",
     "static/media/why-choose-img2.jpg": "/Netsip/static/media/why-choose-img2.6d9c99a98ce8112bbf07.jpg",
     "static/media/why-choose-img3.jpg": "/Netsip/static/media/why-choose-img3.e66fa670283274b20a54.jpg",
-    "static/media/uttama.jpg": "/Netsip/static/media/uttama.ae95b0d4eae5f2ec2444.jpg",
+    "static/media/mehul_raval.jpg": "/Netsip/static/media/mehul_raval.c529cdc9d453bffdc5cd.jpg",
     "static/media/IEEE sou.png": "/Netsip/static/media/IEEE sou.3972ee3427d8c7c316a3.png",
     "static/media/why-choose-img1.jpg": "/Netsip/static/media/why-choose-img1.77dd1f9d1d8e4ffe4eda.jpg",
     "static/media/Harshal.jpeg": "/Netsip/static/media/Harshal.ecfd9137f85ee3096382.jpeg",
@@ -63,10 +63,10 @@
     "static/media/platinum-partner2.png": "/Netsip/static/media/platinum-partner2.df551fba0850d0e25eaf.png",
     "index.html": "/Netsip/index.html",
     "main.f6dbb8d5.css.map": "/Netsip/static/css/main.f6dbb8d5.css.map",
-    "main.50329f5c.js.map": "/Netsip/static/js/main.50329f5c.js.map"
+    "main.6e862e25.js.map": "/Netsip/static/js/main.6e862e25.js.map"
   },
   "entrypoints": [
     "static/css/main.f6dbb8d5.css",
-    "static/js/main.50329f5c.js"
+    "static/js/main.6e862e25.js"
   ]
 }

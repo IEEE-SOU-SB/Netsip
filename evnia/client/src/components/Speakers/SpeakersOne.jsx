@@ -2,21 +2,21 @@ import React from 'react';
 import lax from 'lax.js';
 import { Link } from 'react-router-dom';
 import LaxDiv from '../Shared/LaxDiv';
- 
+
 class Speakers extends React.Component {
 
     constructor(props) {
         super(props)
         lax.setup()
-    
-        document.addEventListener('scroll', function(x) {
+
+        document.addEventListener('scroll', function (x) {
             lax.update(window.scrollY)
         }, false)
-    
+
         lax.update(window.scrollY)
     }
 
-    render(){
+    render() {
         return (
             <section className="speakers-area ptb-120 pb-0">
                 <div className="container">
@@ -49,8 +49,8 @@ class Speakers extends React.Component {
                                 </li> */}
                                 <li>
                                     <a href="https://www.linkedin.com/in/mahesh-anand-s-a5ba299/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
-  <i class="icofont-linkedin"></i>
-</a>
+                                        <i class="icofont-linkedin"></i>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -76,8 +76,8 @@ class Speakers extends React.Component {
                                 </li> */}
                                 <li>
                                     <a href="https://www.linkedin.com/in/angshul-majumdar-b388761ab/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
-  <i class="icofont-linkedin"></i>
-</a>
+                                        <i class="icofont-linkedin"></i>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -102,9 +102,9 @@ class Speakers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                <a href="https://www.linkedin.com/in/nalin-kumar-sharma-68a20891/?originalSubdomain=in" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
-  <i class="icofont-linkedin"></i>
-</a>
+                                    <a href="https://www.linkedin.com/in/nalin-kumar-sharma-68a20891/?originalSubdomain=in" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                        <i class="icofont-linkedin"></i>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -130,8 +130,8 @@ class Speakers extends React.Component {
                                 </li> */}
                                 <li>
                                     <a href="https://www.linkedin.com/in/jyotika-athavale-460b383/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
-  <i class="icofont-linkedin"></i>
-</a>
+                                        <i class="icofont-linkedin"></i>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -157,8 +157,8 @@ class Speakers extends React.Component {
                                 </li> */}
                                 <li>
                                     <a href="https://www.linkedin.com/in/harshaloza/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
-  <i class="icofont-linkedin"></i>
-</a>
+                                        <i class="icofont-linkedin"></i>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -169,8 +169,8 @@ class Speakers extends React.Component {
                             <img src={require("../../assets/images/Tapas.jpeg")} alt="Speaker" />
 
                             <div className="speakers-content">
-                              <h3><Link to="#">Dr. Tapas Kumar Maiti</Link></h3>
-                                <span>Associate Professor</span>
+                                <h3><Link to="#">Dr. Tapas Kumar Maiti</Link></h3>
+                                <span>Associate Professor - DAIICT, Gandhinagar</span>
                             </div>
                             <ul>
                                 {/* <li>
@@ -184,20 +184,21 @@ class Speakers extends React.Component {
                                 </li> */}
                                 <li>
                                     <a href="https://www.linkedin.com/in/tapas-maiti/?originalSubdomain=in" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
-  <i class="icofont-linkedin"></i>
-</a>
+                                        <i class="icofont-linkedin"></i>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
+
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-speakers">
-                            <img src={require("../../assets/images/uttama.jpg")} alt="Speaker" />
+                            <img src={require("../../assets/images/mehul_raval.jpg")} alt="Speaker" />
 
                             <div className="speakers-content">
-                                <h3><Link to="#">Dr. UTTAMA LAHIRI </Link></h3>
-                                <span>Associate Professor </span>
+                                <h3><Link to="#">Mr. Mehul Raval</Link></h3>
+                                <span>Professor - Ahmedabad University</span>
                             </div>
                             <ul>
                                 {/* <li>
@@ -210,10 +211,10 @@ class Speakers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                <a href="https://www.linkedin.com/in/uttama-lahiri-a0353b57/?originalSubdomain=in" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
-  <i class="icofont-linkedin"></i>
-</a>
-                                    
+                                    <a href="https://www.linkedin.com/in/mehulraval/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                        <i class="icofont-linkedin"></i>
+                                    </a>
+
                                 </li>
                             </ul>
                         </div>
@@ -248,5 +249,5 @@ class Speakers extends React.Component {
         );
     }
 }
- 
+
 export default Speakers;

@@ -170,7 +170,7 @@ class Speakers extends React.Component {
 
                             <div className="speakers-content">
                               <h3><Link to="#">Dr. Tapas Kumar Maiti</Link></h3>
-                                <span>Associate Professor</span>
+                                <span>Associate Professor - DAIICT, Gandhinagar</span>
                             </div>
                             <ul>
                                 {/* <li>
@@ -193,11 +193,11 @@ class Speakers extends React.Component {
 
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-speakers">
-                            <img src={require("../../assets/images/uttama.jpg")} alt="Speaker" />
+                            <img src={require("../../assets/images/mehul_raval.jpg")} alt="Speaker" />
 
                             <div className="speakers-content">
-                                <h3><Link to="#">Dr. UTTAMA LAHIRI </Link></h3>
-                                <span>Associate Professor </span>
+                                <h3><Link to="#">Mr. Mehul Raval</Link></h3>
+                                <span>Professor - Ahmedabad University</span>
                             </div>
                             <ul>
                                 {/* <li>
@@ -210,7 +210,7 @@ class Speakers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                <a href="https://www.linkedin.com/in/uttama-lahiri-a0353b57/?originalSubdomain=in" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/mehulraval/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
   <i class="icofont-linkedin"></i>
 </a>
                                     

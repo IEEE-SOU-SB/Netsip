@@ -89,7 +89,7 @@ class Speakers extends React.Component {
 
                             <div className="speakers-content">
                                 <h3><Link to="#">Dr. Nalin Sharma </Link></h3>
-                                <span>Assistant Professor at ABV</span>
+                                <span>Assistant Professor at ABV-IIITM, Gwalior</span>
                             </div>
                             <ul>
                                 {/* <li>

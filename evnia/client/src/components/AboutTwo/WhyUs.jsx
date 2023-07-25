@@ -33,7 +33,7 @@ class WhyUs extends React.Component {
                     <div className="col-lg-4 col-md-6 p-0">
                         <div className="why-choose-content">
                             <h3>Networking</h3>
-                            <p>Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donecullamcorper nulla non metus auctor fringilla.</p>
+                            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donecullamcorper nulla non metus auctor fringilla.</p>
                             <Link to="#">
                                 Know More <i className="icofont-long-arrow-right"></i>
                             </Link>

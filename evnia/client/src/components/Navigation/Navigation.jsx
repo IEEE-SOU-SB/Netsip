@@ -126,7 +126,7 @@ class Navigation extends React.Component {
                                             className="nav-link" 
                                             onClick={this.toggleNavbar}
                                         >
-                                            Collaboration
+                                            About SPS
                                         </NavLink>
                                     </li>
                                 
@@ -155,13 +155,13 @@ class Navigation extends React.Component {
                                 <div className="others-option">
                                     <ul>
                                         <li>
-                                            <NavLink 
-                                                to="#" 
-                                                className="btn btn-primary" 
-                                                onClick={this.toggleNavbar}
-                                            >
-                                                Register Now
-                                            </NavLink>
+                                       <a
+    href="https://forms.gle/1ochqVGfdhcsc2at7"
+    className="btn btn-primary"
+    onClick={this.toggleNavbar}
+>
+    Register Now
+</a>
                                         </li>
                                     </ul>
                                 </div>

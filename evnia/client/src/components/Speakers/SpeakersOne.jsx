@@ -158,7 +158,7 @@ class SpeakersOne extends React.Component {
 
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-speakers">
-                            <img src={require("../../assets/images/white.jpg")} alt="Speaker" />
+                            <img src={require("../../assets/images/uttama (1).jpg")} alt="Speaker" />
 
                             <div className="speakers-content">
                                 <h3><Link to="#">UTTAMA LAHIRI </Link></h3>

@@ -2,17 +2,17 @@ import React from 'react';
 import lax from 'lax.js';
 import { Link } from 'react-router-dom';
 import LaxDiv from '../Shared/LaxDiv';
- 
-class Speakers extends React.Component {
+
+class Organizer extends React.Component {
 
     constructor(props) {
         super(props)
         lax.setup()
-    
+
         document.addEventListener('scroll', function(x) {
             lax.update(window.scrollY)
         }, false)
-    
+
         lax.update(window.scrollY)
     }
 
@@ -234,4 +234,4 @@ class Speakers extends React.Component {
     }
 }
  
-export default Speakers;
+export default Organizer;

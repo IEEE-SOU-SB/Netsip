@@ -162,10 +162,9 @@ class EventSchedules extends React.Component {
                                                     </div>
                                                     
                                                     <div className="schedule-info">
-                                                        <h3>Dr. Angshul Majumdar(Keynote Address) Professor, IIIT Delhi</h3>
-
+                                                        <h3>Artificial Intelligence and Computational Medicine </h3>
                                                         <ul>
-                                                            {/*<li><i className="icofont-user-suited"></i> By <span>Leonardo DiCaprio</span> of USA Inc</li>*/}
+                                                            <li><i className="icofont-user-suited"></i> Dr. Angshul Majumdar </li>
                                                             <li><i className="icofont-wall-clock"></i> 10:00AM - 11:30AM</li>
                                                         </ul>
                                                     </div>
@@ -208,10 +207,10 @@ class EventSchedules extends React.Component {
                                                     </div>
                                                     
                                                     <div className="schedule-info">
-                                                        <h3>Dr. Harshal Oza, Director R&D for RoboTechMech Solutions Pvt. Ltd. (RTM)</h3>
+                                                        <h3>AI/ML use cases, challenges and results: Industry perspective for Robotics</h3>
 
                                                         <ul>
-                                                            {/*<li><i className="icofont-user-suited"></i> By <span>Robert Downey</span> of USA Inc</li>*/}
+                                                            <li><i className="icofont-user-suited"></i> By Dr. Harshal Oza </li>
                                                             <li><i className="icofont-wall-clock"></i> 11:45AM - 01:15PM</li>
                                                         </ul>
                                                     </div>
@@ -268,10 +267,10 @@ class EventSchedules extends React.Component {
                                                     </div>
                                                     
                                                     <div className="schedule-info">
-                                                        <h3>Session 3</h3>
+                                                        <h3>Visualization of Robot Movement Based on Component-Oriented Model for Embedded Worlds</h3>
 
                                                         <ul>
-                                                            {/*<li><i className="icofont-user-suited"></i> By <span>Brad Pitt</span> of USA Inc</li>*/}
+                                                            <li><i className="icofont-user-suited"></i> By Dr. Tapas Kumar Maiti</li>
                                                             <li><i className="icofont-wall-clock"></i> 02:00PM - 03:30PM</li>
                                                         </ul>
                                                     </div>
@@ -372,10 +371,9 @@ class EventSchedules extends React.Component {
                                                     </div>
                                                     
                                                     <div className="schedule-info">
-                                                        <h3>Dr Mahesh Anand</h3>
-
+                                                        <h3>Deep Recurrent Neural Network architecture for Sequence-to-Sequence Modelling in Autonomous AI based Speech Recognition System</h3>
                                                         <ul>
-                                                            {/*<li><i className="icofont-user-suited"></i> By <span>Tom Hanks</span> CEO of EnvyTheme</li>*/}
+                                                            <li><i className="icofont-user-suited"></i> By Dr Mahesh Anand</li>
                                                             <li><i className="icofont-wall-clock"></i> 10:00AM - 11:30AM</li>
                                                         </ul>
                                                     </div>
@@ -432,10 +430,10 @@ class EventSchedules extends React.Component {
                                                     </div>
                                                     
                                                     <div className="schedule-info">
-                                                        <h3>Dr. Nalin Sharma</h3>
+                                                        <h3>Intelligent Transportation System</h3>
 
                                                         <ul>
-                                                            {/*<li><i className="icofont-user-suited"></i> By <span>Matt Damon</span> of USA Inc</li>*/}
+                                                            <li><i className="icofont-user-suited"></i> By Dr. Nalin Sharma</li>
                                                             <li><i className="icofont-wall-clock"></i> 11:45PM - 01:15PM</li>
                                                         </ul>
                                                     </div>
@@ -540,6 +538,44 @@ class EventSchedules extends React.Component {
                                                         <div className="col-lg-6 col-md-7">
                                                             <div className="location">
                                                                 <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div className="col-lg-6 col-md-5 text-right">
+                                                            <Link to="#" className="btn btn-primary">View Details</Link>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li className="accordion-item">
+                                                <Link className="accordion-title" to="#">
+                                                    <div className="author">
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author1.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="Steven Smith" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
+                                                    </div>
+
+                                                    <div className="schedule-info">
+                                                        <h3>Standard for functional safety data format for interoperability within the dependability lifecycle</h3>
+                                                        <ul>
+                                                            <li><i className="icofont-user-suited"></i> Dr. Jyotika Athavale </li>
+                                                            <li><i className="icofont-wall-clock"></i> 08:00PM ONWARDS </li>
+                                                        </ul>
+                                                    </div>
+                                                </Link>
+
+                                                <div className="accordion-content">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+
+                                                    <div className="row h-100 align-items-center">
+                                                        <div className="col-lg-6 col-md-7">
+                                                            <div className="location">
+                                                                <b>Location:</b> Hall 431, Building C , King Street , <span>USA</span>
                                                             </div>
                                                         </div>
 

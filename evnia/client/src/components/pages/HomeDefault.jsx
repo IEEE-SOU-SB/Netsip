@@ -14,6 +14,7 @@ import LatestNews from '../HomeDefault/LatestNews';
 import BuyTicket from '../Common/BuyTicket';
 import Subscribe from '../Common/Subscribe';
 import Header from "../Header/Header";
+import Organizer from "../HomeDefault/organizer";
  
 class HomeDefault extends React.Component {
     constructor(props) {
@@ -42,6 +43,7 @@ class HomeDefault extends React.Component {
                 {/* Schedule Area */}
                 <EventSchedules />
                 {/* FunFacts Area */}
+                <Organizer />
                 <FunFact />
                 {/* Pricing Area 
                 <Pricing />*/}

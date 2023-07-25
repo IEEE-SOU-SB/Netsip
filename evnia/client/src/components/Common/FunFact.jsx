@@ -103,32 +103,24 @@ class FunFact extends React.Component {
                         </div>
 
                         <div className="col-lg-3 col-6 col-sm-6">
-                            <div className="single-funfact">
-                                <div className="icon">
-                                    <i className="icofont-users-social"></i>
-                                </div>
-                                <h3 className="odometer">
-                                    <VisibilitySensor
-                                        onChange={this.onVisibilityChange}
-                                        offset={{
-                                            top: 10
-                                        }}
-                                        delayedCall
-                                    >
-                                        <CountUp
-                                            start={0}
-                                            end={
-                                                this.state.didViewCountUp
-                                                    ? 99
-                                                    : 0
-                                            }
-                                            duration={3}
-                                        />
-                                    </VisibilitySensor>
-                                </h3>
-                                <p>Total Attendance</p>
-                            </div>
-                        </div>
+   <div className="single-funfact">
+    <div className="icon">
+        {/*<i className="icofont-users-social"></i>*/}
+    </div>
+    <h2 style={{ color: 'white', fontSize: '24px', marginBottom: '20px' }}>Registration Fees:</h2>
+    <ul>
+        <li style={{ color: 'white', fontSize: '18px' }}>For Non-IEEE Members: ₹300</li>
+        <li style={{ color: 'white', fontSize: '18px' }}>For Non-SPS Members: ₹200</li>
+        <li style={{ color: 'white', fontSize: '18px' }}>For SPS Members: ₹100</li>
+    </ul>
+</div>
+
+
+
+                            <div>
+
+</div>
+</div>
                     </div>
                 </div>
             </section>

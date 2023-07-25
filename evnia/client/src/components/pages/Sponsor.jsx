@@ -46,10 +46,10 @@ class Sponsor extends React.Component {
                 <div className="page-title-area item-bg2">
                     <div className="container">
                         <h1>Collaboration</h1>
-                        <span>Check Who Makes This Event Possible!</span>
+                        <span>Description</span>
                         <ul>
                             <li><Link to="/">Home</Link></li>
-                            <li>Collaboration</li>
+                            <li>Signal Processing Society</li>
                         </ul>
                     </div>
                 </div>

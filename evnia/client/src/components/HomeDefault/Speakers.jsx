@@ -35,7 +35,7 @@ class Speakers extends React.Component {
 
                             <div className="speakers-content">
                                 <h3><Link to="#">Dr. Mahesh Anand.S</Link></h3>
-                                <span>Data Science & AI Educator</span>
+                                <span>Founder & Chief Consultant, SCS-India</span>
                             </div>
                             <ul>
                                 {/* <li>
@@ -62,7 +62,7 @@ class Speakers extends React.Component {
 
                             <div className="speakers-content">
                                 <h3><Link to="#">Dr. Angshul Majumdar</Link></h3>
-                                <span>Co-Founder ShikshAI Inc</span>
+                                <span>PROFESSOR (CSE, ECE), IIIT, DELHI</span>
                             </div>
                             <ul>
                                 {/* <li>
@@ -116,7 +116,7 @@ class Speakers extends React.Component {
 
                             <div className="speakers-content">
                                 <h3><Link to="#">Ms. Jyotika Athawale</Link></h3>
-                                <span>Director - RAS Architecture (R&D)</span>
+                                <span>President Elect, CS ,Nvidia, USA</span>
                             </div>
                             <ul>
                                 {/* <li>
@@ -170,7 +170,7 @@ class Speakers extends React.Component {
 
                             <div className="speakers-content">
                                 <h3><Link to="#">Dr. Tapas Kumar Maiti</Link></h3>
-                                <span>Associate Professor - DAIICT, Gandhinagar</span>
+                                <span>Director R&D For Robotechmech Soutions PVT.LTD.</span>
                             </div>
                             <ul>
                                 {/* <li>

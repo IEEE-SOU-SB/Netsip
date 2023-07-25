@@ -181,6 +181,34 @@ class EventSchedulesThree extends React.Component {
                                             </ul>
                                         </div>
                                     </div>
+
+                                    <div className="schedule-content">
+                                        {/* <div className="author author-multi">
+                                            <img 
+                                                src={require("../../assets/images/author8.jpg")} 
+                                                data-toggle="tooltip" 
+                                                data-placement="top" 
+                                                title="Steven Lucy" 
+                                                alt="Schedules" 
+                                            />
+                                            <img 
+                                                src={require("../../assets/images/author9.jpg")} 
+                                                data-toggle="tooltip" 
+                                                data-placement="top" 
+                                                title="Jonaton Smith" 
+                                                alt="Schedules" 
+                                            />
+                                        </div> */}
+
+                                        <div className="schedule-info">
+                                            <h3><Link to="#">Standard for functional safety data format for interoperability within the dependability lifecycle</Link></h3>
+
+                                            <ul>
+                                                <li><i className="icofont-user-suited"></i> Dr. Jyotika Athavale </li>
+                                                <li><i className="icofont-wall-clock"></i> 08:00PM ONWARDS </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -329,33 +357,7 @@ class EventSchedulesThree extends React.Component {
                                         </div>
                                     </div>
 
-                                    <div className="schedule-content">
-                                        {/* <div className="author author-multi">
-                                            <img 
-                                                src={require("../../assets/images/author8.jpg")} 
-                                                data-toggle="tooltip" 
-                                                data-placement="top" 
-                                                title="Steven Lucy" 
-                                                alt="Schedules" 
-                                            />
-                                            <img 
-                                                src={require("../../assets/images/author9.jpg")} 
-                                                data-toggle="tooltip" 
-                                                data-placement="top" 
-                                                title="Jonaton Smith" 
-                                                alt="Schedules" 
-                                            />
-                                        </div> */}
-
-                                        <div className="schedule-info">
-                                            <h3><Link to="#">Standard for functional safety data format for interoperability within the dependability lifecycle</Link></h3>
-
-                                            <ul>
-                                                <li><i className="icofont-user-suited"></i> Dr. Jyotika Athavale </li>
-                                                <li><i className="icofont-wall-clock"></i> 08:00PM ONWARDS </li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                    
 
 
                                     <div className="schedule-content">

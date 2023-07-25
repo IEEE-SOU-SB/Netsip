@@ -353,6 +353,44 @@ class EventSchedules extends React.Component {
                                                 </div>
                                             </li>
 
+                                            <li className="accordion-item">
+                                                <Link className="accordion-title" to="#">
+                                                    <div className="author">
+                                                        {/*<img */}
+                                                        {/*    src={require("../../assets/images/author1.jpg")}*/}
+                                                        {/*    data-toggle="tooltip" */}
+                                                        {/*    data-placement="top" */}
+                                                        {/*    title="Steven Smith" */}
+                                                        {/*    alt="Author"*/}
+                                                        {/*/>*/}
+                                                    </div>
+
+                                                    <div className="schedule-info">
+                                                        <h3>Standard for functional safety data format for interoperability within the dependability lifecycle</h3>
+                                                        <ul>
+                                                            <li><i className="icofont-user-suited"></i> Dr. Jyotika Athavale </li>
+                                                            <li><i className="icofont-wall-clock"></i> 08:00PM ONWARDS </li>
+                                                        </ul>
+                                                    </div>
+                                                </Link>
+
+                                                <div className="accordion-content">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
+
+                                                    <div className="row h-100 align-items-center">
+                                                        <div className="col-lg-6 col-md-7">
+                                                            <div className="location">
+                                                                <b>Location:</b> Hall 431, Building C , King Street , <span>USA</span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div className="col-lg-6 col-md-5 text-right">
+                                                            <Link to="#" className="btn btn-primary">View Details</Link>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
                                         </ul>	
                                     </div>
 
@@ -548,43 +586,7 @@ class EventSchedules extends React.Component {
                                                 </div>
                                             </li>
 
-                                            <li className="accordion-item">
-                                                <Link className="accordion-title" to="#">
-                                                    <div className="author">
-                                                        {/*<img */}
-                                                        {/*    src={require("../../assets/images/author1.jpg")}*/}
-                                                        {/*    data-toggle="tooltip" */}
-                                                        {/*    data-placement="top" */}
-                                                        {/*    title="Steven Smith" */}
-                                                        {/*    alt="Author"*/}
-                                                        {/*/>*/}
-                                                    </div>
-
-                                                    <div className="schedule-info">
-                                                        <h3>Standard for functional safety data format for interoperability within the dependability lifecycle</h3>
-                                                        <ul>
-                                                            <li><i className="icofont-user-suited"></i> Dr. Jyotika Athavale </li>
-                                                            <li><i className="icofont-wall-clock"></i> 08:00PM ONWARDS </li>
-                                                        </ul>
-                                                    </div>
-                                                </Link>
-
-                                                <div className="accordion-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
-
-                                                    <div className="row h-100 align-items-center">
-                                                        <div className="col-lg-6 col-md-7">
-                                                            <div className="location">
-                                                                <b>Location:</b> Hall 431, Building C , King Street , <span>USA</span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div className="col-lg-6 col-md-5 text-right">
-                                                            <Link to="#" className="btn btn-primary">View Details</Link>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
+                                            
 
                                         </ul>	
                                     </div>

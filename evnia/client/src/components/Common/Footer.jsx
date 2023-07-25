@@ -25,7 +25,7 @@ class Footer extends React.Component {
 
                                 <p className="contact">
                                     <i className="icofont-phone"></i> Contact Our Authority
-                                    <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prof. Digant Parmar - <Link to="mailto:digantparmar@ieee.org">digantparmar@ieee.org</Link>
+                                    <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prof. Digant Parmar - <a href="mailto:digantparmar@ieee.org">digantparmar@ieee.org</a>
                                 </p>
 
                             </div>

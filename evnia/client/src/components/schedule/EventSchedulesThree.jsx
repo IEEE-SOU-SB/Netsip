@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
- 
+
 class EventSchedulesThree extends React.Component {
-    render(){
+    render() {
         return (
             <section className="schedule-area schedule-style-three bg-image ptb-120">
                 <div className="container">
@@ -13,7 +13,7 @@ class EventSchedulesThree extends React.Component {
                                     Day - 01
 
                                     <span>25<sup>th</sup> August 2023</span>
-                                    
+
                                 </div>
 
                                 <div className="schedule-item-wrapper">
@@ -27,7 +27,7 @@ class EventSchedulesThree extends React.Component {
                                                 alt="Schedules" 
                                             />
                                         </div> */}
-                                        
+
                                         <div className="schedule-info">
                                             <h3><Link to="#">Inauguration</Link></h3>
 
@@ -74,20 +74,15 @@ class EventSchedulesThree extends React.Component {
                                                 alt="Schedules" 
                                             />
                                         </div> */}
-                                        
+
                                         <div className="schedule-info">
                                             <h3>
-                                                <Link to="#">Dr. Angshul Majumdar(Keynote Address) Professor, IIIT Delhi</Link>
+                                                <Link to="#">Artificial Intelligence and Computational Medicine </Link>
                                             </h3>
 
                                             <ul>
-                                                {/* <li>
-                                                    <i className="icofont-user-suited"></i> 
-                                                    By <Link to="#">Gilbert</Link> CEO of EnvyTheme
-                                                </li> */}
-                                                <li>
-                                                    <i className="icofont-wall-clock"></i> 10:00AM - 11:30AM
-                                                </li>
+                                                <li><i className="icofont-user-suited"></i> Dr. Angshul Majumdar </li>
+                                                <li><i className="icofont-wall-clock"></i> 10:00AM - 11:30AM</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -109,20 +104,15 @@ class EventSchedulesThree extends React.Component {
                                                 alt="Schedules" 
                                             />
                                         </div> */}
-                                        
+
                                         <div className="schedule-info">
                                             <h3>
-                                                <Link to="#">Dr. Harshal Oza, Director R&D for RoboTechMech Solutions Pvt. Ltd. (RTM)</Link>
+                                                <Link to="#">AI/ML use cases, challenges and results: Industry perspective for Robotics</Link>
                                             </h3>
 
                                             <ul>
-                                                {/* <li>
-                                                    <i className="icofont-user-suited"></i> 
-                                                    By <Link to="#">Brian</Link> CEO of EnvyTheme
-                                                </li> */}
-                                                <li>
-                                                    <i className="icofont-wall-clock"></i> 11:45AM - 01:15PM
-                                                </li>
+                                                <li><i className="icofont-user-suited"></i> By Dr. Harshal Oza </li>
+                                                <li><i className="icofont-wall-clock"></i> 11:45AM - 01:15PM</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -144,20 +134,15 @@ class EventSchedulesThree extends React.Component {
                                                 alt="Schedules" 
                                             />
                                         </div> */}
-                                        
+
                                         <div className="schedule-info">
                                             <h3>
-                                                <Link to="#">Session 3</Link>
+                                                <Link to="#">Visualization Of Robot Movement Based On Component-Oriented Model For Embedded Worlds</Link>
                                             </h3>
 
                                             <ul>
-                                                {/* <li>
-                                                    <i className="icofont-user-suited"></i> 
-                                                    By <Link to="#">Brian</Link> CEO of EnvyTheme
-                                                </li> */}
-                                                <li>
-                                                    <i className="icofont-wall-clock"></i> 02:00PM - 03:30PM
-                                                </li>
+                                                <li><i className="icofont-user-suited"></i> By Dr. Tapas Kumar Maiti</li>
+                                                <li><i className="icofont-wall-clock"></i> 02:00PM - 03:30PM</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -179,7 +164,7 @@ class EventSchedulesThree extends React.Component {
                                                 alt="Schedules" 
                                             />
                                         </div> */}
-                                        
+
                                         <div className="schedule-info">
                                             <h3>
                                                 <Link to="#">Session 4</Link>
@@ -220,20 +205,15 @@ class EventSchedulesThree extends React.Component {
                                                 alt="Schedules" 
                                             />
                                         </div> */}
-                                        
+
                                         <div className="schedule-info">
                                             <h3>
-                                                <Link to="#">Dr Mahesh Anand</Link>
+                                                <Link to="#">Deep Recurrent Neural Network Architecture For Sequence-To-Sequence Modelling In Autonomous AI Based Speech Recognition System</Link>
                                             </h3>
 
                                             <ul>
-                                                {/* <li>
-                                                    <i className="icofont-user-suited"></i> 
-                                                    By <Link to="#">Roberto</Link> CEO of EnvyTheme
-                                                </li> */}
-                                                <li>
-                                                    <i className="icofont-wall-clock"></i> 10:00AM - 11:30AM
-                                                </li>
+                                                <li><i className="icofont-user-suited"></i> By Dr Mahesh Anand</li>
+                                                <li><i className="icofont-wall-clock"></i> 10:00AM - 11:30AM</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -269,20 +249,15 @@ class EventSchedulesThree extends React.Component {
                                                 alt="Schedules" 
                                             />
                                         </div> */}
-                                        
+
                                         <div className="schedule-info">
                                             <h3>
-                                                <Link to="#">Dr. Nalin Sharma</Link>
+                                                <Link to="#">Intelligent Transportation System</Link>
                                             </h3>
 
                                             <ul>
-                                                {/* <li>
-                                                    <i className="icofont-user-suited"></i> 
-                                                    By <Link to="#">Ramon</Link> CEO of EnvyTheme
-                                                </li> */}
-                                                <li>
-                                                    <i className="icofont-wall-clock"></i> 11:45PM - 01:15PM
-                                                </li>
+                                                <li><i className="icofont-user-suited"></i> By Dr. Nalin Sharma</li>
+                                                <li><i className="icofont-wall-clock"></i> 11:45PM - 01:15PM</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -304,7 +279,7 @@ class EventSchedulesThree extends React.Component {
                                                 alt="Schedules" 
                                             />
                                         </div> */}
-                                        
+
                                         <div className="schedule-info">
                                             <h3><Link to="#">Session 7</Link></h3>
 
@@ -338,7 +313,7 @@ class EventSchedulesThree extends React.Component {
                                                 alt="Schedules" 
                                             />
                                         </div> */}
-                                        
+
                                         <div className="schedule-info">
                                             <h3><Link to="#">Validcatory Session and Certificate Distribution</Link></h3>
 
@@ -354,7 +329,6 @@ class EventSchedulesThree extends React.Component {
                                         </div>
                                     </div>
 
-                                    
                                     <div className="schedule-content">
                                         {/* <div className="author author-multi">
                                             <img 
@@ -372,24 +346,40 @@ class EventSchedulesThree extends React.Component {
                                                 alt="Schedules" 
                                             />
                                         </div> */}
-                                        
+
                                         <div className="schedule-info">
-                                            {/* <h3><Link to="#">Validcatory Session and Certificate Distribution</Link></h3> */}
+                                            <h3><Link to="#">Standard for functional safety data format for interoperability within the dependability lifecycle</Link></h3>
 
                                             <ul>
-                                                {/* <li>
-                                                    <i className="icofont-user-suited"></i> 
-                                                    By <Link to="#">Miles</Link> CEO of EnvyTheme
-                                                </li> */}
-                                                {/* <li>
-                                                    <i className="icofont-wall-clock"></i> 03:45PM - 05:15PM
-                                                </li> */}
+                                                <li><i className="icofont-user-suited"></i> Dr. Jyotika Athavale </li>
+                                                <li><i className="icofont-wall-clock"></i> 08:00PM ONWARDS </li>
                                             </ul>
                                         </div>
                                     </div>
 
 
-                                   
+                                    <div className="schedule-content">
+                                        {/* <div className="author author-multi">
+                                            <img 
+                                                src={require("../../assets/images/author8.jpg")} 
+                                                data-toggle="tooltip" 
+                                                data-placement="top" 
+                                                title="Steven Lucy" 
+                                                alt="Schedules" 
+                                            />
+                                            <img 
+                                                src={require("../../assets/images/author9.jpg")} 
+                                                data-toggle="tooltip" 
+                                                data-placement="top" 
+                                                title="Jonaton Smith" 
+                                                alt="Schedules" 
+                                            />
+                                        </div> */}
+
+                                    </div>
+
+
+
                                 </div>
                             </div>
                         </div>
@@ -660,5 +650,5 @@ class EventSchedulesThree extends React.Component {
         );
     }
 }
- 
+
 export default EventSchedulesThree;

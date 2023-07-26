@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HomeDefault from "./components/pages/HomeDefault";
 import Navigation from "./components/Navigation/Navigation";
-import {Redirect } from 'react-router-dom';
+// import {Redirect } from 'react-router-dom';
 // import HomeTwo from "./components/pages/HomeTwo";
 // import HomeThree from "./components/pages/HomeThree";
 // import HomeFour from "./components/pages/HomeFour";

@@ -126,7 +126,7 @@ class Navigation extends React.Component {
                                     <li className="nav-item">
                                         <NavLink
                                             to="/about-2"
-
+                                    
                                             className="nav-link"
                                             onClick={this.toggleNavbar}
                                         >
@@ -163,6 +163,7 @@ class Navigation extends React.Component {
                                                 href="https://forms.gle/1ochqVGfdhcsc2at7"
                                                 className="btn btn-primary"
                                                 onClick={this.toggleNavbar}
+                                                target='_blank'
                                             >
                                                 Register Now
                                             </a>

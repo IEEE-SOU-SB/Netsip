@@ -31,7 +31,7 @@ class Organisers extends React.Component {
                 <div className="row m-0">
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-speakers">
-                            <img src={require("../../assets/images/organizing_committee/Mr.shital agrawal.jpeg")} alt="Speaker" />
+                            <img src={require("../../assets/images/organizing_committee/Mr.shital_agrawal.png")} alt="Speaker" />
 
                             <div className="speakers-content">
                                 <h3><Link to="#">Mr. Shital Aggrawal</Link></h3>
@@ -48,7 +48,7 @@ class Organisers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <a href="https://www.linkedin.com/in/mahesh-anand-s-a5ba299/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                    <a href="https://www.linkedin.com/in/shital-agrawal-9b6718199/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
                                         <i class="icofont-linkedin"></i>
                                     </a>
                                 </li>
@@ -75,7 +75,7 @@ class Organisers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <a href="https://www.linkedin.com/in/angshul-majumdar-b388761ab/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                    <a href="https://www.linkedin.com/in/janak-khandwala-6847161a1/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
                                         <i class="icofont-linkedin"></i>
                                     </a>
                                 </li>
@@ -85,7 +85,7 @@ class Organisers extends React.Component {
 
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-speakers">
-                            <img src={require("../../assets/images/organizing_committee/saurin_sir.webp")} alt="Speaker" />
+                            <img src={require("../../assets/images/organizing_committee/dr-saurin-shah-vice-chancellor.webp")} alt="Speaker" />
 
                             <div className="speakers-content">
                                 <h3><Link to="#">Dr. Saurin Shah </Link></h3>
@@ -103,7 +103,7 @@ class Organisers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <a href="https://www.linkedin.com/in/nalin-kumar-sharma-68a20891/?originalSubdomain=in" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                    <a href="https://www.linkedin.com/in/dr-saurin-shah/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
                                         <i class="icofont-linkedin"></i>
                                     </a>
                                 </li>
@@ -131,7 +131,7 @@ class Organisers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <a href="https://www.linkedin.com/in/nalin-kumar-sharma-68a20891/?originalSubdomain=in" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                    <a href="https://www.linkedin.com/in/dr-pina-bhatt-1464487b/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
                                         <i class="icofont-linkedin"></i>
                                     </a>
                                 </li>
@@ -141,7 +141,7 @@ class Organisers extends React.Component {
 
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-speakers">
-                            <img src={require("../../assets/images/organizing_committee/Chirag_Paunwala.jpg")} alt="Speaker" />
+                            <img src={require("../../assets/images/organizing_committee/chirag_paunwala.jpeg")} alt="Speaker" />
 
                             <div className="speakers-content">
                                 <h3><Link to="#">Dr. Chirag Paunwala</Link></h3>
@@ -159,7 +159,7 @@ class Organisers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <a href="https://www.linkedin.com/in/nalin-kumar-sharma-68a20891/?originalSubdomain=in" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                    <a href="https://www.linkedin.com/in/cpaunwala/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
                                         <i class="icofont-linkedin"></i>
                                     </a>
                                 </li>
@@ -187,7 +187,7 @@ class Organisers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <a href="https://www.linkedin.com/in/nalin-kumar-sharma-68a20891/?originalSubdomain=in" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                    <a href="https://www.linkedin.com/in/dr-arpan-desai-95490111/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
                                         <i class="icofont-linkedin"></i>
                                     </a>
                                 </li>
@@ -215,7 +215,7 @@ class Organisers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <a href="https://www.linkedin.com/in/nalin-kumar-sharma-68a20891/?originalSubdomain=in" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                    <a href="https://www.linkedin.com/in/dr-mita-paunwala-69467014/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
                                         <i class="icofont-linkedin"></i>
                                     </a>
                                 </li>
@@ -243,7 +243,7 @@ class Organisers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <a href="https://www.linkedin.com/in/nalin-kumar-sharma-68a20891/?originalSubdomain=in" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                    <a href="https://www.linkedin.com/in/dr-manish-khare-bb177355/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
                                         <i class="icofont-linkedin"></i>
                                     </a>
                                 </li>
@@ -270,7 +270,7 @@ class Organisers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <a href="https://www.linkedin.com/in/jyotika-athavale-460b383/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                    <a href="https://www.linkedin.com/in/satvik-khara/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
                                         <i class="icofont-linkedin"></i>
                                     </a>
                                 </li>
@@ -297,7 +297,7 @@ class Organisers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <a href="https://www.linkedin.com/in/harshaloza/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                    <a href="https://www.linkedin.com/in/digant-parmar-42792975/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
                                         <i class="icofont-linkedin"></i>
                                     </a>
                                 </li>
@@ -307,7 +307,7 @@ class Organisers extends React.Component {
 
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-speakers">
-                            <img src={require("../../assets/images/organizing_committee/mayureh sir.jpeg")} alt="Speaker" />
+                            <img src={require("../../assets/images/organizing_committee/mayuresh_sir.jpg")} alt="Speaker" />
 
                             <div className="speakers-content">
                                 <h3><Link to="#">Prof. Mayuresh Kulkarni</Link></h3>
@@ -324,7 +324,7 @@ class Organisers extends React.Component {
                                     <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
                                 </li> */}
                                 <li>
-                                    <a href="https://www.linkedin.com/in/tapas-maiti/?originalSubdomain=in" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                    <a href="https://www.linkedin.com/in/mayuresh-kulkarni-5bb591102/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
                                         <i class="icofont-linkedin"></i>
                                     </a>
                                 </li>

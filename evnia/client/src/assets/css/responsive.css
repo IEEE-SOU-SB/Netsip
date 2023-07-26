@@ -284,16 +284,16 @@
   }
   .single-speakers .speakers-content {
     bottom: 20px;
-    left: 20px;
+    left: 80px;
     text-align: center;
-    width: 100%;
+    width: 50%;
   }
   .single-speakers .speakers-content h3 {
     font-size: 18px;
     margin-bottom: 0;
   }
   .single-speakers .speakers-content span {
-    font-size: 14px;
+    font-size: 10px;
   }
   .single-speakers:hover .speakers-content, .single-speakers:focus .speakers-content {
     bottom: 20px;

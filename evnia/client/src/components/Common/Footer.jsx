@@ -34,7 +34,6 @@ class Footer extends React.Component {
                         <div className="col-lg-6 col-md-6">
                             <div className="single-footer-widget">
                                 <h3>Social Connection</h3>
-                                <p>Don't miss Link thing! Receive daily news You should connect social area for Any Proper Updates Anytime.</p>
 
                                 <ul className="social-links">
                                     <li>

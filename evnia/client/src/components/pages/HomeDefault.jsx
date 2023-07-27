@@ -10,6 +10,8 @@ import FunFact from '../Common/FunFact';
 // import Pricing from '../HomeDefault/Pricing';
 import lax from 'lax.js';
 import Organisers from '../HomeDefault/organizers';
+import Chief_Patron from "../HomeDefault/chief-patron";
+import Patron from "../HomeDefault/Patron";
 // import Partner from '../Common/Partner';
 // import LatestNews from '../HomeDefault/LatestNews';
 // import BuyTicket from '../Common/BuyTicket';
@@ -38,6 +40,8 @@ class HomeDefault extends React.Component {
                 {/* Speakers Area */}
                 <Speakers />
                 {/* Schedule Area */}
+                <Chief_Patron />
+                <Patron />
                 <Organisers />
                 <EventSchedules />
                 {/* FunFacts Area */}

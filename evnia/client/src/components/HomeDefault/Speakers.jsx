@@ -34,7 +34,7 @@ class Speakers extends React.Component {
                             <img src={require("../../assets/images/Mahesh.jpeg")} alt="Speaker" />
 
                             <div className="speakers-content">
-                                <h3><Link to="#">Dr. Mahesh Anand.S</Link></h3>
+                                <h3><Link to="#">Dr. Mahesh Anand</Link></h3>
                                 <span>Founder & Chief Consultant, SCS-India</span>
                             </div>
                             <ul>
@@ -62,7 +62,7 @@ class Speakers extends React.Component {
 
                             <div className="speakers-content">
                                 <h3><Link to="#">Dr. Angshul Majumdar</Link></h3>
-                                <span>PROFESSOR (CSE, ECE), IIIT, DELHI</span>
+                                <span>PROFESSOR, IIIT, DELHI</span>
                             </div>
                             <ul>
                                 {/* <li>
@@ -115,8 +115,8 @@ class Speakers extends React.Component {
                             <img src={require("../../assets/images/Jyotika.jpeg")} alt="Speaker" />
 
                             <div className="speakers-content">
-                                <h3><Link to="#">Ms. Jyotika Athawale</Link></h3>
-                                <span>President-Elect, IEEE CS, Director RAS Architecture, Synopsys</span>
+                                <h3><Link to="#">Ms. Jyotika Athavale</Link></h3>
+                                <span>President-Elect, IEEE CS; Director, RAS Architecture, Synopsys</span>
                             </div>
                             <ul>
                                 {/* <li>
@@ -143,7 +143,7 @@ class Speakers extends React.Component {
 
                             <div className="speakers-content">
                                 <h3><Link to="#">Dr. Harshal Oza</Link></h3>
-                                <span>Co-Founder - APTRaise Technologies</span>
+                                <span>Director R&D For Robotechmech Soutions PVT.LTD.</span>
                             </div>
                             <ul>
                                 {/* <li>
@@ -170,7 +170,7 @@ class Speakers extends React.Component {
 
                             <div className="speakers-content">
                                 <h3><Link to="#">Dr. Tapas Kumar Maiti</Link></h3>
-                                <span>Director R&D For Robotechmech Soutions PVT.LTD.</span>
+                                <span>Associate Professor, DAIICT, Gandhinagar</span>
                             </div>
                             <ul>
                                 {/* <li>
@@ -196,7 +196,7 @@ class Speakers extends React.Component {
                             <img src={require("../../assets/images/mehul_raval.jpg")} alt="Speaker" />
 
                             <div className="speakers-content">
-                                <h3><Link to="#">Mr. Mehul Raval</Link></h3>
+                                <h3><Link to="#">Dr. Mehul Raval</Link></h3>
                                 <span>Professor - Ahmedabad University</span>
                             </div>
                             <ul>

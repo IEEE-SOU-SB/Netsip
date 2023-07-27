@@ -116,7 +116,7 @@ class Speakers extends React.Component {
 
                             <div className="speakers-content">
                                 <h3><Link to="#">Ms. Jyotika Athawale</Link></h3>
-                                <span>President Elect, CS ,Nvidia, USA</span>
+                                <span>President-Elect, IEEE CS, Director RAS Architecture, Synopsys</span>
                             </div>
                             <ul>
                                 {/* <li>

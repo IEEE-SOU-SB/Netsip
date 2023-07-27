@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Netsip/static/css/main.ece95d99.css",
-    "main.js": "/Netsip/static/js/main.3e326b58.js",
+    "main.js": "/Netsip/static/js/main.e472c94f.js",
     "static/media/main-bg.mp4": "/Netsip/static/media/main-bg.e8601eeb753cf148c50a.mp4",
     "static/media/Mr.shital_agrawal.png": "/Netsip/static/media/Mr.shital_agrawal.6cafdb761c455569db85.png",
     "static/media/Mr.janak khandwala.png": "/Netsip/static/media/Mr.janak khandwala.7dd8f5d53db48bbe872f.png",
@@ -74,10 +74,10 @@
     "static/media/platinum-partner2.png": "/Netsip/static/media/platinum-partner2.df551fba0850d0e25eaf.png",
     "index.html": "/Netsip/index.html",
     "main.ece95d99.css.map": "/Netsip/static/css/main.ece95d99.css.map",
-    "main.3e326b58.js.map": "/Netsip/static/js/main.3e326b58.js.map"
+    "main.e472c94f.js.map": "/Netsip/static/js/main.e472c94f.js.map"
   },
   "entrypoints": [
     "static/css/main.ece95d99.css",
-    "static/js/main.3e326b58.js"
+    "static/js/main.e472c94f.js"
   ]
 }

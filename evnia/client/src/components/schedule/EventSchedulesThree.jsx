@@ -173,7 +173,7 @@ class EventSchedulesThree extends React.Component {
                                             <ul>
                                                 <li>
                                                     <i className="icofont-user-suited"></i> 
-                                                    By Dr. Tapas Maiti
+                                                    By Dr. Tapas Kumar Maiti
                                                 </li>
                                                 <li>
                                                     <i className="icofont-wall-clock"></i> 03:45PM - 05:15PM

@@ -330,7 +330,7 @@ class EventSchedules extends React.Component {
                                                         <h3>Hands-on Session on Visualization of Robot</h3>
 
                                                         <ul>
-                                                            <li><i className="icofont-user-suited"></i> By <span>Dr. Tapas Maiti</span></li>
+                                                            <li><i className="icofont-user-suited"></i> By <span>Dr. Tapas Kumar Maiti</span></li>
                                                             <li><i className="icofont-wall-clock"></i> 03:45PM - 05:15PM</li>
                                                         </ul>
                                                     </div>

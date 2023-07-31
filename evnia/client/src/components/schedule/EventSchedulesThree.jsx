@@ -167,14 +167,14 @@ class EventSchedulesThree extends React.Component {
 
                                         <div className="schedule-info">
                                             <h3>
-                                                <Link to="#">Session 4</Link>
+                                                <Link to="#">Hands-on Session on Visualization of Robot</Link>
                                             </h3>
 
                                             <ul>
-                                                {/* <li>
+                                                <li>
                                                     <i className="icofont-user-suited"></i> 
-                                                    By <Link to="#">Brian</Link> CEO of EnvyTheme
-                                                </li> */}
+                                                    By Dr. Tapas Kumar Maiti
+                                                </li>
                                                 <li>
                                                     <i className="icofont-wall-clock"></i> 03:45PM - 05:15PM
                                                 </li>
@@ -311,13 +311,13 @@ Autonomous Systems
                                         </div> */}
 
                                         <div className="schedule-info">
-                                            <h3><Link to="#">Session 7</Link></h3>
+                                            <h3><Link to="#">Computer vision for sports video analytics</Link></h3>
 
                                             <ul>
-                                                {/* <li>
+                                                <li>
                                                     <i className="icofont-user-suited"></i> 
-                                                    By <Link to="#">Miles</Link> CEO of EnvyTheme
-                                                </li> */}
+                                                    By Dr. Mehul Raval
+                                                </li>
                                                 <li>
                                                     <i className="icofont-wall-clock"></i> 02:00PM - 03:30PM
                                                 </li>

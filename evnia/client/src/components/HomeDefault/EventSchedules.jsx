@@ -327,10 +327,10 @@ class EventSchedules extends React.Component {
                                                     </div>
 
                                                     <div className="schedule-info">
-                                                        <h3>Session 4</h3>
+                                                        <h3>Hands-on Session on Visualization of Robot</h3>
 
                                                         <ul>
-                                                            {/*<li><i className="icofont-user-suited"></i> By <span>Brad Pitt</span> of USA Inc</li>*/}
+                                                            <li><i className="icofont-user-suited"></i> By <span>Dr. Tapas Kumar Maiti</span></li>
                                                             <li><i className="icofont-wall-clock"></i> 03:45PM - 05:15PM</li>
                                                         </ul>
                                                     </div>
@@ -516,10 +516,10 @@ Autonomous Systems
                                                     </div>
                                                     
                                                     <div className="schedule-info">
-                                                        <h3>Session 7</h3>
+                                                        <h3>Computer vision for sports video analytics</h3>
 
                                                         <ul>
-                                                            {/*<li><i className="icofont-user-suited"></i> By <span>Johnny Depp</span> of USA Inc</li>*/}
+                                                            <li><i className="icofont-user-suited"></i> By <span>Dr. Mehul Raval</span></li>
                                                             <li><i className="icofont-wall-clock"></i> 02:00PM - 03:30PM</li>
                                                         </ul>
                                                     </div>

@@ -34,7 +34,7 @@ class Patron extends React.Component {
                     {/*        <img src={require("../../assets/images/organizing_committee/Mr.shital_agrawal.png")} alt="Speaker" />*/}
 
                     {/*        <div className="speakers-content">*/}
-                    {/*            <h3><Link to="#">Mr. Shital Aggrawal</Link></h3>*/}
+                    {/*            <h3><Link to="#">Mr. Shital Agrawal</Link></h3>*/}
                     {/*            <span>Chairman of Silver Oak University </span>*/}
                     {/*        </div>*/}
                     {/*        <ul>*/}
@@ -146,7 +146,7 @@ class Patron extends React.Component {
                     {/*        <div className="speakers-content">*/}
                     {/*            <h3><Link to="#">Dr. Chirag Paunwala</Link></h3>*/}
                     {/*            /!* <span><b>Patron</b></span> *!/*/}
-                    {/*            <span>Professor and Head, EC Dept at SCET, SuratSM-IEEE, M-ACM, FM-IETE, LM-IUPRAI Vice Chair, IEEE GSChair, IEEE SPS Chapter Gujarat Section Chair, Recruitment and Retention subcommittee, IEEE SPS</span>*/}
+                    {/*            <span>Professor and Head, EC Dept at SCET, SuratSM-IEEE, M-ACM, FM-IETE, LM-IUPRAI Vice Chair, IEEE GSChair, Chairperson, IEEE SPS Chapter Gujarat Section; Vice-Chairperson, IEEE Gujrat Section, Recruitment and Retention subcommittee, IEEE SPS</span>*/}
                     {/*        </div>*/}
                     {/*        <ul>*/}
                     {/*            /!* <li>*/}

@@ -63,7 +63,7 @@ class WhyUs extends React.Component {
 
                                         <p>Silver Oak University IEEE Signal Processing Society is a dynamic platform dedicated to igniting technological innovation, fostering academic excellence, and empowering the signal processing community. Driven by a shared vision of advancing the frontiers of signal processing and nurturing a community of passionate individuals dedicated to shaping a brighter future.<pre>                   </pre><pre>                   </pre><pre>         </pre></p>
                                         
-                                        <a href="https://ieee.socet.edu.in/about-socet-sb/" target='_blank' className="btn btn-primary">Read More</a>
+                                        <a href="https://ieee.socet.edu.in" target='_blank' className="btn btn-primary">Read More</a>
                                     </div>
                                 </div>
                             </div>

@@ -366,7 +366,9 @@ class EventSchedules extends React.Component {
                                                     </div>
 
                                                     <div className="schedule-info">
-                                                        <h3>Standard for functional safety data format for interoperability within the dependability lifecycle</h3>
+                                                        <h3>Functional Safety (including AI aspects) for
+Autonomous Systems
+</h3>
                                                         <ul>
                                                             <li><i className="icofont-user-suited"></i> by Ms. Jyotika Athavale </li>
                                                             <li><i className="icofont-wall-clock"></i> 08:00PM ONWARDS </li>

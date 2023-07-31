@@ -34,7 +34,7 @@ class Organisers extends React.Component {
                     {/*        <img src={require("../../assets/images/organizing_committee/Mr.shital_agrawal.png")} alt="Speaker" />*/}
 
                     {/*        <div className="speakers-content">*/}
-                    {/*            <h3><Link to="#">Mr. Shital Aggrawal</Link></h3>*/}
+                    {/*            <h3><Link to="#">Mr. Shital Agrawal</Link></h3>*/}
                     {/*            <span>Chief Patron</span>*/}
                     {/*        </div>*/}
                     {/*        <ul>*/}
@@ -146,7 +146,7 @@ class Organisers extends React.Component {
                             <div className="speakers-content">
                                 <h3><Link to="#">Dr. Chirag Paunwala</Link></h3>
                                  <span><b>General Chair</b></span>
-                                <span>IEEE SPS Chapter Gujarat Section Chair</span>
+                                <span>Chairperson, IEEE SPS Chapter Gujarat Section; Vice-Chairperson, IEEE Gujrat Section</span>
                             </div>
                             <ul>
                                 {/* <li>

@@ -201,7 +201,9 @@ class EventSchedulesThree extends React.Component {
                                         </div> */}
 
                                         <div className="schedule-info">
-                                            <h3><Link to="#">Standard for functional safety data format for interoperability within the dependability lifecycle</Link></h3>
+                                            <h3><Link to="#">Functional Safety (including AI aspects) for
+Autonomous Systems
+</Link></h3>
 
                                             <ul>
                                                 <li><i className="icofont-user-suited"></i> Dr. Jyotika Athavale </li>

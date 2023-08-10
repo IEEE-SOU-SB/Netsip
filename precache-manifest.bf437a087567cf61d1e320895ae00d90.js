@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b34c5f7a58d2778770b1734165400ca9",
+    "revision": "519c6e643a59267085f0f8c0c184b041",
     "url": "/Netsip/index.html"
   },
   {
-    "revision": "752a0de6f0a91f07ec84",
+    "revision": "ecdf1438ca159ba4c6e6",
     "url": "/Netsip/static/css/2.f0c7496f.chunk.css"
   },
   {
-    "revision": "1e29aff4690530c76a72",
+    "revision": "ba702f945a6fbf7bacc0",
     "url": "/Netsip/static/css/main.49626a96.chunk.css"
   },
   {
-    "revision": "752a0de6f0a91f07ec84",
-    "url": "/Netsip/static/js/2.d82121e1.chunk.js"
+    "revision": "ecdf1438ca159ba4c6e6",
+    "url": "/Netsip/static/js/2.6618637a.chunk.js"
   },
   {
-    "revision": "fe438f42bfcd7b3c4088f83b074b4b11",
-    "url": "/Netsip/static/js/2.d82121e1.chunk.js.LICENSE.txt"
+    "revision": "fdbb7cb1f523869c6f2e297033f10bdf",
+    "url": "/Netsip/static/js/2.6618637a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1e29aff4690530c76a72",
-    "url": "/Netsip/static/js/main.2be6a0f7.chunk.js"
+    "revision": "ba702f945a6fbf7bacc0",
+    "url": "/Netsip/static/js/main.ed4c7d4b.chunk.js"
   },
   {
     "revision": "03fa80aef06bf60c3225",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Netsip/static/media/Tapas.deb3bcd8.jpeg"
   },
   {
-    "revision": "d21f485d843f7c4550e2a27106cda5ee",
-    "url": "/Netsip/static/media/about1.d21f485d.jpg"
+    "revision": "e5633a6cfa30db05136a6252d317924a",
+    "url": "/Netsip/static/media/about1.e5633a6c.jpg"
   },
   {
     "revision": "01166b2edcfc1430dfcad3ec9322f240",

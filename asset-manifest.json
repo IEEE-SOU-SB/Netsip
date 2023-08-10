@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Netsip/static/css/main.49626a96.chunk.css",
-    "main.js": "/Netsip/static/js/main.2be6a0f7.chunk.js",
-    "main.js.map": "/Netsip/static/js/main.2be6a0f7.chunk.js.map",
+    "main.js": "/Netsip/static/js/main.ed4c7d4b.chunk.js",
+    "main.js.map": "/Netsip/static/js/main.ed4c7d4b.chunk.js.map",
     "runtime-main.js": "/Netsip/static/js/runtime-main.516e2afe.js",
     "runtime-main.js.map": "/Netsip/static/js/runtime-main.516e2afe.js.map",
     "static/css/2.f0c7496f.chunk.css": "/Netsip/static/css/2.f0c7496f.chunk.css",
-    "static/js/2.d82121e1.chunk.js": "/Netsip/static/js/2.d82121e1.chunk.js",
-    "static/js/2.d82121e1.chunk.js.map": "/Netsip/static/js/2.d82121e1.chunk.js.map",
+    "static/js/2.6618637a.chunk.js": "/Netsip/static/js/2.6618637a.chunk.js",
+    "static/js/2.6618637a.chunk.js.map": "/Netsip/static/js/2.6618637a.chunk.js.map",
     "index.html": "/Netsip/index.html",
-    "precache-manifest.4f5e83f48eab66e7d8e680bf340ca8a7.js": "/Netsip/precache-manifest.4f5e83f48eab66e7d8e680bf340ca8a7.js",
+    "precache-manifest.bf437a087567cf61d1e320895ae00d90.js": "/Netsip/precache-manifest.bf437a087567cf61d1e320895ae00d90.js",
     "service-worker.js": "/Netsip/service-worker.js",
     "static/css/2.f0c7496f.chunk.css.map": "/Netsip/static/css/2.f0c7496f.chunk.css.map",
     "static/css/main.49626a96.chunk.css.map": "/Netsip/static/css/main.49626a96.chunk.css.map",
-    "static/js/2.d82121e1.chunk.js.LICENSE.txt": "/Netsip/static/js/2.d82121e1.chunk.js.LICENSE.txt",
+    "static/js/2.6618637a.chunk.js.LICENSE.txt": "/Netsip/static/js/2.6618637a.chunk.js.LICENSE.txt",
     "static/media/Angshul.jpeg": "/Netsip/static/media/Angshul.29795206.jpeg",
     "static/media/Dr.pina bhatt.jpeg": "/Netsip/static/media/Dr.pina bhatt.f1fa9275.jpeg",
     "static/media/Harshal.jpeg": "/Netsip/static/media/Harshal.655db536.jpeg",
@@ -29,7 +29,7 @@
     "static/media/SPS_logo.png": "/Netsip/static/media/SPS_logo.b61e81f3.png",
     "static/media/Satvik sir.jpeg": "/Netsip/static/media/Satvik sir.1d9c0eea.jpeg",
     "static/media/Tapas.jpeg": "/Netsip/static/media/Tapas.deb3bcd8.jpeg",
-    "static/media/about1.jpg": "/Netsip/static/media/about1.d21f485d.jpg",
+    "static/media/about1.jpg": "/Netsip/static/media/about1.e5633a6c.jpg",
     "static/media/about2.jpg": "/Netsip/static/media/about2.01166b2e.jpg",
     "static/media/about3.jpg": "/Netsip/static/media/about3.51d907fd.jpg",
     "static/media/author3.jpg": "/Netsip/static/media/author3.30bf80c8.jpg",
@@ -74,8 +74,8 @@
   "entrypoints": [
     "static/js/runtime-main.516e2afe.js",
     "static/css/2.f0c7496f.chunk.css",
-    "static/js/2.d82121e1.chunk.js",
+    "static/js/2.6618637a.chunk.js",
     "static/css/main.49626a96.chunk.css",
-    "static/js/main.2be6a0f7.chunk.js"
+    "static/js/main.ed4c7d4b.chunk.js"
   ]
 }

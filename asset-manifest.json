@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Netsip/static/css/main.49626a96.chunk.css",
+    "main.css": "/Netsip/static/css/main.bb5a0908.chunk.css",
     "main.js": "/Netsip/static/js/main.ed4c7d4b.chunk.js",
     "main.js.map": "/Netsip/static/js/main.ed4c7d4b.chunk.js.map",
     "runtime-main.js": "/Netsip/static/js/runtime-main.516e2afe.js",
@@ -9,10 +9,10 @@
     "static/js/2.6618637a.chunk.js": "/Netsip/static/js/2.6618637a.chunk.js",
     "static/js/2.6618637a.chunk.js.map": "/Netsip/static/js/2.6618637a.chunk.js.map",
     "index.html": "/Netsip/index.html",
-    "precache-manifest.bf437a087567cf61d1e320895ae00d90.js": "/Netsip/precache-manifest.bf437a087567cf61d1e320895ae00d90.js",
+    "precache-manifest.a28ed924b197dce55547d44d20fce111.js": "/Netsip/precache-manifest.a28ed924b197dce55547d44d20fce111.js",
     "service-worker.js": "/Netsip/service-worker.js",
     "static/css/2.f0c7496f.chunk.css.map": "/Netsip/static/css/2.f0c7496f.chunk.css.map",
-    "static/css/main.49626a96.chunk.css.map": "/Netsip/static/css/main.49626a96.chunk.css.map",
+    "static/css/main.bb5a0908.chunk.css.map": "/Netsip/static/css/main.bb5a0908.chunk.css.map",
     "static/js/2.6618637a.chunk.js.LICENSE.txt": "/Netsip/static/js/2.6618637a.chunk.js.LICENSE.txt",
     "static/media/Angshul.jpeg": "/Netsip/static/media/Angshul.29795206.jpeg",
     "static/media/Dr.pina bhatt.jpeg": "/Netsip/static/media/Dr.pina bhatt.f1fa9275.jpeg",
@@ -75,7 +75,7 @@
     "static/js/runtime-main.516e2afe.js",
     "static/css/2.f0c7496f.chunk.css",
     "static/js/2.6618637a.chunk.js",
-    "static/css/main.49626a96.chunk.css",
+    "static/css/main.bb5a0908.chunk.css",
     "static/js/main.ed4c7d4b.chunk.js"
   ]
 }

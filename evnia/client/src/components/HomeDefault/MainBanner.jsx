@@ -23,7 +23,7 @@ class MainBanner extends React.Component {
     }
 
     makeTimer = () => {
-        let endTime = new Date("August 23 2023 10:00:00 PDT");			
+        let endTime = new Date("August 25 2023 10:00:00 PDT");			
         let endTimeParse = (Date.parse(endTime)) / 1000;
         let now = new Date();
         let nowParse = (Date.parse(now) / 1000);

@@ -562,7 +562,7 @@ Autonomous Systems
                                                     </div>
 
                                                     <div className="schedule-info">
-                                                        <h3>Validcatory Session and Certificate Distribution</h3>
+                                                        <h3>valedictory Session and Certificate Distribution</h3>
 
                                                         <ul>
                                                             {/*<li><i className="icofont-user-suited"></i> By <span>Johnny Depp</span> of USA Inc</li>*/}

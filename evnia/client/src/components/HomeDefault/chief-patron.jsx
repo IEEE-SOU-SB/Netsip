@@ -117,7 +117,7 @@ class Chief_Patron extends React.Component {
 
                             <div className="speakers-content">
                                 <h3><Link to="#">Mrs. Sweta J. Khandwala</Link></h3>
-                                <span>Director </span>
+                                <span>Director, Silver Oak University </span>
                             </div>
                             <ul>
                                 {/* <li>

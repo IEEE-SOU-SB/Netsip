@@ -345,7 +345,7 @@ Autonomous Systems
                                         </div> */}
 
                                         <div className="schedule-info">
-                                            <h3><Link to="#">Validcatory Session and Certificate Distribution</Link></h3>
+                                            <h3><Link to="#">valedictory Session and Certificate Distribution</Link></h3>
 
                                             <ul>
                                                 {/* <li>

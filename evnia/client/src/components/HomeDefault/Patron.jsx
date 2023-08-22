@@ -22,7 +22,7 @@ class Patron extends React.Component {
                 <div className="container">
                     <div className="section-title">
                         {/*<span>Our Chief Patron</span>*/}
-                        <h2>Our Patron</h2>
+                        <h2>Our Patrons</h2>
                         <div className="bar"></div>
                         {/*<LaxDiv text="Chief Patron" dataPreset="driftRight" />*/}
                     </div>

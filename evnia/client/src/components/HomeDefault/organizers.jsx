@@ -229,7 +229,7 @@ class Organisers extends React.Component {
 
                             <div className="speakers-content">
                                 <h3><Link to="#">Dr. Manish Khare</Link></h3>
-                                 <span><b>Organizing Chairs</b></span>
+                                 <span><b>Organizing Chair</b></span>
                                 <span>Assistant Professor at Dhirubhai Ambani Institute of Information and Communication Technology</span>
                             </div>
                             <ul>
@@ -257,7 +257,7 @@ class Organisers extends React.Component {
 
                             <div className="speakers-content">
                                 <h3><Link to="#">Dr. Satvik Khara</Link></h3>
-                                                                 <span><b>Organizing Chairs</b></span>
+                                                                 <span><b>Organizing Chair</b></span>
                                 <span>Senior Member IEEE; Founding Member, Silver Oak University IEEE Student Branch; Chairperson, SIGHT IEEE Gujarat Section; Secretary, Computer Society, IEEE Gujarat Sections</span>
                             </div>
                             <ul>
@@ -285,7 +285,7 @@ class Organisers extends React.Component {
 
                             <div className="speakers-content">
                                 <h3><Link to="#">Prof. Digant Parmar</Link></h3>
-                                                                 <span><b>Organizing Co-Chairs</b></span>
+                                                                 <span><b>Organizing Co-Chair</b></span>
                                 <span>Faculty Branch Counsellor,IEEE SOU SB</span>
                             </div>
                             <ul>
@@ -313,7 +313,7 @@ class Organisers extends React.Component {
 
                             <div className="speakers-content">
                                 <h3><Link to="#">Prof. Mayuresh Kulkarni</Link></h3>
-                                                                                                 <span><b>Organizing Co-Chairs</b></span>
+                                                                                                 <span><b>Organizing Co-Chair</b></span>
                                 <span>Faculty Advisor IEEE SOU WIE AG; Faculty advisor IEEE SOU SPS SBG; IEEE SOU CS SBG</span>
                             </div>
                             <ul>

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Netsip/static/css/main.bb5a0908.chunk.css",
-    "main.js": "/Netsip/static/js/main.a0cd4256.chunk.js",
-    "main.js.map": "/Netsip/static/js/main.a0cd4256.chunk.js.map",
+    "main.js": "/Netsip/static/js/main.a782f64a.chunk.js",
+    "main.js.map": "/Netsip/static/js/main.a782f64a.chunk.js.map",
     "runtime-main.js": "/Netsip/static/js/runtime-main.516e2afe.js",
     "runtime-main.js.map": "/Netsip/static/js/runtime-main.516e2afe.js.map",
     "static/css/2.f0c7496f.chunk.css": "/Netsip/static/css/2.f0c7496f.chunk.css",
     "static/js/2.c508c7c7.chunk.js": "/Netsip/static/js/2.c508c7c7.chunk.js",
     "static/js/2.c508c7c7.chunk.js.map": "/Netsip/static/js/2.c508c7c7.chunk.js.map",
     "index.html": "/Netsip/index.html",
-    "precache-manifest.672ea9b4e6d26197f873f6dfa25526d8.js": "/Netsip/precache-manifest.672ea9b4e6d26197f873f6dfa25526d8.js",
+    "precache-manifest.68d1d041ddf8fb141e9a81c032fa6a23.js": "/Netsip/precache-manifest.68d1d041ddf8fb141e9a81c032fa6a23.js",
     "service-worker.js": "/Netsip/service-worker.js",
     "static/css/2.f0c7496f.chunk.css.map": "/Netsip/static/css/2.f0c7496f.chunk.css.map",
     "static/css/main.bb5a0908.chunk.css.map": "/Netsip/static/css/main.bb5a0908.chunk.css.map",
@@ -81,6 +81,6 @@
     "static/css/2.f0c7496f.chunk.css",
     "static/js/2.c508c7c7.chunk.js",
     "static/css/main.bb5a0908.chunk.css",
-    "static/js/main.a0cd4256.chunk.js"
+    "static/js/main.a782f64a.chunk.js"
   ]
 }

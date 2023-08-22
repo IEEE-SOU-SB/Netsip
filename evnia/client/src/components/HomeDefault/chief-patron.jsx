@@ -58,6 +58,34 @@ class Chief_Patron extends React.Component {
 
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-speakers">
+                            <img src={require("../../assets/images/organizing_committee/Poonam Agrawal.png")} alt="Speaker" />
+
+                            <div className="speakers-content">
+                                <h3><Link to="#">Mrs.Poonam Agrawal</Link></h3>
+                                <span>Vice Chair Person of Silver Oak University </span>
+                            </div>
+                            <ul>
+                                {/* <li>
+                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook"><i className="icofont-facebook"></i></Link>
+                                </li>
+                                <li>
+                                    <Link to="https://twitter.com/" target="_blank" className="twitter"><i className="icofont-twitter"></i></Link>
+                                </li>
+                                <li>
+                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
+                                </li> */}
+                                <li>
+                                    <a href="https://www.linkedin.com/in/poonam-agrawal-5609041a3/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                        <i class="icofont-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+
+                    <div className="col-lg-3 col-sm-6 p-0">
+                        <div className="single-speakers">
                             <img src={require("../../assets/images/organizing_committee/Mr.janak khandwala.png")} alt="Speaker" />
 
                             <div className="speakers-content">
@@ -76,6 +104,33 @@ class Chief_Patron extends React.Component {
                                 </li> */}
                                 <li>
                                     <a href="https://www.linkedin.com/in/janak-khandwala-6847161a1/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                        <i class="icofont-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-sm-6 p-0">
+                        <div className="single-speakers">
+                            <img src={require("../../assets/images/organizing_committee/Shweta Khandwala.png")} alt="Speaker" />
+
+                            <div className="speakers-content">
+                                <h3><Link to="#">Mrs.Sweta J. Khandwala</Link></h3>
+                                <span>Director </span>
+                            </div>
+                            <ul>
+                                {/* <li>
+                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook"><i className="icofont-facebook"></i></Link>
+                                </li>
+                                <li>
+                                    <Link to="https://twitter.com/" target="_blank" className="twitter"><i className="icofont-twitter"></i></Link>
+                                </li>
+                                <li>
+                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
+                                </li> */}
+                                <li>
+                                    <a href="https://www.linkedin.com/in/sweta-janak-khandwala-educationist-1480b521/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
                                         <i class="icofont-linkedin"></i>
                                     </a>
                                 </li>

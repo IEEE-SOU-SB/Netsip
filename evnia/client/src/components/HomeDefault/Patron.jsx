@@ -85,6 +85,34 @@ class Patron extends React.Component {
 
                     <div className="col-lg-3 col-sm-6 p-0">
                         <div className="single-speakers">
+                            <img src={require("../../assets/images/organizing_committee/M N PATEL SIR.png")} alt="Speaker" />
+
+                            <div className="speakers-content">
+                                <h3><Link to="#">Dr. M.N. Patel </Link></h3>
+                                {/*<span><b>Patron</b></span>*/}
+                                <span>Advisor, Silver Oak University</span>
+                            </div>
+                            <ul>
+                                {/* <li>
+                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook"><i className="icofont-facebook"></i></Link>
+                                </li>
+                                <li>
+                                    <Link to="https://twitter.com/" target="_blank" className="twitter"><i className="icofont-twitter"></i></Link>
+                                </li>
+                                <li>
+                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
+                                </li> */}
+                                <li>
+                                    <a href="https://www.linkedin.com/in/dr-m-n-patel-9825785202-02123133/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                        <i class="icofont-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-sm-6 p-0">
+                        <div className="single-speakers">
                             <img src={require("../../assets/images/organizing_committee/dr-saurin-shah-vice-chancellor.webp")} alt="Speaker" />
 
                             <div className="speakers-content">
@@ -132,6 +160,62 @@ class Patron extends React.Component {
                                 </li> */}
                                 <li>
                                     <a href="https://www.linkedin.com/in/dr-pina-bhatt-1464487b/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                        <i class="icofont-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-sm-6 p-0">
+                        <div className="single-speakers">
+                            <img src={require("../../assets/images/organizing_committee/Mit Shah.png")} alt="Speaker" />
+
+                            <div className="speakers-content">
+                                <h3><Link to="#">Prof. Mit K. Shah </Link></h3>
+                                {/*<span><b>Patron</b></span>*/}
+                                <span>Registrar, Silver Oak University</span>
+                            </div>
+                            <ul>
+                                {/* <li>
+                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook"><i className="icofont-facebook"></i></Link>
+                                </li>
+                                <li>
+                                    <Link to="https://twitter.com/" target="_blank" className="twitter"><i className="icofont-twitter"></i></Link>
+                                </li>
+                                <li>
+                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
+                                </li> */}
+                                <li>
+                                    <a href="https://www.linkedin.com/in/mit-shah-50b522184/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
+                                        <i class="icofont-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-sm-6 p-0">
+                        <div className="single-speakers">
+                            <img src={require("../../assets/images/organizing_committee/Jaimin Dave.png")} alt="Speaker" />
+
+                            <div className="speakers-content">
+                                <h3><Link to="#">Prof. Jaimin Dave </Link></h3>
+                                {/*<span><b>Patron</b></span>*/}
+                                <span>Vice-Principal, SOCET</span>
+                            </div>
+                            <ul>
+                                {/* <li>
+                                    <Link to="https://www.facebook.com/" target="_blank" className="facebook"><i className="icofont-facebook"></i></Link>
+                                </li>
+                                <li>
+                                    <Link to="https://twitter.com/" target="_blank" className="twitter"><i className="icofont-twitter"></i></Link>
+                                </li>
+                                <li>
+                                    <Link to="https://www.instagram.com/" target="_blank" className="instagram"><i className="icofont-instagram"></i></Link>
+                                </li> */}
+                                <li>
+                                    <a href="https://www.linkedin.com/in/jaimin-dave44/" target="_blank" class="linkedin" title="My LinkedIn Profile" rel="noopener noreferrer">
                                         <i class="icofont-linkedin"></i>
                                     </a>
                                 </li>

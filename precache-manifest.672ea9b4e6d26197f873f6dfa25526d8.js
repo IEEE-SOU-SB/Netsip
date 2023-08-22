@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ee5f0e83bcf1dd08c5bd3c4937725a35",
+    "revision": "572a0c576af967fd8863b300b878f63e",
     "url": "/Netsip/index.html"
   },
   {
-    "revision": "ecdf1438ca159ba4c6e6",
+    "revision": "9d70dc6b75166783e281",
     "url": "/Netsip/static/css/2.f0c7496f.chunk.css"
   },
   {
-    "revision": "90e695aab5a26bf74be6",
+    "revision": "be41440ff5869349fbde",
     "url": "/Netsip/static/css/main.bb5a0908.chunk.css"
   },
   {
-    "revision": "ecdf1438ca159ba4c6e6",
-    "url": "/Netsip/static/js/2.6618637a.chunk.js"
+    "revision": "9d70dc6b75166783e281",
+    "url": "/Netsip/static/js/2.c508c7c7.chunk.js"
   },
   {
-    "revision": "fdbb7cb1f523869c6f2e297033f10bdf",
-    "url": "/Netsip/static/js/2.6618637a.chunk.js.LICENSE.txt"
+    "revision": "6deb9ada2d2a90964ebad279404033bd",
+    "url": "/Netsip/static/js/2.c508c7c7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "90e695aab5a26bf74be6",
-    "url": "/Netsip/static/js/main.c30cdf20.chunk.js"
+    "revision": "be41440ff5869349fbde",
+    "url": "/Netsip/static/js/main.a0cd4256.chunk.js"
   },
   {
     "revision": "03fa80aef06bf60c3225",
@@ -56,12 +56,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Netsip/static/media/IEEE sou.50e7ec27.png"
   },
   {
+    "revision": "6fdc34d94a23dfb42c47c0ee62e9af10",
+    "url": "/Netsip/static/media/Jaimin Dave.6fdc34d9.png"
+  },
+  {
     "revision": "78880b71bfe09fc65e86c90f280e5cb0",
     "url": "/Netsip/static/media/Jyotika.78880b71.jpeg"
   },
   {
+    "revision": "6392bf60cf0480565642bbb4f6429528",
+    "url": "/Netsip/static/media/M N PATEL SIR.6392bf60.png"
+  },
+  {
     "revision": "1cdf2669e27a7b87489d20343c339341",
     "url": "/Netsip/static/media/Mahesh.1cdf2669.jpeg"
+  },
+  {
+    "revision": "31e0bc1624c55da9b6f1bbaf89f400d2",
+    "url": "/Netsip/static/media/Mit Shah.31e0bc16.png"
   },
   {
     "revision": "51e7ec7096cc4837f0b0083567969e6d",
@@ -76,12 +88,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Netsip/static/media/Nalin.5aeb30bc.jpg"
   },
   {
+    "revision": "7a87f1fb7cf2a4bcf8ef6f8d0e68cc13",
+    "url": "/Netsip/static/media/Poonam Agrawal.7a87f1fb.png"
+  },
+  {
     "revision": "b61e81f359c9893e2202c048de4492bf",
     "url": "/Netsip/static/media/SPS_logo.b61e81f3.png"
   },
   {
     "revision": "1d9c0eea24bc7ca79c6183505c9bc8dc",
     "url": "/Netsip/static/media/Satvik sir.1d9c0eea.jpeg"
+  },
+  {
+    "revision": "d89e7834bed9b1dfcde3ae54df8ec4e1",
+    "url": "/Netsip/static/media/Shweta Khandwala.d89e7834.png"
   },
   {
     "revision": "deb3bcd8fbca639febfc0ab5413fb763",

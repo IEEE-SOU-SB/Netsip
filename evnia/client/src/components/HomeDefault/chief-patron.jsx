@@ -61,7 +61,7 @@ class Chief_Patron extends React.Component {
                             <img src={require("../../assets/images/organizing_committee/Poonam Agrawal.png")} alt="Speaker" />
 
                             <div className="speakers-content">
-                                <h3><Link to="#">Mrs.Poonam Agrawal</Link></h3>
+                                <h3><Link to="#">Mrs. Poonam Agrawal</Link></h3>
                                 <span>Vice Chair Person of Silver Oak University </span>
                             </div>
                             <ul>
@@ -116,7 +116,7 @@ class Chief_Patron extends React.Component {
                             <img src={require("../../assets/images/organizing_committee/Shweta Khandwala.png")} alt="Speaker" />
 
                             <div className="speakers-content">
-                                <h3><Link to="#">Mrs.Sweta J. Khandwala</Link></h3>
+                                <h3><Link to="#">Mrs. Sweta J. Khandwala</Link></h3>
                                 <span>Director </span>
                             </div>
                             <ul>

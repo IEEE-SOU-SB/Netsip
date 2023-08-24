@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Netsip/static/css/main.bb5a0908.chunk.css",
-    "main.js": "/Netsip/static/js/main.abb41ac7.chunk.js",
-    "main.js.map": "/Netsip/static/js/main.abb41ac7.chunk.js.map",
+    "main.css": "/Netsip/static/css/main.f1d3f744.chunk.css",
+    "main.js": "/Netsip/static/js/main.68a7a2d1.chunk.js",
+    "main.js.map": "/Netsip/static/js/main.68a7a2d1.chunk.js.map",
     "runtime-main.js": "/Netsip/static/js/runtime-main.516e2afe.js",
     "runtime-main.js.map": "/Netsip/static/js/runtime-main.516e2afe.js.map",
     "static/css/2.f0c7496f.chunk.css": "/Netsip/static/css/2.f0c7496f.chunk.css",
-    "static/js/2.c508c7c7.chunk.js": "/Netsip/static/js/2.c508c7c7.chunk.js",
-    "static/js/2.c508c7c7.chunk.js.map": "/Netsip/static/js/2.c508c7c7.chunk.js.map",
+    "static/js/2.01c206b3.chunk.js": "/Netsip/static/js/2.01c206b3.chunk.js",
+    "static/js/2.01c206b3.chunk.js.map": "/Netsip/static/js/2.01c206b3.chunk.js.map",
     "index.html": "/Netsip/index.html",
-    "precache-manifest.f52dc097eb4fe5047fb0212f2b23b0c5.js": "/Netsip/precache-manifest.f52dc097eb4fe5047fb0212f2b23b0c5.js",
+    "precache-manifest.8848e4e3433cb23c0ae512915561909a.js": "/Netsip/precache-manifest.8848e4e3433cb23c0ae512915561909a.js",
     "service-worker.js": "/Netsip/service-worker.js",
     "static/css/2.f0c7496f.chunk.css.map": "/Netsip/static/css/2.f0c7496f.chunk.css.map",
-    "static/css/main.bb5a0908.chunk.css.map": "/Netsip/static/css/main.bb5a0908.chunk.css.map",
-    "static/js/2.c508c7c7.chunk.js.LICENSE.txt": "/Netsip/static/js/2.c508c7c7.chunk.js.LICENSE.txt",
+    "static/css/main.f1d3f744.chunk.css.map": "/Netsip/static/css/main.f1d3f744.chunk.css.map",
+    "static/js/2.01c206b3.chunk.js.LICENSE.txt": "/Netsip/static/js/2.01c206b3.chunk.js.LICENSE.txt",
     "static/media/Angshul.jpeg": "/Netsip/static/media/Angshul.29795206.jpeg",
     "static/media/Dr.pina bhatt.jpeg": "/Netsip/static/media/Dr.pina bhatt.f1fa9275.jpeg",
     "static/media/Harshal.jpeg": "/Netsip/static/media/Harshal.655db536.jpeg",
@@ -79,8 +79,8 @@
   "entrypoints": [
     "static/js/runtime-main.516e2afe.js",
     "static/css/2.f0c7496f.chunk.css",
-    "static/js/2.c508c7c7.chunk.js",
-    "static/css/main.bb5a0908.chunk.css",
-    "static/js/main.abb41ac7.chunk.js"
+    "static/js/2.01c206b3.chunk.js",
+    "static/css/main.f1d3f744.chunk.css",
+    "static/js/main.68a7a2d1.chunk.js"
   ]
 }

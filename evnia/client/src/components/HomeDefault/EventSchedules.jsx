@@ -162,7 +162,7 @@ class EventSchedules extends React.Component {
                                                     </div>
                                                     
                                                     <div className="schedule-info">
-                                                        <h3>Artificial Intelligence and Computational Medicine </h3>
+                                                        <h3>Artificial Intelligence and Computational Drug Discovery </h3>
                                                         <ul>
                                                             <li><i className="icofont-user-suited"></i> Dr. Angshul Majumdar </li>
                                                             <li><i className="icofont-wall-clock"></i> 10:00AM - 11:30AM</li>
